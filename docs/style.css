@@ -64,7 +64,7 @@ body {
 
 .wrapper {
   margin-inline: auto;
-  max-width: 28rem;
+  max-width: 25rem;
 }
 
 .logo {
@@ -81,7 +81,6 @@ body {
   line-height: 1.1;
   margin-block: var(--spacing);
   text-align: center;
-  text-wrap: balance;
 }
 
 .title span {
@@ -100,6 +99,7 @@ p {
   font-weight: 300;
   line-height: 1.4;
   text-indent: 2rem;
+  text-wrap: balance;
 }
 
 p + p {
