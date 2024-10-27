@@ -64,7 +64,7 @@ body {
 
 .wrapper {
   margin-inline: auto;
-  max-width: 25rem;
+  max-width: 30rem;
 }
 
 .logo {
@@ -99,7 +99,6 @@ p {
   font-weight: 300;
   line-height: 1.4;
   text-indent: 2rem;
-  text-wrap: balance;
 }
 
 p + p {
