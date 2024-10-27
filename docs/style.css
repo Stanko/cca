@@ -1,0 +1,191 @@
+:root {
+  --accent-color: #b52d2c;
+  --bg-color: #f3f4f6;
+  --fg-color: #333;
+  --text-color: #666;
+  --border-color: #ddd;
+
+  --button-size: 0.625rem;
+  --button-offset: -0.25rem;
+  --button-color: #b52d2c;
+
+  --spacing: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  :root {
+    --spacing: 2rem;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-attachment: fixed;
+  background-color: var(--bg-color);
+  background-image: linear-gradient(white, var(--bg-color));
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.25rem;
+  padding: 2rem 2rem 5rem 2rem;
+}
+
+@media (min-width: 600px) {
+  body {
+    padding: 3rem 3rem 5rem 3rem;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    padding: 5rem;
+  }
+}
+
+.wrapper {
+  margin-inline: auto;
+  max-width: 28rem;
+}
+
+.logo {
+  display: block;
+  margin-inline: auto;
+  max-width: 10rem;
+  width: 100%;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-block: var(--spacing);
+  text-align: center;
+  text-wrap: balance;
+}
+
+.title span {
+  color: var(--accent-color);
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-block: var(--spacing);
+}
+
+p {
+  color: var(--text-color);
+  font-weight: 300;
+  line-height: 1.4;
+  text-indent: 2rem;
+}
+
+p + p {
+  margin-block: 1rem;
+}
+
+/* ----- Elastic buttons ----- */
+
+/* Horizontal edges */
+
+.elastic-button {
+  background: var(--button-color);
+  border: 0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  overflow: visible; /*For IE*/
+  padding: 0.75rem 1.5rem;
+  position: relative;
+  text-decoration: none;
+  transform: translateZ(0);
+  transition: transform 250ms cubic-bezier(0.25, 0.25, 0.5, 1.9);
+}
+
+.elastic-button--meetup {
+  --button-color: #e35064;
+}
+
+.elastic-button--discord {
+  --button-color: #5b64ea;
+}
+
+/* Elastic edges */
+
+.elastic-button::before,
+.elastic-button::after,
+.elastic-button-content::before,
+.elastic-button-content::after {
+  background: var(--button-color);
+  border-radius: 50%;
+  content: '';
+  display: block;
+  position: absolute;
+  transition: transform 250ms cubic-bezier(0.25, 0.25, 0.5, 1.9);
+}
+
+/* Horizontal edges */
+
+.elastic-button::before,
+.elastic-button::after {
+  height: var(--button-size);
+  left: 0;
+  transform: scaleY(0);
+  width: 100%;
+}
+
+.elastic-button::before {
+  top: var(--button-offset);
+}
+
+.elastic-button::after {
+  bottom: var(--button-offset);
+}
+
+/* Vertical edges */
+
+.elastic-button-content::before,
+.elastic-button-content::after {
+  height: 100%;
+  top: 0;
+  transform: scaleX(0);
+  width: var(--button-size);
+}
+
+.elastic-button-content::before {
+  left: var(--button-offset);
+}
+
+.elastic-button-content::after {
+  right: var(--button-offset);
+}
+
+/* Hover effect */
+
+.elastic-button:hover,
+.elastic-button:focus {
+  transform: scale(1.1);
+}
+
+.elastic-button:hover::before,
+.elastic-button:hover::after,
+.elastic-button:hover .elastic-button-content::before,
+.elastic-button:hover .elastic-button-content::after {
+  transform: none;
+}
+
+.elastic-button:focus::before,
+.elastic-button:focus::after,
+.elastic-button:focus .elastic-button-content::before,
+.elastic-button:focus .elastic-button-content::after {
+  transform: none;
+}
