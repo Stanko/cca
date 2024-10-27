@@ -294,7 +294,7 @@ dialog::backdrop {
 
 .modal-content {
   max-width: 38rem;
-  height: 80%;
+  height: 90%;
   max-height: 42rem;
   width: 100%;
   position: relative;
