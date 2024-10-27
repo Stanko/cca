@@ -4,12 +4,25 @@
   --fg-color: #333;
   --text-color: #666;
   --border-color: #ddd;
+  --gradient-start: #fff;
 
   --button-size: 0.625rem;
   --button-offset: -0.25rem;
-  --button-color: #b52d2c;
+  --button-color: var(--accent-color);
 
   --spacing: 1.5rem;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #ff6868;
+    --bg-color: #1a1b1e;
+    --fg-color: #f7fbfd;
+    --text-color: #b3bec9;
+    --border-color: #2d3748;
+    --gradient-start: #26272a;
+  }
 }
 
 @media (min-width: 600px) {
@@ -29,7 +42,8 @@
 body {
   background-attachment: fixed;
   background-color: var(--bg-color);
-  background-image: linear-gradient(white, var(--bg-color));
+  background-image: linear-gradient(var(--gradient-start), var(--bg-color));
+  color: var(--fg-color);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.25rem;
