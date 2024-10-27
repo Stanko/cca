@@ -225,15 +225,9 @@ html:has(dialog[open]) body {
 }
 
 dialog::backdrop {
+  -webkit-backdrop-filter: blur(0.5rem);
+  backdrop-filter: blur(0.5rem);
   background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(0.25rem);
-}
-
-@media (min-width: 640px) {
-  dialog:modal {
-    /* padding: 2rem; */
-    /* align-items: center; */
-  }
 }
 
 @keyframes modal-in {
@@ -248,29 +242,19 @@ dialog::backdrop {
   }
 }
 
-@keyframes backdrop-in {
-  to {
-    backdrop-filter: blur(0.5rem);
-  }
-}
-
-.modal[open]::backdrop {
-  animation: backdrop-in 250ms cubic-bezier(0.25, 0.25, 0.5, 1.9) forwards;
-}
-
 .modal {
-  position: relative;
-  border: none;
-  max-width: 100%;
-  max-height: 100%;
-  overflow: hidden;
-  border: none;
-  background-color: transparent;
-  width: 100%;
-  height: 100%;
   align-items: flex-end;
+  background-color: transparent;
+  border: none;
+  border: none;
+  height: 100%;
   justify-content: center;
+  max-height: 100%;
+  max-width: 100%;
   opacity: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 @media (min-width: 700px) {
@@ -280,26 +264,26 @@ dialog::backdrop {
 }
 
 .modal[open] {
-  display: flex;
   animation: modal-in 250ms cubic-bezier(0.25, 0.25, 0.5, 1.9) forwards;
+  display: flex;
 }
 
 .modal-close {
-  position: absolute;
-  inset: 0;
-  cursor: pointer;
   background-color: transparent;
   border: none;
+  cursor: pointer;
+  inset: 0;
+  position: absolute;
 }
 
 .modal-content {
-  max-width: 38rem;
+  border-radius: 0.5rem;
   height: 90%;
   max-height: 42rem;
-  width: 100%;
-  position: relative;
-  border-radius: 0.5rem;
+  max-width: 38rem;
   overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 @media (min-width: 600px) {
@@ -309,11 +293,11 @@ dialog::backdrop {
 }
 
 .contact-iframe {
-  height: 100%;
-  width: 100%;
   background-attachment: fixed;
   background-color: var(--bg-color);
   background-image: linear-gradient(var(--gradient-start), var(--bg-color));
   border: none;
+  height: 100%;
   scrollbar-width: thin;
+  width: 100%;
 }
