@@ -352,8 +352,16 @@ dialog::backdrop {
   position: absolute;
   right: 0.5rem;
   top: 1.125rem;
-  transition: opacity 250ms;
+  transition: all 250ms;
   z-index: 1;
+  border-radius: 50%;
+  outline-offset: -0.5rem;
+  outline-color: var(--border-color);
+}
+
+.modal-close:focus-visible {
+  opacity: 1;
+  outline: 2px solid var(--border-color);
 }
 
 @media (min-width: 600px) {
