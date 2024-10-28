@@ -67,7 +67,7 @@
       <p>
         Have an idea, an awesome project you'd like to showcase,
         or something you feel is missing in the creative coding community?
-        Don't hesitate to <strong>reach</strong> out and help make it happen!
+        Don't hesitate to <button class="reach-out"><strong>reach out</strong></button> and help make it happen!
       </p>
       <p>
         Join us at one of our events or connect with us online — we'd love to have you!
@@ -76,8 +76,14 @@
   </main>
 
   <dialog class="modal">
-    <button class="modal-close" type="button" tabindex="-1"></button>
+    <button class="modal-backdrop-close" type="button" tabindex="-1"></button>
     <div class="modal-content">
+      <button class="modal-close" type="button" aria-label="Close modal">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+          <path
+            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+        </svg>
+      </button>
       <iframe class="contact-iframe" data-tally-src="https://tally.so/r/warGjX?transparentBackground=1"
         title="Contact form">
       </iframe>

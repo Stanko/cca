@@ -10,6 +10,8 @@
   --button-offset: -0.25rem;
   --button-color: var(--accent-color);
 
+  --link-underline-color: #ccc;
+
   --spacing: 1.5rem;
 }
 
@@ -19,9 +21,11 @@
     --accent-color: #ff6868;
     --bg-color: #1a1b1e;
     --fg-color: #f7fbfd;
-    --text-color: #b3bec9;
-    --border-color: #2d3748;
+    --text-color: #b0b8c4;
+    --border-color: #3d3748;
     --gradient-start: #26272a;
+
+    --link-underline-color: #5d5768;
   }
 }
 
@@ -60,6 +64,13 @@ body {
   body {
     padding: 5rem;
   }
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
 .wrapper {
@@ -147,19 +158,31 @@ p + p {
   margin-block: 1rem;
 }
 
+.reach-out {
+  color: inherit;
+  display: inline;
+  font: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline-color);
+  transition: text-decoration-color 250ms;
+}
+
+.reach-out:hover {
+  text-decoration-color: currentColor;
+}
+
 /* ----- Elastic buttons ----- */
 
 /* Horizontal edges */
 
 .elastic-button {
   background: var(--button-color);
-  border: 0;
   color: #fff;
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
   outline: none;
-  overflow: visible; /*For IE*/
+  overflow: visible; /* For IE */
   padding: 0.75rem 1.5rem;
   position: relative;
   text-decoration: none;
@@ -318,12 +341,36 @@ dialog::backdrop {
   display: flex;
 }
 
-.modal-close {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+.modal-backdrop-close {
   inset: 0;
   position: absolute;
+}
+
+.modal-close {
+  opacity: 0.5;
+  padding: 1rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.125rem;
+  transition: opacity 250ms;
+  z-index: 1;
+}
+
+@media (min-width: 600px) {
+  .modal-close {
+    right: 1.5rem;
+    top: 2.125rem;
+  }
+}
+
+.modal-close:hover {
+  opacity: 1;
+}
+
+.modal-close svg {
+  color: var(--fg-color);
+  height: 2rem;
+  width: 2rem;
 }
 
 .modal-content {
