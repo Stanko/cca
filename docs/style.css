@@ -95,11 +95,52 @@ body {
   flex-wrap: wrap;
 }
 
+@keyframes text-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 p {
   color: var(--text-color);
   font-weight: 300;
   line-height: 1.4;
   text-indent: 2rem;
+  opacity: 0;
+  animation: text-in 750ms ease-out forwards;
+}
+
+p:nth-child(2) {
+  animation-delay: 100ms;
+}
+
+p:nth-child(3) {
+  animation-delay: 200ms;
+}
+
+p:nth-child(4) {
+  animation-delay: 300ms;
+}
+
+p:nth-child(5) {
+  animation-delay: 400ms;
+}
+
+p:nth-child(6) {
+  animation-delay: 500ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  p {
+    animation: none;
+    opacity: 1;
+  }
 }
 
 p + p {
@@ -123,7 +164,7 @@ p + p {
   position: relative;
   text-decoration: none;
   transform: translateZ(0);
-  transition: transform 250ms cubic-bezier(0.25, 0.25, 0.5, 1.9);
+  transition: all 250ms cubic-bezier(0.25, 0.25, 0.5, 1.9);
 }
 
 .elastic-button--meetup {
@@ -188,10 +229,20 @@ p + p {
   right: var(--button-offset);
 }
 
-/* Hover effect */
+/* Focus */
 
-.elastic-button:hover,
-.elastic-button:focus {
+.elastic-button:focus-visible {
+  outline: 2px solid var(--button-color);
+  outline-offset: 0.125rem;
+}
+
+.elastic-button:hover:focus-visible {
+  outline-offset: 0.375rem;
+}
+
+/* Hover */
+
+.elastic-button:hover {
   transform: scale(1.1);
 }
 
@@ -202,11 +253,9 @@ p + p {
   transform: none;
 }
 
-.elastic-button:focus::before,
-.elastic-button:focus::after,
-.elastic-button:focus .elastic-button-content::before,
-.elastic-button:focus .elastic-button-content::after {
-  transform: none;
+/* Active */
+.elastic-button:active {
+  opacity: 0.9;
 }
 
 /* ----- Dialog ----- */
