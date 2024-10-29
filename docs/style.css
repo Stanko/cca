@@ -297,21 +297,9 @@ html:has(dialog[open]) body {
 }
 
 dialog::backdrop {
+  background: none;
   -webkit-backdrop-filter: blur(0.5rem);
   backdrop-filter: blur(0.5rem);
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-@keyframes modal-in {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
 }
 
 .modal {
@@ -323,27 +311,49 @@ dialog::backdrop {
   justify-content: center;
   max-height: 100%;
   max-width: 100%;
-  opacity: 0;
   overflow: hidden;
   position: fixed;
   inset: 0;
   width: 100%;
 }
 
-@media (min-width: 700px) {
+.modal[open] {
+  display: flex;
+}
+
+@media (min-width: 600px) {
   .modal {
     align-items: center;
   }
 }
 
-.modal[open] {
-  animation: modal-in 250ms cubic-bezier(0.25, 0.25, 0.5, 1.9) forwards;
-  display: flex;
+@keyframes modal-backdrop-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .modal-backdrop-close {
   inset: 0;
   position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.modal[open] .modal-backdrop-close {
+  animation: modal-backdrop-in 250ms ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal[open] .modal-backdrop-close {
+    animation: none;
+    opacity: 1;
+  }
 }
 
 .modal-close {
@@ -381,6 +391,30 @@ dialog::backdrop {
   width: 2rem;
 }
 
+@keyframes modal-content-in {
+  from {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes modal-content-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .modal-content {
   border-radius: 0.5rem;
   height: 90%;
@@ -389,6 +423,24 @@ dialog::backdrop {
   overflow: hidden;
   position: relative;
   width: 100%;
+  opacity: 0;
+}
+
+.modal[open] .modal-content {
+  animation: modal-content-in 250ms ease-out forwards;
+}
+
+@media (min-width: 600px) {
+  .modal[open] .modal-content {
+    animation-name: modal-content-scale-in;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal[open] .modal-content {
+    animation: none;
+    opacity: 1;
+  }
 }
 
 @media (min-width: 600px) {
