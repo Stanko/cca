@@ -122,7 +122,6 @@ p {
   color: var(--text-color);
   font-weight: 300;
   line-height: 1.4;
-  text-indent: 2rem;
   opacity: 0;
   animation: text-in 750ms ease-out forwards;
 }
@@ -154,7 +153,7 @@ p:nth-child(6) {
   }
 }
 
-p + p {
+p+p {
   margin-block: 1rem;
 }
 
@@ -182,7 +181,8 @@ p + p {
   font-size: 1rem;
   font-weight: bold;
   outline: none;
-  overflow: visible; /* For IE */
+  overflow: visible;
+  /* For IE */
   padding: 0.75rem 1.5rem;
   position: relative;
   text-decoration: none;
