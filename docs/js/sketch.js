@@ -4,7 +4,7 @@ let time;
 let theShader;
 let isPlaying = true;
 
-let ccaPos;
+let ccaPos0, ccaPos;
 let ccaRadius = 25.4;
 let isDraggingCcaPos = false;
 
@@ -17,7 +17,8 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight, WEBGL);
   canvas.id('p5Canvas');
 
-  ccaPos = createVector(0, -height/2 + 110);
+  ccaPos0 = createVector(0, -height/2 + 110);
+  ccaPos = ccaPos0.copy();
 }
 
 
@@ -69,7 +70,7 @@ function isCursorOverCCA() {
 
 function drawCCA() {
   noFill();
-  strokeWeight(ccaRadius * 0.4);
+  strokeWeight(ccaRadius * 0.38);
   const q = pow(
     map(
       -cos(
@@ -134,25 +135,9 @@ function keyPressed() {
 function mousePressed() {
   if (isCursorOverCCA()) 
     isDraggingCcaPos = true;
-
 }
 function mouseReleased() {
   isDraggingCcaPos = false;
-}
-
-
-function mouseWheel(event) {
-  let wheelDist = getWheelDistance(event);
-  scrollScale *= exp(wheelDist * 0.06);
-}
-function getWheelDistance(evt) {
-  if (!evt) evt = event;
-  let w = evt.wheelDelta,
-  d = evt.detail;
-  if (d) {
-    if (w) return (w / d / 40) * d > 0 ? 1 : -1; // Opera
-    else return -d / 3; // Firefox;         TODO: do not /3 for OS X
-  } else return w / 120; // IE/Safari/Chrome TODO: /3 for Chrome OS X
 }
 
 
