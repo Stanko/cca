@@ -54,11 +54,14 @@ function draw() {
   if (isDraggingCcaPos) {
     ccaPos.x = lerp(ccaPos.x, mouseX - width/2, 0.2);
     ccaPos.y = lerp(ccaPos.y, mouseY - height/2, 0.2);
+  } else {
+    ccaPos.x = lerp(ccaPos.x, mouseX - width/2, 0.0001);
+    ccaPos.y = lerp(ccaPos.y, mouseY - height/2, 0.0001);
   }
 }
 
 function setCursor(cursorType) {
-  canvas.elt.style.cursor = cursorType;
+  document.body.style.cursor = cursorType;
 }
 
 
@@ -70,7 +73,7 @@ function isCursorOverCCA() {
 
 function drawCCA() {
   noFill();
-  strokeWeight(ccaRadius * 0.38);
+  strokeWeight(ccaRadius * 0.4);
   const q = pow(
     map(
       -cos(
@@ -93,13 +96,14 @@ function drawCCA() {
   const rot = q * TAU;
 
   // CC
+  const cAngle = radians(30);
   stroke(255);
   for (let i = -1; i <= 0; i++) {
     push();
     {
       translate(i * ccaRadius * 2 + i * offs, 0);
       rotate(rot);
-      arc(0, 0, ccaRadius * 2, ccaRadius * 2, PI/4, PI*7/4);
+      arc(0, 0, ccaRadius * 2, ccaRadius * 2, PI/2 - cAngle, PI*3/2 + cAngle);
     }
     pop();
   }
