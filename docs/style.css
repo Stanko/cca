@@ -52,6 +52,7 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.25rem;
   padding: 2rem 2rem 5rem 2rem;
+  user-select: none;
 }
 
 @media (min-width: 600px) {
@@ -472,4 +473,7 @@ dialog::backdrop {
   bottom: 0;
   left: 0;
   right: 0;
+}
+p, svg, h1.title {
+  mix-blend-mode: difference;
 }
