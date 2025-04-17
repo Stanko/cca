@@ -29,8 +29,8 @@ function draw() {
 
   theShader.setUniform("time", time);
   theShader.setUniform("resolution", [width, height]);
-  theShader.setUniform("ccaPxPos", [ccaPos.x, height - 1 - ccaPos.y]); // flip y for glsl
-  theShader.setUniform("ccaRadius", ccaRadius);
+  theShader.setUniform("ccaPxPos", [ccaPos.x, ccaPos.y]); // flip y for glsl
+  theShader.setUniform("ccaPxRadius", ccaRadius);
 
   shader(theShader);
 
