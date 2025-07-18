@@ -47,11 +47,12 @@ body {
   background-attachment: fixed;
   background-color: var(--bg-color);
   background-image: linear-gradient(var(--gradient-start), var(--bg-color));
-  color: var(--fg-color);
+  color: var(--text-color);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.25rem;
   padding: 2rem 2rem 5rem 2rem;
+  line-height: 1.4;
 }
 
 @media (min-width: 600px) {
@@ -73,7 +74,27 @@ button {
   padding: 0;
 }
 
-.wrapper {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--fg-color);
+  font-weight: 500;
+  line-height: 1;
+}
+
+ul,
+ol {
+  margin-left: 2rem;
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+
+.home {
   margin-inline: auto;
   max-width: 30rem;
 }
@@ -120,29 +141,30 @@ button {
 
 p {
   color: var(--text-color);
-  font-weight: 300;
-  line-height: 1.4;
+}
+
+.home p {
   opacity: 0;
   animation: text-in 750ms ease-out forwards;
 }
 
-p:nth-child(2) {
+.home p:nth-child(2) {
   animation-delay: 100ms;
 }
 
-p:nth-child(3) {
+.home p:nth-child(3) {
   animation-delay: 200ms;
 }
 
-p:nth-child(4) {
+.home p:nth-child(4) {
   animation-delay: 300ms;
 }
 
-p:nth-child(5) {
+.home p:nth-child(5) {
   animation-delay: 400ms;
 }
 
-p:nth-child(6) {
+.home p:nth-child(6) {
   animation-delay: 500ms;
 }
 
@@ -153,7 +175,7 @@ p:nth-child(6) {
   }
 }
 
-p+p {
+p + p {
   margin-block: 1rem;
 }
 
@@ -461,4 +483,20 @@ dialog::backdrop {
   height: 100%;
   scrollbar-width: thin;
   width: 100%;
+}
+
+/* Invaders page */
+
+.invaders {
+  margin-inline: auto;
+  max-width: 40rem;
+}
+
+.invaders-content > * {
+  margin-top: 1em;
+}
+
+.elastic-button--space-invaders {
+  --button-color: black;
+  color: rgb(153, 255, 0);
 }
