@@ -500,3 +500,13 @@ dialog::backdrop {
   --button-color: black;
   color: rgb(153, 255, 0);
 }
+
+.invaders-content a,
+.invaders-content a:visited {
+  color: #8828f5;
+  text-decoration: none;
+}
+
+.invaders-content a:hover {
+  text-decoration: underline;
+}
