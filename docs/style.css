@@ -584,6 +584,7 @@ a.submissions__item:hover video {
 
 .submissions__item img,
 .submissions__item video {
+  pointer-events: none; /* to prevent play/pause */
   transition: transform 250ms;
   display: block;
   border-radius: 4px;
