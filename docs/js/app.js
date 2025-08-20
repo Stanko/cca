@@ -47,14 +47,9 @@ const $submissionsPause = document.querySelector(".submissions__pause");
 const $submissionsVideos = [...document.querySelectorAll(".submissions video")];
 
 if ($submissionsPause) {
-  // Check for auto play
-  const isPaused = $submissionsVideos.some(($video) => $video.paused);
-
-  if (isPaused) {
+  $submissionsVideos[0].play().catch(() => {
     $submissionsPause.textContent = "Play videos";
-  } else {
-    $submissionsPause.textContent = "Pause videos";
-  }
+  });
 
   $submissionsPause.addEventListener("click", () => {
     const isPaused = $submissionsVideos.some(($video) => $video.paused);
