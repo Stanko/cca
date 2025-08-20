@@ -1,139 +1,245 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Space Invader Code Challenge • Creative Coding Amsterdam</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon/icon.ico?v=1.0" sizes="32x32" />
+    <link rel="icon" href="./favicon/icon.svg?v=1.0" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./favicon/apple-touch-icon.png?v=1.0" />
+    <meta content="width=device-width,initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Space Invader Code Challenge • Creative Coding Amsterdam</title>
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="icon" href="./favicon/icon.ico?v=1.0" sizes="32x32" />
-  <link rel="icon" href="./favicon/icon.svg?v=1.0" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="./favicon/apple-touch-icon.png?v=1.0" />
-  <meta content="width=device-width,initial-scale=1.0" name="viewport" />
+    <meta property="og:title" content="Space Invader Code Challenge" />
+    <meta
+      property="og:description"
+      content="The first ever Creative Coding Amsterdam code challenge!"
+    />
+    <meta property="og:image" content="https://cca.codes/img/thumbnail.png" />
+    <meta property="og:url" content="https://cca.codes" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-  <meta property="og:title" content="Space Invader Code Challenge" />
-  <meta property="og:description" content="The first ever Creative Coding Amsterdam code challenge!" />
-  <meta property="og:image" content="https://cca.codes/img/thumbnail.png" />
-  <meta property="og:url" content="https://cca.codes" />
-  <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:site_name" content="Creative Coding Amsterdam" />
+    <meta name="twitter:image:alt" content="Creative Coding Amsterdam logo" />
+  </head>
 
-  <meta property="og:site_name" content="Creative Coding Amsterdam" />
-  <meta name="twitter:image:alt" content="Creative Coding Amsterdam logo" />
-</head>
-
-<body>
-  <main class="invaders">
-    <a href="/">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162 60" class="logo">
-        <title>Creative Coding Amsterdam Logo</title>
-        <g fill="none" stroke="var(--fg-color)" stroke-width="12" stroke-linecap="round">
-          <path d="M 46.97 13.029 A 24 24 1 1 0 46.97 46.97" />
-          <path d="M 97.97 13.029 A 24 24 1 1 0 97.97 46.97" />
-          <path d="M 156 29.96 A 24 24 1 1 0 156 30 v 24" stroke="var(--accent-color)" />
-        </g>
-      </svg>
-    </a>
-    <h1 class="title">Creative Coding <span>Amsterdam</span></h1>
-    <div class="links">
-      <a class="elastic-button elastic-button--meetup" href="https://www.meetup.com/creative-coding-amsterdam/">
-        <span class="elastic-button-content"> Meetup </span>
-      </a>
-      <a class="elastic-button elastic-button--discord" href="https://discord.gg/eJJvn3487M">
-        <span class="elastic-button-content"> Discord </span>
-      </a>
-      <button class="elastic-button elastic-button--contact" type="button">
-        <span class="elastic-button-content"> Contact </span>
-      </button>
-    </div>
-    <div class="invaders-content">
-      <h1>Space Invaders Code Challenge</h1>
-      <p>
-        <em>We present you the first CCA code challenge!</em>
-      </p>
-      <h2 id="guidelines">Guidelines</h2>
-      <ul>
-        <li>
-          The goal is to create a program related to
-          <strong>Space Invaders</strong>.
-        </li>
-        <li>
-          Interpret the theme as loosely as you like! Generate
-          invaders or spaceships, make a game, produce some
-          bleep-bloops... raster, vector, 3D, shader, audio,
-          video... space is the limit!
-        </li>
-        <li>Use any programming language and library.</li>
-        <li>Your project needs to be open source.</li>
-        <li>
-          Ideally, if it runs on the web, it would be nice to see it live -
-          on openprocessing, p5live, codepen, github
-          pages, netlify... If you need help with this, we can assist.
-        </li>
-        <li>If it is visual, please submit a screenshot.</li>
-        <li>Collaborations are encouraged!</li>
-      </ul>
-      <p>
-        Note regarding the theme - we know that some people struggle
-        to start if the theme is too loose. So, if you feel stuck,
-        here's something more specific:
-      </p>
-      <ul>
-        <li>
-          Space Invader generator, 2D or 3D. Use a rectangular
-          grid and generate a random invader in pixels or voxels.
-          Feel free to play with color, size and shape.
-        </li>
-      </ul>
-      <h2 id="deadline">Deadline</h2>
-      <ul>
-        <li>
-          The challenge lasts for a month. Please submit your
-          project by Sunday, the 17th of August.
-        </li>
-        <li>
-          <a href="https://forms.cca.codes/space-invaders">Submit your projects here.</a>
-        </li>
-      </ul>
-      <h2 id="other">Other</h2>
-      <ul>
-        <li>
-          We are going to collect all of the submissions and host
-          a showcase page on our website.
-        </li>
-        <li>
-          If there is enough interest, we can do a whole Space
-          Invaders meetup! In any case, we encourage you to share
-          your work at the next meetup.
-        </li>
-      </ul>
-      <h2 id="prize">Prize</h2>
-      <p>
-        We'll do a vote in Discord and whoever gets the most
-        votes wins a <strong>box of chocolates!</strong> Chocolate
-        will be handed out in person at the next meetup! If
-        you're unable to attend, we'll gladly share
-        chocolates and think of you! :)
-      </p>
-      <p>Hope you'll have fun!</p>
-    </div>
-  </main>
-
-  <dialog class="modal">
-    <button class="modal-backdrop-close" type="button" tabindex="-1"></button>
-    <div class="modal-content">
-      <button class="modal-close" type="button" aria-label="Close modal">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-          <path
-            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+  <body>
+    <main>
+      <a href="/">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 162 60"
+          class="logo"
+        >
+          <title>Creative Coding Amsterdam Logo</title>
+          <g
+            fill="none"
+            stroke="var(--fg-color)"
+            stroke-width="12"
+            stroke-linecap="round"
+          >
+            <path d="M 46.97 13.029 A 24 24 1 1 0 46.97 46.97" />
+            <path d="M 97.97 13.029 A 24 24 1 1 0 97.97 46.97" />
+            <path
+              d="M 156 29.96 A 24 24 1 1 0 156 30 v 24"
+              stroke="var(--accent-color)"
+            />
+          </g>
         </svg>
-      </button>
-      <iframe class="contact-iframe" data-tally-src="https://tally.so/r/warGjX?transparentBackground=1"
-        title="Contact form">
-      </iframe>
-    </div>
-  </dialog>
-  <script src="./js/app.js"></script>
+      </a>
+      <h1 class="title">Creative Coding <span>Amsterdam</span></h1>
+      <div class="links">
+        <a
+          class="elastic-button elastic-button--meetup"
+          href="https://www.meetup.com/creative-coding-amsterdam/"
+        >
+          <span class="elastic-button-content"> Meetup </span>
+        </a>
+        <a
+          class="elastic-button elastic-button--discord"
+          href="https://discord.gg/eJJvn3487M"
+        >
+          <span class="elastic-button-content"> Discord </span>
+        </a>
+        <button class="elastic-button elastic-button--contact" type="button">
+          <span class="elastic-button-content"> Contact </span>
+        </button>
+      </div>
 
-  <script async src="https://tally.so/widgets/embed.js"></script>
-  <script async src="https://umami.d17e.dev/script.js" data-website-id="86c91eb4-4ac8-4955-bcb0-b1c9de3a6715"></script>
-</body>
+      <div class="invaders-content">
+        <div class="invaders-container">
+          <h1>Space Invaders Code Challenge</h1>
+          <p>We present you the first CCA code challenge!</p>
 
+          <h2>Submissions</h2>
+
+          <p>
+            Thanks for everyone who participated. We have some really cool
+            invaders. We hope you enjoyed the challenge and see you next time!
+          </p>
+          <p>Here are all of the submissions.</p>
+
+          <button class="submissions__pause">Pause videos</button>
+        </div>
+
+        <div class="submissions">
+          <div class="submissions__item">
+            <div class="submissions__name">aidan</div>
+            <video src="/img/invaders/aidan.mp4#t=0.001" muted autoplay loop />
+          </div>
+          <a
+            class="submissions__item"
+            href="https://cca-invaders.david-cloudflare-862.workers.dev/"
+          >
+            <div class="submissions__name">David</div>
+            <img src="/img/invaders/d17e.jpg" alt="" />
+          </a>
+          <div class="submissions__item">
+            <div class="submissions__name">Graaf Henk</div>
+            <video
+              src="/img/invaders/graaf-hank.mp4#t=0.001"
+              muted
+              autoplay
+              loop
+            />
+          </div>
+          <a
+            class="submissions__item"
+            href="https://tinyurl.com/creagen-invader"
+          >
+            <div class="submissions__name">Ivo</div>
+            <video src="/img/invaders/lyr.mp4#t=0.001" muted autoplay loop />
+          </a>
+          <a
+            class="submissions__item"
+            href="https://www.flevopink.nl/p5-js-inleiding/space-invaders-met-laserstralen"
+          >
+            <div class="submissions__name">Jos</div>
+            <img src="/img/invaders/jos.jpg" alt="" />
+          </a>
+          <a
+            class="submissions__item"
+            href="https://masarabbit.github.io/invdr/generate/"
+          >
+            <div class="submissions__name">Masa</div>
+            <video src="/img/invaders/masa.mp4#t=0.001" muted autoplay loop />
+          </a>
+          <a
+            class="submissions__item"
+            href="https://github.com/nmoya/space-invaders-generator"
+          >
+            <div class="submissions__name">Nikolas</div>
+            <img src="/img/invaders/nikolas.gif" alt="" />
+          </a>
+          <a class="submissions__item" href="https://muffinman.io/invaders/">
+            <div class="submissions__name">Stanko</div>
+            <video
+              src="/img/invaders/muffinman.mp4#t=0.001"
+              muted
+              autoplay
+              loop
+            />
+          </a>
+        </div>
+
+        <div class="invaders-container">
+          <h2 id="guidelines">Guidelines</h2>
+          <ul>
+            <li>
+              The goal is to create a program related to
+              <strong>Space Invaders</strong>.
+            </li>
+            <li>
+              Interpret the theme as loosely as you like! Generate invaders or
+              spaceships, make a game, produce some bleep-bloops... raster,
+              vector, 3D, shader, audio, video... space is the limit!
+            </li>
+            <li>Use any programming language and library.</li>
+            <li>Your project needs to be open source.</li>
+            <li>
+              Ideally, if it runs on the web, it would be nice to see it live -
+              on openprocessing, p5live, codepen, github pages, netlify... If
+              you need help with this, we can assist.
+            </li>
+            <li>If it is visual, please submit a screenshot.</li>
+            <li>Collaborations are encouraged!</li>
+          </ul>
+          <p>
+            Note regarding the theme - we know that some people struggle to
+            start if the theme is too loose. So, if you feel stuck, here's
+            something more specific:
+          </p>
+          <ul>
+            <li>
+              Space Invader generator, 2D or 3D. Use a rectangular grid and
+              generate a random invader in pixels or voxels. Feel free to play
+              with color, size and shape.
+            </li>
+          </ul>
+          <h2 id="deadline">Deadline</h2>
+          <ul>
+            <li>
+              The challenge lasts for a month. Please submit your project by
+              Sunday, the 17th of August.
+            </li>
+            <li>
+              <a href="https://forms.cca.codes/space-invaders"
+                >Submit your projects here.</a
+              >
+            </li>
+          </ul>
+          <h2 id="other">Other</h2>
+          <ul>
+            <li>
+              We are going to collect all of the submissions and host a showcase
+              page on our website.
+            </li>
+            <li>
+              If there is enough interest, we can do a whole Space Invaders
+              meetup! In any case, we encourage you to share your work at the
+              next meetup.
+            </li>
+          </ul>
+          <h2 id="prize">Prize</h2>
+          <p>
+            We'll do a vote in Discord and whoever gets the most votes wins a
+            <strong>box of chocolates!</strong> Chocolate will be handed out in
+            person at the next meetup! If you're unable to attend, we'll gladly
+            share chocolates and think of you! :)
+          </p>
+          <p>Hope you'll have fun!</p>
+        </div>
+      </div>
+    </main>
+
+    <dialog class="modal">
+      <button class="modal-backdrop-close" type="button" tabindex="-1"></button>
+      <div class="modal-content">
+        <button class="modal-close" type="button" aria-label="Close modal">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            aria-hidden="true"
+          >
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+            />
+          </svg>
+        </button>
+        <iframe
+          class="contact-iframe"
+          data-tally-src="https://tally.so/r/warGjX?transparentBackground=1"
+          title="Contact form"
+        >
+        </iframe>
+      </div>
+    </dialog>
+    <script src="./js/app.js"></script>
+
+    <script async src="https://tally.so/widgets/embed.js"></script>
+    <script
+      async
+      src="https://umami.d17e.dev/script.js"
+      data-website-id="86c91eb4-4ac8-4955-bcb0-b1c9de3a6715"
+    ></script>
+  </body>
 </html>
