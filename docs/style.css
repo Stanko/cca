@@ -1,3 +1,36 @@
+@font-face {
+  font-family: "tiny5";
+  src:
+    url("/fonts/tiny5/Tiny5-Regular.ttf") format("truetype"),
+    url("/fonts/tiny5/Tiny5-Regular.woff2") format("woff2"),
+    url("/fonts/tiny5/Tiny5-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "match7";
+  src:
+    url("/fonts/match7/Match7.ttf") format("truetype"),
+    url("/fonts/match7/Match7.woff2") format("woff2"),
+    url("/fonts/match7/Match7.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "nope8";
+  src:
+    url("/fonts/nope8/Nope8.ttf") format("truetype"),
+    url("/fonts/nope8/Nope8.woff2") format("woff2"),
+    url("/fonts/nope8/Nope8.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --accent-color: #b52d2c;
   --bg-color: #f3f4f6;
@@ -64,7 +97,7 @@ body {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 2rem 2rem 5rem 2rem;
   line-height: 1.4;
 }
@@ -97,6 +130,16 @@ h6 {
   color: var(--fg-color);
   font-weight: 500;
   line-height: 1;
+}
+
+.header-font,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-family: "nope8";
 }
 
 ul,
@@ -508,7 +551,7 @@ dialog::backdrop {
 
 .invaders-container {
   margin-inline: auto;
-  max-width: 40rem;
+  max-width: 30rem;
 }
 
 .invaders-container > * {
@@ -554,7 +597,7 @@ dialog::backdrop {
 
 .submissions {
   max-width: 60rem;
-  margin: 2rem auto 10rem;
+  margin: 2rem auto 4rem;
 }
 
 .submissions__item {
