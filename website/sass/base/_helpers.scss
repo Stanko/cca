@@ -17,22 +17,6 @@
   background-size: 16px 16px;
 }
 
-.hide {
-  display: none;
-}
-
-.hide--md {
-  @include md {
-    display: none;
-  }
-}
-
-.hide--lg {
-  @include lg {
-    display: none;
-  }
-}
-
 .content {
   display: grid;
   gap: 0.75rem;
@@ -72,6 +56,22 @@
   }
   @include lg {
     padding: 1.5rem;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.hide--md {
+  @include md {
+    display: none;
+  }
+}
+
+.hide--lg {
+  @include lg {
+    display: none;
   }
 }
 
