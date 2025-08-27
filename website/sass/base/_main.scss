@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"); */
+
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+  scrollbar-color: #bbb transparent;
+}
+
+:root {
+  --border-color: #191816;
+  --border-width: 2px;
+  --border-width-negative: -2px;
+  --text: #292826;
+  --red: #d25a67;
+  --blue: #5d64e2;
+  --body-bg: #f3f2f1;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  /* font-family: "Fira Code", monospace; */
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+  font-size: 1rem;
+  line-height: 1.4;
+  background-image: url(/img/noise.png);
+  background-repeat: repeat;
+  background-size: 250px 250px;
+  background-color: var(--body-bg);
+  color: var(--text);
+  padding: 1rem;
+
+  @include lg {
+    font-size: 1.125rem;
+  }
+
+  @include md {
+    padding: 2rem;
+  }
+
+  @include lg {
+    padding: 4rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+  /* font-weight: 700; // for Roboto Mono */
+  font-weight: 400;
+  font-family: nope8;
+}
+
+h2 {
+  font-size: 2rem;
+
+  @include lg {
+    font-size: 2.25rem;
+  }
+}
+
+h3,
+h4 {
+  font-size: 1.75rem;
+
+  @include lg {
+    font-size: 2rem;
+  }
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.app {
+  max-width: 80rem;
+  position: relative;
+
+  &::before {
+    display: block;
+    border-left: var(--border-width) solid var(--border-color);
+    border-right: var(--border-width) solid var(--border-color);
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    left: var(--border-width-negative);
+    top: -4rem;
+    bottom: -1rem;
+    right: 0;
+
+    @include md {
+      bottom: -2rem;
+    }
+
+    @include lg {
+      bottom: -4rem;
+    }
+  }
+
+  &::after {
+    display: block;
+    border-bottom: var(--border-width) solid var(--border-color);
+    border-top: var(--border-width) solid var(--border-color);
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 100vw;
+    bottom: var(--border-width-negative);
+    top: 0;
+    left: -1rem;
+
+    @include md {
+      left: -2rem;
+    }
+
+    @include lg {
+      left: -4rem;
+    }
+  }
+}
+
+.main {
+  position: relative;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid .grid {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.cell,
+.border,
+.hover {
+  transition: transform 250ms ease-in-out;
+  position: relative;
+
+  &::after {
+    display: block;
+    inset: 0 0 var(--border-width-negative) var(--border-width-negative);
+    border: var(--border-width) solid var(--border-color);
+    content: "";
+    position: absolute;
+    pointer-events: none;
+  }
+}
+
+.cell,
+.hover {
+  &::before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: -0.5rem;
+    bottom: -0.5rem;
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+.cell {
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: 100%;
+  max-width: 100%;
+  z-index: 0;
+}
+
+@media (hover: hover) {
+  .cell:hover,
+  .hover:hover {
+    transform: translate(0.5rem, -0.5rem);
+    z-index: 1;
+
+    &::before {
+      pointer-events: unset;
+    }
+  }
+}
+
+.stripes {
+  --bg: transparent;
+  --fg: rgb(255 255 255 / 0.1);
+  background: repeating-linear-gradient(
+    45deg,
+    var(--bg),
+    var(--bg) 10px,
+    var(--fg) 10px,
+    var(--fg) 20px
+  );
+}
+
+.cell--1 {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.cell--2 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.cell--3 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+.cell--4 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+@include md {
+  .cell--md-1 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .cell--md-2 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .cell--md-3 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .cell--md-4 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@include lg {
+  .cell--lg-1 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .cell--lg-2 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .cell--lg-3 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .cell--lg-4 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-link {
+  flex-shrink: 0;
+  padding: 1rem;
+
+  @include md {
+    padding: 1rem 2rem;
+  }
+}
+
+.logo {
+  width: 4rem;
+
+  @include md {
+    width: 5rem;
+  }
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__link {
+  --bg: transparent;
+  --fg: transparent;
+
+  color: inherit;
+  display: grid;
+  place-items: center;
+  padding: 0 0.75rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-decoration: none;
+  background-color: var(--bg);
+  text-align: center;
+
+  &:hover {
+    --bg: #5e64da;
+    --fg: rgb(255 255 255 / 0.1);
+    color: white;
+  }
+}

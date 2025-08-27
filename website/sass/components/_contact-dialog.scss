@@ -1,0 +1,182 @@
+/* ----- Dialog ----- */
+
+html:has(dialog[open]) {
+  overflow: hidden;
+  touch-action: none;
+}
+
+html:has(dialog[open]) dialog {
+  touch-action: auto;
+}
+
+html:has(dialog[open]) body {
+  margin-right: var(--scrollbar-width);
+}
+
+dialog::backdrop {
+  background: none;
+  backdrop-filter: blur(8px);
+}
+
+.modal {
+  align-items: flex-end;
+  background-color: transparent;
+  height: 100%;
+  justify-content: center;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  display: none;
+  border: none;
+
+  // TODO use transitions to animate the modal
+  /* transition: all 500ms;
+  transition-behavior: allow-discrete; */
+
+  @include md {
+    align-items: center;
+  }
+}
+
+.modal[open] {
+  display: flex;
+}
+
+@keyframes modal-backdrop-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.modal-backdrop-close {
+  inset: 0;
+  position: absolute;
+  background-color: rgba(241 240 239 / 0.3);
+  opacity: 0;
+}
+
+.modal[open] .modal-backdrop-close {
+  animation: modal-backdrop-in 250ms ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal[open] .modal-backdrop-close {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+.modal-close {
+  opacity: 0.5;
+  padding: 1rem;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.125rem;
+  transition: all 250ms;
+  z-index: 1;
+  border-radius: 50%;
+  outline-offset: -0.5rem;
+  outline-color: var(--border-color);
+}
+
+.modal-close:focus-visible {
+  opacity: 1;
+  outline: 2px solid var(--border-color);
+}
+
+@media (min-width: 600px) {
+  .modal-close {
+    right: 1.5rem;
+    top: 2.125rem;
+  }
+}
+
+.modal-close:hover {
+  opacity: 1;
+}
+
+.modal-close svg {
+  color: var(--fg-color);
+  height: 2rem;
+  width: 2rem;
+}
+
+@keyframes modal-content-in {
+  from {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes modal-content-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.modal-content {
+  height: 90%;
+  max-height: 42rem;
+  max-width: 38rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(/img/noise.png);
+  background-repeat: repeat;
+  background-size: 250px 250px;
+  background-color: var(--body-bg);
+  border: var(--border-width) solid var(--border-color);
+  opacity: 0;
+}
+
+.modal[open] .modal-content {
+  animation: modal-content-in 250ms ease-out forwards;
+}
+
+@media (min-width: 600px) {
+  .modal[open] .modal-content {
+    animation-name: modal-content-scale-in;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal[open] .modal-content {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 600px) {
+  .modal {
+    align-items: center;
+  }
+}
+
+.contact-iframe {
+  background-attachment: fixed;
+  background-color: var(--bg-color);
+  background-image: linear-gradient(var(--gradient-start), var(--bg-color));
+  border: none;
+  height: 100%;
+  scrollbar-width: thin;
+  width: 100%;
+}

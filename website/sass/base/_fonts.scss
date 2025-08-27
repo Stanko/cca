@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "tiny5";
+  src:
+    url("/fonts/tiny5/Tiny5-Regular.ttf") format("truetype"),
+    url("/fonts/tiny5/Tiny5-Regular.woff2") format("woff2"),
+    url("/fonts/tiny5/Tiny5-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "match7";
+  src:
+    url("/fonts/match7/Match7.ttf") format("truetype"),
+    url("/fonts/match7/Match7.woff2") format("woff2"),
+    url("/fonts/match7/Match7.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "nope8";
+  src:
+    url("/fonts/nope8/Nope8.ttf") format("truetype"),
+    url("/fonts/nope8/Nope8.woff2") format("woff2"),
+    url("/fonts/nope8/Nope8.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

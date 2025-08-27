@@ -1,0 +1,124 @@
+.stripes-inverted {
+  --bg: transparent;
+  --fg: rgb(255 255 255 / 0.1);
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--bg),
+    var(--bg) 10px,
+    var(--fg) 10px,
+    var(--fg) 20px
+  );
+}
+
+.dots {
+  --bg: transparent;
+  --fg: rgb(255 255 255 / 0.1);
+  background-image: radial-gradient(var(--fg) 4px, var(--bg) 4px);
+  background-size: 16px 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.hide--md {
+  @include md {
+    display: none;
+  }
+}
+
+.hide--lg {
+  @include lg {
+    display: none;
+  }
+}
+
+.content {
+  display: grid;
+  gap: 0.75rem;
+
+  > * {
+    max-width: 45rem;
+  }
+
+  > .wide {
+    max-width: 100%;
+  }
+
+  h2,
+  h3 {
+    &:not(:first-child) {
+      margin-top: 0.5em;
+    }
+  }
+
+  a {
+    color: var(--color-primary);
+    text-decoration-color: #bbb;
+    text-decoration-thickness: 2px;
+    color: var(--red);
+
+    &:hover {
+      text-decoration-color: var(--red);
+    }
+  }
+}
+
+.padding {
+  padding: 1rem;
+
+  @include md {
+    padding: 1.5rem;
+  }
+  @include lg {
+    padding: 1.5rem;
+  }
+}
+
+.block {
+  display: block;
+}
+
+.block--md {
+  @include md {
+    display: block;
+  }
+}
+
+.block--lg {
+  @include lg {
+    display: block;
+  }
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--md {
+  @include md {
+    display: grid;
+  }
+}
+
+.grid--lg {
+  @include lg {
+    display: grid;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--md {
+  @include md {
+    display: flex;
+  }
+}
+
+.flex--lg {
+  @include lg {
+    display: flex;
+  }
+}
