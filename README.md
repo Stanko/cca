@@ -52,3 +52,5 @@ Deployments are automated using [GitHub actions](./.github/workflows/gh-pages.ya
 * [ ] Clean up / organize SCSS a bit better (WIP)
 * [ ] Contact modal - switch to discrete transitions instead of animations
 * [ ] Dark theme
+* [ ] Remove unused fonts
+* [ ] Group images in the static folder
