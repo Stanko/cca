@@ -11,10 +11,14 @@
 
 .spotlight img,
 .spotlight video {
-  aspect-ratio: 16 / 9;
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.spotlight iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .spotlight__pause {
