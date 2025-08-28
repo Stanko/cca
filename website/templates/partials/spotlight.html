@@ -38,6 +38,30 @@ fetch(`/spotlight/${item}/`).then(response => {
   const tmpDiv = document.createElement('div');
   tmpDiv.innerHTML = data.replace(/<script[^>]*>[\s\S]*?<\/script>/g, '');
 
+  const playButton = tmpDiv.querySelector(".play-button");
+  const video = tmpDiv.querySelector("video");
+
+  if (video) {
+    // If video has autoplay attribute
+    video.play().catch(() => {
+      // And autoplay is disabled in the browser settings
+      // Change the button label to "Play"
+      playButton.textContent = "Play";
+    });
+
+    playButton.addEventListener("click", () => {
+      const isPaused = video.paused;
+
+      if (isPaused) {
+        video.play();
+        playButton.textContent = "Pause";
+      } else {
+        video.pause();
+        playButton.textContent = "Play";
+      }
+    });
+  }
+
   const placeholders = [...document.querySelectorAll('.spotlight-placeholder')];
 
   tmpDiv.childNodes.forEach(child => {
@@ -48,7 +72,8 @@ fetch(`/spotlight/${item}/`).then(response => {
     element.remove();
   });
 
-}).catch(error => {
+}).catch(e => {
+  console.log(e)
   const contentDivs = document.querySelectorAll('.spotlight-placeholder .content')
 
   contentDivs.forEach(el => {
