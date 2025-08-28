@@ -1,0 +1,58 @@
+{% set data = get_section(path="spotlight/_index.md") %}
+{% set count = data.pages | length %}
+{% set titles = data.pages | map(attribute='slug') | join(sep = '","') %}
+
+<div class="cell cell--lg-1 spotlight-placeholder">
+  <h2 class="hover padding">Members' work spotlight</h2>
+  <div class="content padding hide grid--lg">
+    <noscript>
+      <p>Unfortunately, do display our members' work, you'll have to enable JavaScript.</p>
+    </noscript>
+  </div>
+</div>
+
+<div class="cell cell--lg-3 spotlight dots spotlight-placeholder">
+
+</div>
+
+<div class="cell hide--lg spotlight-placeholder">
+  <div class="content padding">
+    <noscript>
+      <p>Unfortunately, do display our members' work, you'll have to enable JavaScript.</p>
+    </noscript>
+  </div>
+</div>
+
+<script>
+// Inlining this code to execute it as soon as possible
+const spotlightItems = ["{{titles | safe}}"];
+const item = spotlightItems[Math.floor(Math.random() * spotlightItems.length)];
+
+fetch(`/spotlight/${item}/`).then(response => {
+  if (!response.ok) {
+    throw new Error('Network response was not ok');
+  }
+  return response.text();
+}).then(data => {
+  // Process the data here
+  const tmpDiv = document.createElement('div');
+  tmpDiv.innerHTML = data.replace(/<script[^>]*>[\s\S]*?<\/script>/g, '');
+
+  const placeholders = [...document.querySelectorAll('.spotlight-placeholder')];
+
+  tmpDiv.childNodes.forEach(child => {
+    placeholders[0].before(child);
+  });
+
+  placeholders.forEach(element => {
+    element.remove();
+  });
+
+}).catch(error => {
+  const contentDivs = document.querySelectorAll('.spotlight-placeholder .content')
+
+  contentDivs.forEach(el => {
+    el.innerHTML = 'Fetching data failed :( please try again'
+  });
+});
+</script>

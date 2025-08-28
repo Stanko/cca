@@ -1,0 +1,31 @@
+<div class="cell cell--lg-1">
+  <h2 class="hover padding">Members' work spotlight</h2>
+  <div class="content padding hide grid--lg">
+    <h3>{{ page.title }}</h3>
+    {{ page.content | safe }}
+  </div>
+</div>
+
+<div class="cell cell--lg-3 spotlight dots">
+  {% if page.extra.video %}
+    <video
+      src="{{ page.extra.video }}#t=0.001"
+      autoplay
+      loop
+      muted
+      playsinline
+    ></video>
+    <button class="hover padding spotlight__pause dots play-button">Pause</button>
+  {% elif page.extra.image %}
+  <img src="{{ page.extra.image }}" alt="{{ page.title }}" />
+  {% elif page.extra.iframe %}
+  <iframe src="{{ page.extra.iframe }}" frameborder="0" allowfullscreen></iframe>
+  {% endif %}
+</div>
+
+<div class="cell hide--lg">
+  <div class="content padding">
+    <h3>{{ page.title }}</h3>
+    {{ page.content | safe }}
+  </div>
+</div>

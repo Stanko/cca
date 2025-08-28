@@ -4,7 +4,7 @@
   justify-content: space-between;
 }
 
-.home-link {
+.header__home-link {
   flex-shrink: 0;
   padding: 1rem;
 
@@ -13,7 +13,7 @@
   }
 }
 
-.logo {
+.header__logo {
   width: 4rem;
 
   @include md {
@@ -21,11 +21,11 @@
   }
 }
 
-.nav {
+.header__nav {
   display: flex;
 }
 
-.nav__link {
+.header__nav-item {
   --bg: transparent;
   --fg: transparent;
 

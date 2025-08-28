@@ -1,47 +1,13 @@
-{% extends "base.html" %} {% block content %}
+{% extends "base.html" %}
+
+{% block content %}
 
 <div class="cell cell--4 padding">
   <h1>Creative Coding Amsterdam</h1>
 </div>
-<div class="cell cell--lg-1">
-  <h2 class="hover padding">Members' work spotlight</h2>
-  <div class="content padding hide grid--lg">
-    <h3>Space Invaders</h3>
-    <p>
-      The winning submission by Masa for the
-      <a href="/invaders/">Space Invaders code challenge</a>.
-    </p>
-    <p>
-      Generate your own invaders by visiting
-      <a href="https://masarabbit.github.io/invdr/generate/">the live version</a
-      >.
-    </p>
-  </div>
-</div>
-<div class="cell cell--lg-3 spotlight dots">
-  <video
-    src="https://cca.codes/img/invaders/masa.mp4#t=0.001"
-    autoplay
-    loop
-    muted
-    controls
-    playsinline
-  />
-</div>
-<div class="cell hide--lg">
-  <div class="content padding">
-    <h3>Space Invaders</h3>
-    <p>
-      The winning submission by Masa for the
-      <a href="/invaders/">Space Invaders code challenge</a>.
-    </p>
-    <p>
-      Generate your own invaders by visiting
-      <a href="https://masarabbit.github.io/invdr/generate/">the live version</a
-      >.
-    </p>
-  </div>
-</div>
+
+{% include 'partials/spotlight.html' %}
+
 <div class="cell cell--md-2">
   <div class="content padding">
     <h3>About us</h3>
