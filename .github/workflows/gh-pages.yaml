@@ -1,0 +1,19 @@
+name: Deploy the website to GH Pages
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build:
+    name: Publish site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build and deploy
+        uses: shalzz/zola-deploy-action@v0.21.0
+        env:
+          BUILD_DIR: website
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
