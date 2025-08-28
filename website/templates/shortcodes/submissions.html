@@ -12,7 +12,6 @@
       <div class="submissions__media stripes">
         {% if (submission.video) %}
           <video
-
             src="{{ submission.video }}#t=0.001"
             muted
             autoplay
@@ -22,7 +21,7 @@
         {% endif %}
 
         {% if (submission.image) %}
-          <img  src="{{ submission.image }}" alt="" />
+          <img src="{{ submission.image }}" alt="" />
         {% endif %}
       </div>
 

@@ -38,6 +38,8 @@
 
 .submissions__media img,
 .submissions__media video {
+  border-top: var(--border-width) solid var(--border-color);
+  border-right: var(--border-width) solid var(--border-color);
   width: 100%;
   height: 100%;
   overflow: hidden;
