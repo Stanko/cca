@@ -143,7 +143,9 @@ ul {
 .cell,
 .border,
 .hover {
-  transition: transform 250ms ease-in-out;
+  transition:
+    transform 250ms ease-in-out,
+    z-index 250ms ease-in-out;
   position: relative;
 
   &::after {
@@ -183,7 +185,7 @@ ul {
   .cell:hover,
   .hover:hover {
     transform: translate(0.5rem, -0.5rem);
-    z-index: 1;
+    z-index: 2;
 
     &::before {
       pointer-events: unset;
