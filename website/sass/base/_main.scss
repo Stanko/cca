@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
-/* @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"); */
 
 html {
   font-size: 100%;
@@ -20,7 +19,6 @@ html {
 
 body {
   font-family: "Roboto Mono", monospace;
-  /* font-family: "Fira Code", monospace; */
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -54,7 +52,6 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  /* font-weight: 700; // for Roboto Mono */
   font-weight: 400;
   font-family: nope8;
 }
@@ -238,6 +235,11 @@ button {
   max-width: 100%;
 }
 
+.cell--third {
+  flex-basis: 33.33%;
+  max-width: 33.33%;
+}
+
 @include md {
   .cell--md-1 {
     flex-basis: 25%;
@@ -257,6 +259,11 @@ button {
   .cell--md-4 {
     flex-basis: 100%;
     max-width: 100%;
+  }
+
+  .cell--md-third {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
   }
 }
 
@@ -279,5 +286,10 @@ button {
   .cell--lg-4 {
     flex-basis: 100%;
     max-width: 100%;
+  }
+
+  .cell--lg-third {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
   }
 }

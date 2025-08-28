@@ -4,8 +4,46 @@ title = "Space Invaders Code Challenge"
 aliases = ["invaders.html"]
 
 [extra]
-image = "/img/invaders.png"
+image = "/img/invaders/invaders.png"
 intro = "The first ever Creative Coding Amsterdam code challenge!"
+
+[[extra.submissions]]
+name = "aidan"
+video = "/img/invaders/aidan.mp4"
+
+[[extra.submissions]]
+name = "David"
+image = "/img/invaders/d17e.jpg"
+link = "https://cca-invaders.david-cloudflare-862.workers.dev/"
+
+[[extra.submissions]]
+name = "Graaf Henk"
+video = "/img/invaders/graaf-hank.mp4"
+
+[[extra.submissions]]
+name = "Ivo"
+video = "/img/invaders/lyr.mp4"
+link = "https://tinyurl.com/creagen-invader"
+
+[[extra.submissions]]
+name = "Jos"
+image = "/img/invaders/jos.jpg"
+link = "https://www.flevopink.nl/p5-js/div_animaties/spaceinvader/"
+
+[[extra.submissions]]
+name = "Masa"
+video = "/img/invaders/masa.mp4"
+link = "https://masarabbit.github.io/invdr/generate/"
+
+[[extra.submissions]]
+name = "Nikolas"
+image = "/img/invaders/nikolas.gif"
+link = "https://github.com/nmoya/space-invaders-generator"
+
+[[extra.submissions]]
+name = "Stanko"
+video = "/img/invaders/muffinman.mp4"
+link = "https://muffinman.io/invaders/"
 +++
 
 We present you the first CCA code challenge!
@@ -16,88 +54,7 @@ Thanks for everyone who participated. We have some really cool invaders. We hope
 
 Here are all of the submissions.
 
-<button class="submissions__pause dots padding hover stripes">Pause videos</button>
-
-<div class="submissions wide">
-  <div class="submissions__item">
-    <div class="submissions__name">aidan</div>
-    <video
-      src="/img/invaders/aidan.mp4#t=0.001"
-      muted
-      autoplay
-      loop
-      playsinline
-    />
-  </div>
-  <a
-    class="submissions__item"
-    href="https://cca-invaders.david-cloudflare-862.workers.dev/"
-  >
-    <div class="submissions__name">David</div>
-    <img src="/img/invaders/d17e.jpg" alt="" />
-  </a>
-  <div class="submissions__item">
-    <div class="submissions__name">Graaf Henk</div>
-    <video
-      src="/img/invaders/graaf-hank.mp4#t=0.001"
-      muted
-      autoplay
-      loop
-      playsinline
-    />
-  </div>
-  <a
-    class="submissions__item"
-    href="https://tinyurl.com/creagen-invader"
-  >
-    <div class="submissions__name">Ivo</div>
-    <video
-      src="/img/invaders/lyr.mp4#t=0.001"
-      muted
-      autoplay
-      loop
-      playsinline
-    />
-  </a>
-  <a
-    class="submissions__item"
-    href="https://www.flevopink.nl/p5-js/div_animaties/spaceinvader/"
-  >
-    <div class="submissions__name">Jos</div>
-    <img src="/img/invaders/jos.jpg" alt="" />
-  </a>
-  <a
-    class="submissions__item"
-    href="https://masarabbit.github.io/invdr/generate/"
-  >
-    <div class="submissions__name">Masa - winner!</div>
-    <video
-      src="/img/invaders/masa.mp4#t=0.001"
-      muted
-      autoplay
-      loop
-      playsinline
-    />
-  </a>
-  <a
-    class="submissions__item"
-    href="https://github.com/nmoya/space-invaders-generator"
-  >
-    <div class="submissions__name">Nikolas</div>
-    <img src="/img/invaders/nikolas.gif" alt="" />
-  </a>
-  <a class="submissions__item" href="https://muffinman.io/invaders/">
-    <div class="submissions__name">Stanko</div>
-    <video
-      src="/img/invaders/muffinman.mp4#t=0.001"
-      muted
-      autoplay
-      loop
-      playsinline
-    />
-  </a>
-</div>
-
+{{ submissions() }}
 
 ## Guidelines
 

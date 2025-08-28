@@ -74,7 +74,7 @@ const submissionsPause = document.querySelector(".submissions__pause");
 const submissionsVideos = [...document.querySelectorAll(".submissions video")];
 
 if (submissionsPause) {
-  video.play().catch(() => {
+  submissionsVideos[0].play().catch(() => {
     submissionsPause.textContent = "Play videos";
   });
 

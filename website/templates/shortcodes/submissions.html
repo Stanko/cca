@@ -1,0 +1,40 @@
+{% if (page.extra.submissions) %}
+  <div class="grid submissions">
+    {% for submission in page.extra.submissions %}
+      {% if (submission.link) %}
+        <a href="{{ submission.link }}" class="cell cell--2 cell--md-third cell--lg-1">
+      {% else %}
+        <div class="cell cell--2 cell--md-third cell--lg-1">
+      {% endif %}
+
+      <div class="submissions__name hover padding">{{ submission.name }}</div>
+
+      <div class="submissions__media stripes">
+        {% if (submission.video) %}
+          <video
+
+            src="{{ submission.video }}#t=0.001"
+            muted
+            autoplay
+            loop
+            playsinline
+          />
+        {% endif %}
+
+        {% if (submission.image) %}
+          <img  src="{{ submission.image }}" alt="" />
+        {% endif %}
+      </div>
+
+      {% if (submission.link) %}
+        </a>
+      {% else %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div>
+    <button class="submissions__pause dots padding hover stripes">Pause videos</button>
+  </div>
+{% endif %}

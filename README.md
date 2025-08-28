@@ -44,13 +44,13 @@ Deployments are automated using [GitHub actions](./.github/workflows/gh-pages.ya
 * [x] Add title to the invaders page
 * [x] Spotlight item data model
 * [ ] Remove spotlight URLs from sitemap.xml
-* [ ] Pause button on the spotlight video
+* [x] Pause button on the spotlight video
 * [ ] Page template
 * [ ] Events page
 * [ ] About page
-* [ ] Code challenge template (maybe reuse the page template)
+* [ ] Code challenge template (maybe reuse the page template) (WIP)
 * [ ] Clean up / organize SCSS a bit better (WIP)
 * [ ] Contact modal - switch to discrete transitions instead of animations
 * [ ] Dark theme
-* [ ] Remove unused fonts
-* [ ] Group images in the static folder
+* [x] Remove unused fonts
+* [x] Group images in the static folder
