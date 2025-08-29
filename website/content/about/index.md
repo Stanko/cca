@@ -1,6 +1,5 @@
 +++
 title = "About"
-aliases =  ["invaders.html"]
 draft = true
 
 [extra]

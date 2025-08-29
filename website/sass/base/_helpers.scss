@@ -17,6 +17,38 @@
   background-size: 16px 16px;
 }
 
+.dots-shifted {
+  --bg: transparent;
+  --fg: rgb(255 255 255 / 0.1);
+
+  background:
+    radial-gradient(circle, var(--fg) 4px, transparent 4px),
+    radial-gradient(circle at bottom left, var(--fg) 4px, transparent 4px),
+    radial-gradient(circle at bottom right, var(--fg) 4px, transparent 4px),
+    radial-gradient(circle at top left, var(--fg) 4px, transparent 4px),
+    radial-gradient(circle at top right, var(--fg) 4px, transparent 4px);
+  background-size: 24px 24px;
+  background-color: var(--bg);
+}
+
+.circles {
+  --bg-size: 5rem;
+  --bg: var(--body-bg);
+  --fg: #ddd;
+
+  --gradient:
+    var(--bg) 0% 5%, var(--fg) 6% 15%, var(--bg) 16% 25%, var(--fg) 26% 35%,
+    var(--bg) 36% 45%, var(--fg) 46% 55%, var(--bg) 56% 65%, var(--fg) 66% 75%,
+    var(--bg) 76% 85%, var(--fg) 86% 95%, #0000 96%;
+  background:
+    radial-gradient(50% 50% at 100% 0, var(--gradient)),
+    radial-gradient(50% 50% at 0 100%, var(--gradient)),
+    radial-gradient(50% 50%, var(--gradient)),
+    radial-gradient(50% 50%, var(--gradient)) calc(var(--bg-size) / 2)
+      calc(var(--bg-size) / 2) var(--bg);
+  background-size: var(--bg-size) var(--bg-size);
+}
+
 .content {
   display: grid;
   gap: 0.75rem;

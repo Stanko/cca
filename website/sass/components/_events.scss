@@ -1,0 +1,38 @@
+.events {
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    margin-bottom: auto;
+    flex-grow: 1;
+  }
+}
+
+.event__date {
+  font-size: 0.75em;
+  display: block;
+  opacity: 0.5;
+}
+
+.event__links {
+  display: flex;
+}
+
+.event__link {
+  color: inherit;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.event__link--luma:hover {
+  background-color: var(--teal);
+}
+
+.event__link--meetup:hover {
+  background-color: var(--red);
+}
