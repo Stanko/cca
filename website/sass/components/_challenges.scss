@@ -4,6 +4,13 @@
 .challenge {
   text-decoration: none;
   color: inherit;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    margin-bottom: auto;
+    flex-grow: 1;
+  }
 
   &:hover h2 {
     background-color: var(--teal);
