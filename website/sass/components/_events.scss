@@ -17,6 +17,11 @@
   opacity: 0.5;
 }
 
+.event__image {
+  --fg: rgb(0 0 0 / 0.1);
+  aspect-ratio: 1200 / 675;
+}
+
 .event__links {
   display: flex;
 }

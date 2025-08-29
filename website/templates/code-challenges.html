@@ -10,11 +10,11 @@
 <div class="grid challenges">
   {% for page in section.pages %}
     <a class="challenge cell cell--md-2" href="{{ page.permalink }}">
-      <h2 class="padding hover stripes">
+      <h2 class="padding hover dots-shifted">
         {{ page.title }}
       </h2>
       {% if page.extra.image %}
-        <div class="hover">
+        <div class="hover challenge__image dots">
           <img src="{{ page.extra.image }}" alt="{{ page.title }}">
         </div>
       {% endif %}

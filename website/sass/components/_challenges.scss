@@ -10,3 +10,8 @@
     color: white;
   }
 }
+
+.challenge__image {
+  --fg: rgb(0 0 0 / 0.1);
+  aspect-ratio: 1300 / 675;
+}
