@@ -1,0 +1,44 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="cell cell--4 padding">
+  <h1>Not Found</h1>
+  <p>Error 404</p>
+</div>
+
+<div class="cell cell--md-2">
+  <div class="content padding">
+    <h3>Unfortunately the page you are looking can't be found.</h3>
+    <p>
+      Try going back to the <a href="/">home page</a>, explore our
+      <a href="/events">events</a>, or check out our members' work below.
+    </p>
+  </div>
+</div>
+
+<div class="cell cell--md-2">
+  <div class="grid">
+    <div class="cell padding"><h3>Where to find us</h3></div>
+    <a
+      href="https://www.meetup.com/creative-coding-amsterdam/"
+      class="home__link home__link--discord padding dots block cell cell--2 cell--md-4 cell--lg-2"
+    >
+      <b>Meetup</b>
+    </a>
+    <a
+      href="https://discord.gg/eJJvn3487M"
+      class="home__link home__link--meetup padding stripes block cell cell--2 cell--md-4 cell--lg-2"
+    >
+      <b>Discord</b>
+    </a>
+    <a
+      href="https://luma.com/creativecoding"
+      class="home__link home__link--luma padding stripes-inverted block cell cell--2 cell--md-4 cell--lg-2"
+    >
+      <b>Luma</b>
+    </a>
+  </div>
+</div>
+
+{% include 'partials/spotlight.html' %}
+
+{% endblock content %}

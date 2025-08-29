@@ -2,6 +2,16 @@
   position: relative;
   display: flex;
   justify-content: space-between;
+
+  @include lg {
+    position: sticky;
+    top: 1rem;
+    z-index: 10;
+    background-image: url(/img/noise.png);
+    background-repeat: repeat;
+    background-size: 250px 250px;
+    background-color: var(--body-bg);
+  }
 }
 
 .header__home-link {
@@ -21,8 +31,23 @@
   }
 }
 
-.header__nav {
-  display: flex;
+.header__menu-trigger {
+  padding: 1rem;
+  width: 4.5rem;
+}
+
+.header__menu-trigger span:nth-child(2) {
+  display: none;
+}
+
+.menu-open {
+  .header__menu-trigger span:nth-child(1) {
+    display: none;
+  }
+
+  .header__menu-trigger span:nth-child(2) {
+    display: block;
+  }
 }
 
 .header__nav-item {
@@ -44,4 +69,38 @@
     --fg: rgb(255 255 255 / 0.1);
     color: white;
   }
+}
+
+.header__menu {
+  display: none;
+  align-items: flex-start;
+  grid-template-rows: 0fr;
+  transition:
+    grid-template-rows 1000ms,
+    display 1000ms;
+  transition-behavior: allow-discrete;
+  overflow: hidden;
+
+  @include md {
+    grid-template-rows: 0fr !important;
+    display: none !important;
+  }
+
+  .menu-open & {
+    @starting-style {
+      grid-template-rows: 0fr;
+    }
+
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+}
+
+.header__menu-inner {
+  overflow: hidden;
+}
+
+.header__menu .header__nav-item {
+  width: 100%;
+  padding: 1rem;
 }

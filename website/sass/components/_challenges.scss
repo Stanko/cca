@@ -1,0 +1,12 @@
+.challenges {
+}
+
+.challenge {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover h2 {
+    background-color: var(--teal);
+    color: white;
+  }
+}

@@ -24,11 +24,11 @@
         {% endif %}
         <div class="event__links">
           {% if event.meetup_url %}
-            <a class="event__link event__link--meetup padding hover dots-shifted" href="{{ event.meetup_url }}">Meetup</a>
+            <a class="event__link event__link--meetup padding hover dots" href="{{ event.meetup_url }}">Meetup</a>
           {% endif %}
 
           {% if event.luma_url %}
-            <a class="event__link event__link--luma padding hover stripes" href="{{ event.luma_url }}">Luma</a>
+            <a class="event__link event__link--luma padding hover stripes-inverted" href="{{ event.luma_url }}">Luma</a>
           {% endif %}
         </div>
       </div>

@@ -1,0 +1,25 @@
+.home__link {
+  color: white;
+  text-decoration: none;
+}
+
+.home__link--discord {
+  background-color: var(--red);
+}
+
+.home__link--meetup {
+  background-color: var(--blue);
+}
+
+.home__link--luma {
+  background-color: var(--teal);
+}
+
+.home__reach-out {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+
+  &:hover {
+    color: var(--red);
+  }
+}

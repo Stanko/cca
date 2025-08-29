@@ -1,14 +1,6 @@
-+++
-title = "Events"
-
-template = "events.html"
-
-[extra]
-
 [[extra.events]]
 title = "Algorithms & Mistakes by Wimer Hazenberg (aka Monokai) @A-Lab"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/310355950/"
-luma_url = "https://luma.com/y68oft2w"
 date = "2025-08-21"
 photo = "meetup-2025-08-21.jpg"
 description = """
@@ -39,7 +31,6 @@ We're looking forward to seeing you there!
 [[extra.events]]
 title = "Sunday Social @ Vondelpark"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/308729903/"
-luma_url = "https://luma.com/vwfjl4qt?tk=GR5oOZ"
 date = "2025-07-13"
 photo = "meetup-2025-07-13.jpg"
 description = """
@@ -65,7 +56,6 @@ And/or online, on our **[Discord](https://discord.gg/qrrKkaM4w3)**
 [[extra.events]]
 title = "Tools Special @Multitude"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/308089677/"
-luma_url = "https://luma.com/p7bd7xs2"
 date = "2025-06-12"
 photo = "meetup-2025-06-12.jpg"
 description = """
@@ -88,7 +78,6 @@ Or online on our **[Discord](https://discord.gg/qrrKkaM4w3)**
 [[extra.events]]
 title = "May Madness @Mollie"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/307702713/"
-luma_url = "https://luma.com/jg63ffma"
 date = "2025-05-28"
 photo = "meetup-2025-05-28.jpg"
 description = """
@@ -484,6 +473,3 @@ or online on our **discord**: **[https://discord.gg/A6YpHjJz](https://discord.gg
 
 We'd love to hear from you!
 """
-+++
-
-Since February 2024 we organized {{ events_count() }} events.

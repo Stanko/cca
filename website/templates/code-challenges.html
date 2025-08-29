@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="cell cell--4 padding">
+  <h1>{{section.title}}</h1>
+</div>
+
+<div class="padding content">{{ section.content | safe }}</div>
+<div class="grid challenges">
+  {% for page in section.pages %}
+    <a class="challenge cell cell--md-2" href="{{ page.permalink }}">
+      <h2 class="padding hover stripes">
+        {{ page.title }}
+      </h2>
+      {% if page.extra.image %}
+        <div class="hover">
+          <img src="{{ page.extra.image }}" alt="{{ page.title }}">
+        </div>
+      {% endif %}
+    </a>
+  {% endfor %}
+</div>
+
+{% endblock %}

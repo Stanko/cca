@@ -16,6 +16,14 @@ window.addEventListener("resize", () => {
 
 updateScrollbarWidth();
 
+// ----- Menu ----- //
+
+const menuTrigger = document.querySelector(".header__menu-trigger");
+
+menuTrigger.addEventListener("click", () => {
+  document.body.classList.toggle("menu-open");
+});
+
 // ----- Modal ----- //
 
 const modal = document.querySelector(".modal");

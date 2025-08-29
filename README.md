@@ -45,12 +45,16 @@ Deployments are automated using [GitHub actions](./.github/workflows/gh-pages.ya
 * [x] Spotlight item data model
 * [ ] Remove spotlight URLs from sitemap.xml
 * [x] Pause button on the spotlight video
-* [ ] Page template
-* [ ] Events page
+* [x] Page template (basic version is done, we'll add more components as we go)
+* [x] Events page
+* [ ] Events page copy
 * [ ] About page
-* [ ] Code challenge template (maybe reuse the page template) (WIP)
+* [x] 404 page
+* [x] Code challenge template - reused the page template with custom components
 * [ ] Clean up / organize SCSS a bit better (WIP)
 * [ ] Contact modal - switch to discrete transitions instead of animations
+* [x] Mobile menu
+* [ ] Footer copy
 * [ ] Dark theme
 * [x] Remove unused fonts
 * [x] Group images in the static folder

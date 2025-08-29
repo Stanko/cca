@@ -1,0 +1,1555 @@
+{
+  "data": {
+    "groupByUrlname": {
+      "id": "18320499",
+      "organizer": {
+        "id": "384272430",
+        "isStarterOrganizer": false,
+        "__typename": "Member"
+      },
+      "events": {
+        "totalCount": 62,
+        "pageInfo": {
+          "endCursor": "Mjk1ODYxNjE0OjE2OTY3NTkyMDAwMDA=",
+          "hasNextPage": true,
+          "__typename": "PageInfo"
+        },
+        "edges": [
+          {
+            "node": {
+              "id": "303584874",
+              "title": "Sunday Lidar Session @ DanceHack",
+              "eventUrl": "https://www.meetup.com/creative-coding-amsterdam/events/303584874/",
+              "description": "Hello again creative coders and enthusiasts!\n\nLast month at **CREA** Cafe was really fun and interesting and we'd like to thank everybody showing up for being there! Not much work was done, but projects and ideas were shared on the makeshift presentation area. Good vibes all around. **Thank you!**\n\nThis time around, we're mixing things up again. We're partnering with the worldwide **DanceHack** initiative for their **Amsterdam edition**. Dancehack brings together people from the contemporary dance and music scene with creative technologists to produce a joint spontaneous performance within a limited timespan. Which is happing on **October 13th** here in Amsterdam!\n\n*If that sounds interesting to you and you'd like to co-create a dancehack performance, you still can! You can apply here: [https://www.dancehack.nl/apply](https://www.dancehack.nl/apply \"https://www.dancehack.nl/apply\")*\n\nFor our **CCA meetup**, we want to make the best use of the **2 kinects** and **2 realsense** devices we've got at our disposal for the day. The cool thing here is that this means **you** have got these devices at your disposal!\n\nYes, indeed, anything you ever wanted to record as point-cloud you can come do at our next event. If you don't have a project ready, no worries. We'll prepare some **starter projects** to get you going. To keep things streamlined we're focusing on using **processing** to interact with the devices. Make sure to check out [our ](https://discord.gg/eJJvn3487M)**[Discord](https://discord.gg/eJJvn3487M)** for more details.\n\nLast, but not least! This edition will take place in the renowned musical venue **Splendor**, right in the heart of the city. While dancehack takes place in the rooms on the ground floor, we're heading upstairs to the beautiful **loft**, where we'll be playing around with depth-cameras from **14:00 till 16:30**\n\nHope to see you there!\nCCA",
+              "group": {
+                "id": "18320499",
+                "name": "Creative Coding Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "__typename": "Group"
+              },
+              "creatorMember": {
+                "id": "384272430",
+                "__typename": "Member"
+              },
+              "eventHosts": [
+                {
+                  "memberId": "384272430",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "251070885",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "302028456",
+                  "__typename": "EventHost"
+                }
+              ],
+              "feeSettings": null,
+              "venue": {
+                "id": "18660842",
+                "name": "Splendor Amsterdam",
+                "address": "Nieuwe Uilenburgerstraat 116",
+                "city": "Amsterdam",
+                "state": "",
+                "country": "nl",
+                "__typename": "Venue"
+              },
+              "dateTime": "2024-10-13T14:00:00+02:00",
+              "createdTime": "2024-09-22T12:14:25-04:00",
+              "endTime": "2024-10-13T16:30:00+02:00",
+              "going": {
+                "totalCount": 11,
+                "__typename": "GoingRsvpConnection"
+              },
+              "isAttending": false,
+              "isOnline": false,
+              "eventType": "PHYSICAL",
+              "status": "PAST",
+              "series": null,
+              "featuredEventPhoto": {
+                "id": "523708358",
+                "source": "https://secure.meetupstatic.com/photos/event/6/e/c/6/highres_523708358.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "rsvpState": "PAST",
+              "rsvps": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "2010723611",
+                      "member": {
+                        "id": "251070885",
+                        "name": "Sinan Ascioglu",
+                        "memberPhoto": {
+                          "id": "313899069",
+                          "source": "https://secure.meetupstatic.com/photos/member/9/8/9/d/highres_313899069.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2010723612",
+                      "member": {
+                        "id": "302028456",
+                        "name": "Stanko",
+                        "memberPhoto": {
+                          "id": "322984514",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/1/a/2/highres_322984514.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2010723613",
+                      "member": {
+                        "id": "384272430",
+                        "name": "David Vandenbogaerde",
+                        "memberPhoto": {
+                          "id": "318312849",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/2/3/1/highres_318312849.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2010725248",
+                      "member": {
+                        "id": "263469329",
+                        "name": "Inske Groenen",
+                        "memberPhoto": null,
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2010725482",
+                      "member": {
+                        "id": "369349774",
+                        "name": "Anna Guidi",
+                        "memberPhoto": {
+                          "id": "316585866",
+                          "source": "https://secure.meetupstatic.com/photos/member/6/5/0/a/highres_316585866.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  }
+                ],
+                "__typename": "RsvpConnection"
+              },
+              "actions": [],
+              "rsvpSettings": {
+                "rsvpsClosed": false,
+                "__typename": "RsvpOpenSettings"
+              },
+              "isNetworkEvent": false,
+              "networkEvent": null,
+              "socialLabels": [],
+              "__typename": "Event"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "303211500",
+              "title": "Sunday Session @ CREA Cafe",
+              "eventUrl": "https://www.meetup.com/creative-coding-amsterdam/events/303211500/",
+              "description": "**Hello again creative coders and enthusiasts!**\n\nLast month we had an inspiring and insightful gathering in the lobby of the VolksHotel. **Thank you** to everybody that joined us there!\n\nIt was our first time exploring the **work-session** format, but we liked it so much that we've got more of this coming for september. The same (slightly revised) formula, in a new location.\n\nFor our next event we're going to **CREA Cafe** on **Sunday the 15th of September** from **13:00 to 16:00**. We will be gathering in the room to the left of the bar named 'de woonkamer', a little bit separated from the main area.\n\nWe will start the afternoon with a quick round of introductions, after which there is some time and space for **working/socialising** and towards the end we plan to do a mini **show & tell**.\n\nLooking forward to see you there!\nOr online, on our Discord: [https://discord.gg/qrrKkaM4w3](https://discord.gg/qrrKkaM4w3)",
+              "group": {
+                "id": "18320499",
+                "name": "Creative Coding Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "__typename": "Group"
+              },
+              "creatorMember": {
+                "id": "384272430",
+                "__typename": "Member"
+              },
+              "eventHosts": [
+                {
+                  "memberId": "251070885",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "302028456",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "384272430",
+                  "__typename": "EventHost"
+                }
+              ],
+              "feeSettings": null,
+              "venue": {
+                "id": "24768376",
+                "name": "CREA Café",
+                "address": "Nieuwe Achtergracht 170",
+                "city": "Amsterdam",
+                "state": "",
+                "country": "nl",
+                "__typename": "Venue"
+              },
+              "dateTime": "2024-09-15T13:00:00+02:00",
+              "createdTime": "2024-09-03T08:30:31-04:00",
+              "endTime": "2024-09-15T16:00:00+02:00",
+              "going": {
+                "totalCount": 15,
+                "__typename": "GoingRsvpConnection"
+              },
+              "isAttending": false,
+              "isOnline": false,
+              "eventType": "PHYSICAL",
+              "status": "PAST",
+              "series": null,
+              "featuredEventPhoto": {
+                "id": "523299530",
+                "source": "https://secure.meetupstatic.com/photos/event/9/a/6/a/highres_523299530.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "rsvpState": "PAST",
+              "rsvps": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "2008482391",
+                      "member": {
+                        "id": "384272430",
+                        "name": "David Vandenbogaerde",
+                        "memberPhoto": {
+                          "id": "318312849",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/2/3/1/highres_318312849.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2008482396",
+                      "member": {
+                        "id": "251070885",
+                        "name": "Sinan Ascioglu",
+                        "memberPhoto": {
+                          "id": "313899069",
+                          "source": "https://secure.meetupstatic.com/photos/member/9/8/9/d/highres_313899069.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2008482397",
+                      "member": {
+                        "id": "302028456",
+                        "name": "Stanko",
+                        "memberPhoto": {
+                          "id": "322984514",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/1/a/2/highres_322984514.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2008525422",
+                      "member": {
+                        "id": "425982856",
+                        "name": "Sandra Poturalska",
+                        "memberPhoto": null,
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2008564645",
+                      "member": {
+                        "id": "207121078",
+                        "name": "Anneke ter S.",
+                        "memberPhoto": {
+                          "id": "257462153",
+                          "source": "https://secure.meetupstatic.com/photos/member/8/6/9/highres_257462153.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  }
+                ],
+                "__typename": "RsvpConnection"
+              },
+              "actions": [],
+              "rsvpSettings": {
+                "rsvpsClosed": false,
+                "__typename": "RsvpOpenSettings"
+              },
+              "isNetworkEvent": false,
+              "networkEvent": null,
+              "socialLabels": [],
+              "__typename": "Event"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "302667989",
+              "title": "Sunday Session @ VolksHOTEL",
+              "eventUrl": "https://www.meetup.com/creative-coding-amsterdam/events/302667989/",
+              "description": "**Hello again creative coders and enthusiasts!**\n\nLast month we had a nice and cosy gathering in the sun at the Vondelpark and want to **thank everybody** who showed up. We had a great time!\n\nFor our August gathering, we're making full circle location-wise and head back to the **VolksHotel**. We've been promised that the **lobby** will be free of pottery conventions this time around, so we'll be meeting there in the public work area.\n\nFor the formula, we're trying something just a little bit different this time, based on some of the feedback we received. This time around we're organizing a **work afternoon** with room for a **show-and-tell**, probably towards the end of the event, but everything's flexible.\nConcretely, we'll be meeting **Sunday** afternoon, **18th of August,** from around **13:00 until 16:00**.\n\nLooking forward to see you there!\nOr online, on our Discord: [https://discord.gg/qrrKkaM4w3](https://discord.gg/qrrKkaM4w3)",
+              "group": {
+                "id": "18320499",
+                "name": "Creative Coding Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "__typename": "Group"
+              },
+              "creatorMember": {
+                "id": "384272430",
+                "__typename": "Member"
+              },
+              "eventHosts": [
+                {
+                  "memberId": "251070885",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "302028456",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "384272430",
+                  "__typename": "EventHost"
+                }
+              ],
+              "feeSettings": null,
+              "venue": {
+                "id": "26022499",
+                "name": "Volkshotel",
+                "address": "Wibautstraat 150",
+                "city": "Amsterdam",
+                "state": "NH",
+                "country": "nl",
+                "__typename": "Venue"
+              },
+              "dateTime": "2024-08-18T13:00:00+02:00",
+              "createdTime": "2024-08-06T08:41:33-04:00",
+              "endTime": "2024-08-18T16:00:00+02:00",
+              "going": {
+                "totalCount": 14,
+                "__typename": "GoingRsvpConnection"
+              },
+              "isAttending": false,
+              "isOnline": false,
+              "eventType": "PHYSICAL",
+              "status": "PAST",
+              "series": null,
+              "featuredEventPhoto": {
+                "id": "522762501",
+                "source": "https://secure.meetupstatic.com/photos/event/a/6/0/5/highres_522762501.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "rsvpState": "PAST",
+              "rsvps": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "2005659985",
+                      "member": {
+                        "id": "384272430",
+                        "name": "David Vandenbogaerde",
+                        "memberPhoto": {
+                          "id": "318312849",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/2/3/1/highres_318312849.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2005659986",
+                      "member": {
+                        "id": "251070885",
+                        "name": "Sinan Ascioglu",
+                        "memberPhoto": {
+                          "id": "313899069",
+                          "source": "https://secure.meetupstatic.com/photos/member/9/8/9/d/highres_313899069.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2005659987",
+                      "member": {
+                        "id": "302028456",
+                        "name": "Stanko",
+                        "memberPhoto": {
+                          "id": "322984514",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/1/a/2/highres_322984514.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2005662278",
+                      "member": {
+                        "id": "255951528",
+                        "name": "Ben",
+                        "memberPhoto": {
+                          "id": "277774758",
+                          "source": "https://secure.meetupstatic.com/photos/member/8/7/c/6/highres_277774758.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2005663150",
+                      "member": {
+                        "id": "56225542",
+                        "name": "Maarten van der Glas",
+                        "memberPhoto": {
+                          "id": "242066030",
+                          "source": "https://secure.meetupstatic.com/photos/member/6/5/a/e/highres_242066030.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  }
+                ],
+                "__typename": "RsvpConnection"
+              },
+              "actions": [],
+              "rsvpSettings": {
+                "rsvpsClosed": false,
+                "__typename": "RsvpOpenSettings"
+              },
+              "isNetworkEvent": false,
+              "networkEvent": null,
+              "socialLabels": [],
+              "__typename": "Event"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "301797464",
+              "title": "Social @ Vondelpark",
+              "eventUrl": "https://www.meetup.com/creative-coding-amsterdam/events/301797464/",
+              "description": "Hello again everyone!\n\nLast month, our largest crowd to date was warmly welcomed at **[Miro's](https://miro.com/)** who we want to send a **big thank you** for being wonderful hosts! Our evening program was packed as usual with inspiring talks and projects, but the evening came really to life after the talks, with everybody chatting away over a beer in the lobby...\n\nThat's why this time around, we want to get out of our bright server rooms or dark cinema parlors and move out into the bright and sunny outside for a **social event**.\n\nWe'll bring a cooler box, you bring some drinks of your choice for a good old fashioned **BYOB**. As the setting for our July gathering we'll make sure to reserve a great spot in the beautiful **Vondelpark**. We're expecting **amazing weather** for the day, but in the odd chance of rain we can seek refuge at the *'Proeflokaal 't Blauwe Theehuis'* also in the park.\n\nSo to sum it all up for the next meetup:\n**Sunday 14th of July - 13:00** (1pm), **Social event** (BYOB) **@Vondelpark**\n\nThe exact location will be shared here and on the Discord the day of the event.\n\nHope to see you all there!\nAnd/or online, on **[our Discord](https://discord.gg/eJJvn3487M)**",
+              "group": {
+                "id": "18320499",
+                "name": "Creative Coding Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "__typename": "Group"
+              },
+              "creatorMember": {
+                "id": "384272430",
+                "__typename": "Member"
+              },
+              "eventHosts": [
+                {
+                  "memberId": "302028456",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "384272430",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "251070885",
+                  "__typename": "EventHost"
+                }
+              ],
+              "feeSettings": null,
+              "venue": {
+                "id": "23929893",
+                "name": "Vondelpark",
+                "address": "Jacob Obrechtstraat 5 (Coffee Concepts Vondelpark entrance)",
+                "city": "Amsterdam",
+                "state": "",
+                "country": "nl",
+                "__typename": "Venue"
+              },
+              "dateTime": "2024-07-14T13:00:00+02:00",
+              "createdTime": "2024-06-22T10:52:20-04:00",
+              "endTime": "2024-07-14T16:00:00+02:00",
+              "going": {
+                "totalCount": 32,
+                "__typename": "GoingRsvpConnection"
+              },
+              "isAttending": false,
+              "isOnline": false,
+              "eventType": "PHYSICAL",
+              "status": "PAST",
+              "series": null,
+              "featuredEventPhoto": {
+                "id": "521903154",
+                "source": "https://secure.meetupstatic.com/photos/event/5/a/7/2/highres_521903154.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "rsvpState": "PAST",
+              "rsvps": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "2001261238",
+                      "member": {
+                        "id": "384272430",
+                        "name": "David Vandenbogaerde",
+                        "memberPhoto": {
+                          "id": "318312849",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/2/3/1/highres_318312849.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2001261239",
+                      "member": {
+                        "id": "251070885",
+                        "name": "Sinan Ascioglu",
+                        "memberPhoto": {
+                          "id": "313899069",
+                          "source": "https://secure.meetupstatic.com/photos/member/9/8/9/d/highres_313899069.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2001262066",
+                      "member": {
+                        "id": "224743211",
+                        "name": "Pablo Núñez",
+                        "memberPhoto": {
+                          "id": "281038480",
+                          "source": "https://secure.meetupstatic.com/photos/member/e/4/7/0/highres_281038480.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2001264637",
+                      "member": {
+                        "id": "365936797",
+                        "name": "Ivo",
+                        "memberPhoto": {
+                          "id": "315485381",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/5/0/5/highres_315485381.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "2001283859",
+                      "member": {
+                        "id": "319026133",
+                        "name": "Görkem Ünüvar",
+                        "memberPhoto": {
+                          "id": "302028135",
+                          "source": "https://secure.meetupstatic.com/photos/member/b/c/0/7/highres_302028135.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  }
+                ],
+                "__typename": "RsvpConnection"
+              },
+              "actions": [],
+              "rsvpSettings": {
+                "rsvpsClosed": false,
+                "__typename": "RsvpOpenSettings"
+              },
+              "isNetworkEvent": false,
+              "networkEvent": null,
+              "socialLabels": [],
+              "__typename": "Event"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "301058472",
+              "title": "Thursday Session @ Miro",
+              "eventUrl": "https://www.meetup.com/creative-coding-amsterdam/events/301058472/",
+              "description": "Hello again everyone!\n\nLast month, we had a wonderful time with a packed show & tell over at [Mollie's HQ](https://www.mollie.com/nl/). We'd like to say a **big thank you** to them for hosting us and everyone that was there for joining and participating.\n\nThis time around we're invited over to **[Miro's](https://miro.com/) offices** for another evening session. For this edition we're starting off with a talk by Multi Media Artist **[Maarten van der Glas](https://maartenvanderglas.com/)** about his open source project **ARTWORLD**, after which we'd like to try something different for the show & tell by having a **theme for the night**. You can still help decide what that topic will be by **voting** over [on our ](https://discord.gg/D3SwjcCcmv)**[Discord](https://discord.gg/D3SwjcCcmv)**. By 24/05 we'll tally up the votes and update it here. All Details below.\n\n**🕰️ Schedule**\n\n* **18:45** \\- ARTWORLD by Maarten van der Glas\n* **19:15** \\- themed show & tell\n* **20:00** \\- social & drinks\n\n🗣️ **Maarten van der Glas: ARTWORLD**\n\nMaarten van der Glas - Multi Media Artist will be talking about an open source project he was commissioned to do for the Vrolijkheid ('Happiness') foundation.\nHe was asked to make a game for children from Refugee centers in the Netherlands to make and exhibit art in.\nThere were some rules and guidelines to the project and together with a small team Maarten designed and made the multi player online game.\nThe talk will be about the artistic and technical consecrations of making such a game, and the process of taking such a project open source and building a community around it.\nTechnology stack: Svelte, NodeJS, Phaser game engine, NAKAMA game server\n\n🙉 **Themed Show & Tell**\n\nVoting is over, the theme for this meetup is:\n**🛠️ Tools**\n\nAnyone can share a project or thoughts on the topic. This can either be something you did, or something you found interesting. Whatever the topic brings up in you, we'd love to hear and see it!\n\nWe would really appreciate it if you RSVP'd so we can provide our friends at Miro with a guest list.\n\nHope to see you there!\nOr online, on [our Discord](https://discord.gg/eJJvn3487M)",
+              "group": {
+                "id": "18320499",
+                "name": "Creative Coding Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "__typename": "Group"
+              },
+              "creatorMember": {
+                "id": "384272430",
+                "__typename": "Member"
+              },
+              "eventHosts": [
+                {
+                  "memberId": "302028456",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "384272430",
+                  "__typename": "EventHost"
+                }
+              ],
+              "feeSettings": null,
+              "venue": {
+                "id": "27273440",
+                "name": "Stadhouderskade 5",
+                "address": "Stadhouderskade 5",
+                "city": "Amsterdam",
+                "state": "NH",
+                "country": "nl",
+                "__typename": "Venue"
+              },
+              "dateTime": "2024-06-06T18:30:00+02:00",
+              "createdTime": "2024-05-16T08:51:29-04:00",
+              "endTime": "2024-06-06T21:00:00+02:00",
+              "going": {
+                "totalCount": 26,
+                "__typename": "GoingRsvpConnection"
+              },
+              "isAttending": false,
+              "isOnline": false,
+              "eventType": "PHYSICAL",
+              "status": "PAST",
+              "series": null,
+              "featuredEventPhoto": {
+                "id": "521113975",
+                "source": "https://secure.meetupstatic.com/photos/event/3/6/9/7/highres_521113975.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "rsvpState": "PAST",
+              "rsvps": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "1997349375",
+                      "member": {
+                        "id": "302028456",
+                        "name": "Stanko",
+                        "memberPhoto": {
+                          "id": "322984514",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/1/a/2/highres_322984514.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1997349376",
+                      "member": {
+                        "id": "384272430",
+                        "name": "David Vandenbogaerde",
+                        "memberPhoto": {
+                          "id": "318312849",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/2/3/1/highres_318312849.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1997453820",
+                      "member": {
+                        "id": "47778612",
+                        "name": "Chris Laffra",
+                        "memberPhoto": {
+                          "id": "54076072",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/e/c/8/highres_54076072.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1997458445",
+                      "member": {
+                        "id": "273185949",
+                        "name": "Aidan Wyber",
+                        "memberPhoto": {
+                          "id": "284558176",
+                          "source": "https://secure.meetupstatic.com/photos/member/9/5/2/0/highres_284558176.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1997463449",
+                      "member": {
+                        "id": "395945618",
+                        "name": "Thijs Coenen",
+                        "memberPhoto": null,
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  }
+                ],
+                "__typename": "RsvpConnection"
+              },
+              "actions": [],
+              "rsvpSettings": {
+                "rsvpsClosed": true,
+                "__typename": "RsvpOpenSettings"
+              },
+              "isNetworkEvent": false,
+              "networkEvent": null,
+              "socialLabels": [],
+              "__typename": "Event"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "300468135",
+              "title": "Thursday Session @ Mollie",
+              "eventUrl": "https://www.meetup.com/creative-coding-amsterdam/events/300468135/",
+              "description": "Hello everyone!\n\nLast month, we had a great time at Filmhuis Cavia. Thanks to everyone who joined and shared their projects, and a special thanks to Jaco for hosting us! We love how things are shaping up and definitely want to keep **show & tell** as a regular thing.\n\nBig thanks to our friends at **Mollie**, as the next meetup will happen at their offices on **the 2nd of May** at 6:30PM. Their offices are located at Keizersgracht 126.\n\nWe'll begin with a round of quick introductions. Then, David and Stanko will kick us off with some **image processing techniques**. Following that, we'll open the floor for **show and tell**, so please feel free to bring and present the stuff you are working on in (5-10 minutes each). A large screen will be available.\n\nIn the end, we'll try to save some time to discuss projects, hang out, and have a drink.\n\nWe would really appreciate it if you RSVP'd so we can provide our friends at Mollie with a guest list.\n\nSee you there!\nOr online, on our Discord: [https://discord.gg/eJJvn3487M](https://discord.gg/eJJvn3487M)\n\nAnd thanks to Lyr for this month's artwork!",
+              "group": {
+                "id": "18320499",
+                "name": "Creative Coding Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "__typename": "Group"
+              },
+              "creatorMember": {
+                "id": "302028456",
+                "__typename": "Member"
+              },
+              "eventHosts": [
+                {
+                  "memberId": "251070885",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "302028456",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "384272430",
+                  "__typename": "EventHost"
+                }
+              ],
+              "feeSettings": null,
+              "venue": {
+                "id": "26132759",
+                "name": "Mollie",
+                "address": "Keizersgracht 126",
+                "city": "Amsterdam",
+                "state": "NH",
+                "country": "nl",
+                "__typename": "Venue"
+              },
+              "dateTime": "2024-05-02T18:30:00+02:00",
+              "createdTime": "2024-04-17T07:34:03-04:00",
+              "endTime": "2024-05-02T21:00:00+02:00",
+              "going": {
+                "totalCount": 22,
+                "__typename": "GoingRsvpConnection"
+              },
+              "isAttending": false,
+              "isOnline": false,
+              "eventType": "PHYSICAL",
+              "status": "PAST",
+              "series": null,
+              "featuredEventPhoto": {
+                "id": "520463293",
+                "source": "https://secure.meetupstatic.com/photos/event/5/a/f/d/highres_520463293.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "rsvpState": "PAST",
+              "rsvps": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "1994283053",
+                      "member": {
+                        "id": "384272430",
+                        "name": "David Vandenbogaerde",
+                        "memberPhoto": {
+                          "id": "318312849",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/2/3/1/highres_318312849.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1994283054",
+                      "member": {
+                        "id": "251070885",
+                        "name": "Sinan Ascioglu",
+                        "memberPhoto": {
+                          "id": "313899069",
+                          "source": "https://secure.meetupstatic.com/photos/member/9/8/9/d/highres_313899069.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1994283055",
+                      "member": {
+                        "id": "302028456",
+                        "name": "Stanko",
+                        "memberPhoto": {
+                          "id": "322984514",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/1/a/2/highres_322984514.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1994287421",
+                      "member": {
+                        "id": "365936797",
+                        "name": "Ivo",
+                        "memberPhoto": {
+                          "id": "315485381",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/5/0/5/highres_315485381.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1994318115",
+                      "member": {
+                        "id": "98020242",
+                        "name": "Luciano",
+                        "memberPhoto": {
+                          "id": "306196708",
+                          "source": "https://secure.meetupstatic.com/photos/member/4/1/4/4/highres_306196708.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  }
+                ],
+                "__typename": "RsvpConnection"
+              },
+              "actions": [],
+              "rsvpSettings": {
+                "rsvpsClosed": false,
+                "__typename": "RsvpOpenSettings"
+              },
+              "isNetworkEvent": false,
+              "networkEvent": null,
+              "socialLabels": [],
+              "__typename": "Event"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "299732345",
+              "title": "Sunday Session @Filmhuis Cavia",
+              "eventUrl": "https://www.meetup.com/creative-coding-amsterdam/events/299732345/",
+              "description": "**Hello there all again!**\n\nWe had a great time last month at VolksHotel and would like to thank everyone who joined us there. It was really amazing meeting all of you.\n\nDuring that session, we asked around why people were joining and what everybody was looking for in these creative coding meetups. Two of the topics that kept popping up were '**show & tell**' and '**collaborations**', so that's what we'll be trying to accommodate for our next gathering.\n\nWe'll start off with a round of quick **introductions** for everyone, with the option to hook up your laptop to a **big screen** and share what you're working on. We want to keep these very short (5-10mins), to make sure everyone gets a chance to present something.\n\nAfter this first part, there is the space and time to **discuss** some details on a laptop screen, **hang out** and have a **drink**. We have a couple of different corners and tables available at the location so there should be room for everybody.\n\nThere's also a big cinema screen, so if you ever wanted to see your creations on a really large screen, this is your chance! :)\n\nSee you there!\nOr online, on our discord: [https://discord.gg/E8hKkFUnwP](https://discord.gg/E8hKkFUnwP)",
+              "group": {
+                "id": "18320499",
+                "name": "Creative Coding Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "__typename": "Group"
+              },
+              "creatorMember": {
+                "id": "384272430",
+                "__typename": "Member"
+              },
+              "eventHosts": [
+                {
+                  "memberId": "384272430",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "251070885",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "302028456",
+                  "__typename": "EventHost"
+                }
+              ],
+              "feeSettings": null,
+              "venue": {
+                "id": "26349475",
+                "name": "Filmhuis Cavia",
+                "address": "Van Hallstraat 52-I",
+                "city": "Amsterdam",
+                "state": "NH",
+                "country": "nl",
+                "__typename": "Venue"
+              },
+              "dateTime": "2024-03-31T13:00:00+02:00",
+              "createdTime": "2024-03-11T12:41:11-04:00",
+              "endTime": "2024-03-31T15:00:00+02:00",
+              "going": {
+                "totalCount": 22,
+                "__typename": "GoingRsvpConnection"
+              },
+              "isAttending": false,
+              "isOnline": false,
+              "eventType": "PHYSICAL",
+              "status": "PAST",
+              "series": null,
+              "featuredEventPhoto": {
+                "id": "519686830",
+                "source": "https://secure.meetupstatic.com/photos/event/6/8/c/e/highres_519686830.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "rsvpState": "PAST",
+              "rsvps": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "1990142685",
+                      "member": {
+                        "id": "384272430",
+                        "name": "David Vandenbogaerde",
+                        "memberPhoto": {
+                          "id": "318312849",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/2/3/1/highres_318312849.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1990142686",
+                      "member": {
+                        "id": "251070885",
+                        "name": "Sinan Ascioglu",
+                        "memberPhoto": {
+                          "id": "313899069",
+                          "source": "https://secure.meetupstatic.com/photos/member/9/8/9/d/highres_313899069.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1990142687",
+                      "member": {
+                        "id": "302028456",
+                        "name": "Stanko",
+                        "memberPhoto": {
+                          "id": "322984514",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/1/a/2/highres_322984514.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1990145478",
+                      "member": {
+                        "id": "14240872",
+                        "name": "Jeremie Berduck",
+                        "memberPhoto": {
+                          "id": "317449618",
+                          "source": "https://secure.meetupstatic.com/photos/member/c/1/d/2/highres_317449618.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1990156576",
+                      "member": {
+                        "id": "150236862",
+                        "name": "Marc Duiker",
+                        "memberPhoto": {
+                          "id": "314626903",
+                          "source": "https://secure.meetupstatic.com/photos/member/b/7/3/7/highres_314626903.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  }
+                ],
+                "__typename": "RsvpConnection"
+              },
+              "actions": [],
+              "rsvpSettings": {
+                "rsvpsClosed": false,
+                "__typename": "RsvpOpenSettings"
+              },
+              "isNetworkEvent": false,
+              "networkEvent": null,
+              "socialLabels": [],
+              "__typename": "Event"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "299098392",
+              "title": "Sunday Session @VolksHOTEL",
+              "eventUrl": "https://www.meetup.com/creative-coding-amsterdam/events/299098392/",
+              "description": "**Hello there all!**\n\nAt the end of the month we're organizing our next event.\nThe first one this year, but also the first one for us: David, Sinan and Stanko.\nWe're taking over the torch from Eurvin who we want to thank for keeping the flame alive.\n\nWe'll kick off this year with a nice get-together on **Sunday February 25th** **13:00-15:00** at **Volkshotel**, where there is space for both a *show & tell* for anyone wanting to share their project and a laptop-free bar to *talk* about ideas and interests over *drinks*.\n\nWe're excited to find how high we can fan this fire here for creative coding and all things art and technology...\n\nLet's find out *together* in person,\nor online on our **discord**: **[https://discord.gg/A6YpHjJz](https://discord.gg/A6YpHjJz)**\n\nWe'd love to hear from you!",
+              "group": {
+                "id": "18320499",
+                "name": "Creative Coding Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "__typename": "Group"
+              },
+              "creatorMember": {
+                "id": "384272430",
+                "__typename": "Member"
+              },
+              "eventHosts": [
+                {
+                  "memberId": "251070885",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "302028456",
+                  "__typename": "EventHost"
+                },
+                {
+                  "memberId": "384272430",
+                  "__typename": "EventHost"
+                }
+              ],
+              "feeSettings": null,
+              "venue": {
+                "id": "26022499",
+                "name": "Volkshotel",
+                "address": "Wibautstraat 150",
+                "city": "Amsterdam",
+                "state": "NH",
+                "country": "nl",
+                "__typename": "Venue"
+              },
+              "dateTime": "2024-02-25T13:00:00+01:00",
+              "createdTime": "2024-02-09T09:22:59-05:00",
+              "endTime": "2024-02-25T15:00:00+01:00",
+              "going": {
+                "totalCount": 21,
+                "__typename": "GoingRsvpConnection"
+              },
+              "isAttending": false,
+              "isOnline": false,
+              "eventType": "PHYSICAL",
+              "status": "PAST",
+              "series": null,
+              "featuredEventPhoto": null,
+              "rsvpState": "PAST",
+              "rsvps": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "1986560066",
+                      "member": {
+                        "id": "384272430",
+                        "name": "David Vandenbogaerde",
+                        "memberPhoto": {
+                          "id": "318312849",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/2/3/1/highres_318312849.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1986560067",
+                      "member": {
+                        "id": "251070885",
+                        "name": "Sinan Ascioglu",
+                        "memberPhoto": {
+                          "id": "313899069",
+                          "source": "https://secure.meetupstatic.com/photos/member/9/8/9/d/highres_313899069.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1986560068",
+                      "member": {
+                        "id": "302028456",
+                        "name": "Stanko",
+                        "memberPhoto": {
+                          "id": "322984514",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/1/a/2/highres_322984514.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1986569727",
+                      "member": {
+                        "id": "394751873",
+                        "name": "Petar Petrovic",
+                        "memberPhoto": null,
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1986574545",
+                      "member": {
+                        "id": "365936797",
+                        "name": "Ivo",
+                        "memberPhoto": {
+                          "id": "315485381",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/5/0/5/highres_315485381.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  }
+                ],
+                "__typename": "RsvpConnection"
+              },
+              "actions": [],
+              "rsvpSettings": {
+                "rsvpsClosed": false,
+                "__typename": "RsvpOpenSettings"
+              },
+              "isNetworkEvent": false,
+              "networkEvent": null,
+              "socialLabels": [],
+              "__typename": "Event"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "296907906",
+              "title": "Creative Sundays | walk-in",
+              "eventUrl": "https://www.meetup.com/creative-coding-amsterdam/events/296907906/",
+              "description": "Hi Creative Coders,\n\nAre you creating generative art? Are you inspired by live coding or using chatGPT to write your next movie script? And would like to share what you are working on to get some feedback or assistance?\n\nLet's meetup to share our progress on our creative coding projects. Feel free to join, share your work and ask any question you may have.\n\nSee you next Sunday!",
+              "group": {
+                "id": "18320499",
+                "name": "Creative Coding Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "__typename": "Group"
+              },
+              "creatorMember": {
+                "id": "73221552",
+                "__typename": "Member"
+              },
+              "eventHosts": [
+                {
+                  "memberId": "73221552",
+                  "__typename": "EventHost"
+                }
+              ],
+              "feeSettings": null,
+              "venue": {
+                "id": "27492026",
+                "name": "STACH Food",
+                "address": "Van Woustraat 154",
+                "city": "Amsterdam",
+                "state": "NH",
+                "country": "nl",
+                "__typename": "Venue"
+              },
+              "dateTime": "2023-11-05T12:00:00+01:00",
+              "createdTime": "2023-08-22T05:27:34-04:00",
+              "endTime": "2023-11-05T14:00:00+01:00",
+              "going": {
+                "totalCount": 4,
+                "__typename": "GoingRsvpConnection"
+              },
+              "isAttending": false,
+              "isOnline": false,
+              "eventType": "PHYSICAL",
+              "status": "PAST",
+              "series": null,
+              "featuredEventPhoto": null,
+              "rsvpState": "PAST",
+              "rsvps": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "1974993921",
+                      "member": {
+                        "id": "73221552",
+                        "name": "Eurvin Morman",
+                        "memberPhoto": {
+                          "id": "298152982",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/2/b/6/highres_298152982.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1975732187",
+                      "member": {
+                        "id": "302025702",
+                        "name": "Denis Radin",
+                        "memberPhoto": {
+                          "id": "297176984",
+                          "source": "https://secure.meetupstatic.com/photos/member/d/e/9/8/highres_297176984.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1975733158",
+                      "member": {
+                        "id": "302028456",
+                        "name": "Stanko",
+                        "memberPhoto": {
+                          "id": "322984514",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/1/a/2/highres_322984514.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1975759091",
+                      "member": {
+                        "id": "405513448",
+                        "name": "Kuangyi Xing",
+                        "memberPhoto": null,
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  }
+                ],
+                "__typename": "RsvpConnection"
+              },
+              "actions": [],
+              "rsvpSettings": {
+                "rsvpsClosed": false,
+                "__typename": "RsvpOpenSettings"
+              },
+              "isNetworkEvent": false,
+              "networkEvent": null,
+              "socialLabels": [],
+              "__typename": "Event"
+            },
+            "__typename": "EventEdge"
+          },
+          {
+            "node": {
+              "id": "295861614",
+              "title": "Creative Sundays | walk-in",
+              "eventUrl": "https://www.meetup.com/creative-coding-amsterdam/events/295861614/",
+              "description": "Hi Creative Coders,\n\nAre you creating generative art? Are you inspired by live coding or using chatGPT to write your next movie script? And would like to share what you are working on to get some feedback or assistance?\n\nLet's meetup to share our progress on our creative coding projects. Feel free to join, share your work and ask any question you may have.\n\nSee you next Sunday!",
+              "group": {
+                "id": "18320499",
+                "name": "Creative Coding Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "__typename": "Group"
+              },
+              "creatorMember": {
+                "id": "73221552",
+                "__typename": "Member"
+              },
+              "eventHosts": [
+                {
+                  "memberId": "73221552",
+                  "__typename": "EventHost"
+                }
+              ],
+              "feeSettings": null,
+              "venue": {
+                "id": "27492026",
+                "name": "STACH Food",
+                "address": "Van Woustraat 154",
+                "city": "Amsterdam",
+                "state": "NH",
+                "country": "nl",
+                "__typename": "Venue"
+              },
+              "dateTime": "2023-10-08T12:00:00+02:00",
+              "createdTime": "2023-08-22T05:27:34-04:00",
+              "endTime": "2023-10-08T14:00:00+02:00",
+              "going": {
+                "totalCount": 13,
+                "__typename": "GoingRsvpConnection"
+              },
+              "isAttending": false,
+              "isOnline": false,
+              "eventType": "PHYSICAL",
+              "status": "PAST",
+              "series": null,
+              "featuredEventPhoto": null,
+              "rsvpState": "PAST",
+              "rsvps": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "1969339350",
+                      "member": {
+                        "id": "73221552",
+                        "name": "Eurvin Morman",
+                        "memberPhoto": {
+                          "id": "298152982",
+                          "source": "https://secure.meetupstatic.com/photos/member/3/2/b/6/highres_298152982.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1969339351",
+                      "member": {
+                        "id": "42042822",
+                        "name": "Ruud op den Kelder",
+                        "memberPhoto": {
+                          "id": "251560147",
+                          "source": "https://secure.meetupstatic.com/photos/member/9/c/d/3/highres_251560147.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1969340069",
+                      "member": {
+                        "id": "341647315",
+                        "name": "Francisco Múrias",
+                        "memberPhoto": {
+                          "id": "318679861",
+                          "source": "https://secure.meetupstatic.com/photos/member/4/d/9/5/highres_318679861.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1969344187",
+                      "member": {
+                        "id": "206751521",
+                        "name": "Ray Berger",
+                        "memberPhoto": {
+                          "id": "257288024",
+                          "source": "https://secure.meetupstatic.com/photos/member/1/f/5/8/highres_257288024.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "1970395032",
+                      "member": {
+                        "id": "203054511",
+                        "name": "adriel zarate",
+                        "memberPhoto": {
+                          "id": "317124525",
+                          "source": "https://secure.meetupstatic.com/photos/member/5/f/c/d/highres_317124525.jpeg",
+                          "__typename": "PhotoInfo"
+                        },
+                        "__typename": "Member"
+                      },
+                      "__typename": "Rsvp"
+                    },
+                    "__typename": "RsvpEdge"
+                  }
+                ],
+                "__typename": "RsvpConnection"
+              },
+              "actions": [],
+              "rsvpSettings": {
+                "rsvpsClosed": false,
+                "__typename": "RsvpOpenSettings"
+              },
+              "isNetworkEvent": false,
+              "networkEvent": null,
+              "socialLabels": [],
+              "__typename": "Event"
+            },
+            "__typename": "EventEdge"
+          }
+        ],
+        "__typename": "GroupEventConnection"
+      },
+      "__typename": "Group"
+    }
+  }
+}

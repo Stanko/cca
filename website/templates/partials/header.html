@@ -23,15 +23,36 @@
     </svg>
   </a>
 
-  <nav class="header__nav border">
-    <!-- <a href="#" class="nav__link hover block stripes">Events</a>
-    <a href="#" class="nav__link hover block dots">Code Challenges</a>
-    <a href="/about/" class="nav__link hover block stripes">About</a> -->
-    <a href="/invaders/" class="header__nav-item hover block stripes"
-      >Space Invaders</a
+  <button class="header__menu-trigger hide--md hover stripes">
+    <span>Menu</span>
+    <span aria-label="Close menu">X</span>
+  </button>
+
+  <nav class="header__nav border hide flex--md">
+    <a href="/events/" class="header__nav-item hover block stripes">Events</a>
+    <a href="/code-challenges/" class="header__nav-item hover block dots"
+      >Code Challenges</a
     >
-    <button class="header__nav-item contact-trigger hover block dots">
+    <!-- <a href="/about/" class="nav__link hover block stripes">About</a> -->
+    <button
+      class="header__nav-item contact-trigger hover block stripes-inverted"
+    >
       Contact
     </button>
   </nav>
 </header>
+
+<div class="header__menu bor der">
+  <nav class="header__menu-inner">
+    <a href="/events/" class="header__nav-item hover block stripes">Events</a>
+    <a href="/code-challenges/" class="header__nav-item hover block dots"
+      >Code Challenges</a
+    >
+    <!-- <a href="/about/" class="nav__link hover block stripes">About</a> -->
+    <button
+      class="header__nav-item contact-trigger hover block stripes-inverted"
+    >
+      Contact
+    </button>
+  </nav>
+</div>

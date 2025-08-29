@@ -1,11 +1,13 @@
 @import "base/_reset.scss";
 @import "base/_breakpoints.scss";
-@import "base/_helpers.scss";
 @import "base/_fonts.scss";
+@import "base/_helpers.scss";
 @import "base/_main.scss";
 
+@import "components/_challenges.scss";
 @import "components/_contact-dialog.scss";
 @import "components/_events.scss";
 @import "components/_header.scss";
+@import "components/_home.scss";
 @import "components/_spotlight.scss";
 @import "components/_submissions.scss";

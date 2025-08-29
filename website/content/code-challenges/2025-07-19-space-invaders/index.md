@@ -1,6 +1,12 @@
 +++
 title = "Space Invaders Code Challenge"
 
+aliases = [
+  "invaders.html",
+  "/invaders/",
+  "/invaders"
+]
+
 [extra]
 image = "/img/invaders/invaders.png"
 intro = "The first ever Creative Coding Amsterdam code challenge!"

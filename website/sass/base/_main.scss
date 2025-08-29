@@ -16,6 +16,7 @@ html {
   --teal: #66b2d2;
   --yellow: #f7dc6f;
   --body-bg: #f3f2f1;
+  --body-bg-rgb: 243 242 241;
 }
 
 body {
@@ -44,6 +45,11 @@ body {
   @include lg {
     padding: 4rem;
   }
+}
+
+*:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: -2px;
 }
 
 h1,
@@ -90,9 +96,25 @@ button {
   color: var(--text);
 }
 
+a {
+  color: var(--red);
+}
+
 .app {
   max-width: 80rem;
+  min-height: calc(100vh - 2rem);
+  min-height: calc(100svh - 2rem);
   position: relative;
+
+  @include md {
+    min-height: calc(100vh - 4rem);
+    min-height: calc(100svh - 4rem);
+  }
+
+  @include lg {
+    min-height: calc(100vh - 8rem);
+    min-height: calc(100svh - 8rem);
+  }
 
   &::before {
     display: block;
@@ -158,6 +180,8 @@ button {
     transform 250ms ease-in-out,
     z-index 250ms ease-in-out;
   position: relative;
+  outline-width: 4px;
+  outline-offset: -4px;
 
   &::after {
     display: block;
