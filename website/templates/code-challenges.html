@@ -11,6 +11,7 @@
   {% for page in section.pages %}
     <a class="challenge cell cell--md-2" href="{{ page.permalink }}">
       <h2 class="padding hover dots-shifted">
+        <span class="challenge__date">{{ page.date }}</span>
         {{ page.title }}
       </h2>
       {% if page.extra.image %}
