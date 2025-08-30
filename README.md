@@ -56,5 +56,7 @@ Deployments are automated using [GitHub actions](./.github/workflows/gh-pages.ya
 * [x] Mobile menu
 * [ ] Footer copy
 * [ ] Dark theme
+* [ ] Metadata image template
 * [x] Remove unused fonts
 * [x] Group images in the static folder
+* [ ] Add a checkbox to disable the hover effect

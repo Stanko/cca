@@ -4,13 +4,18 @@
   justify-content: space-between;
 
   @include lg {
-    position: sticky;
-    top: 1rem;
-    z-index: 10;
     background-image: url(/img/noise.png);
     background-repeat: repeat;
     background-size: 250px 250px;
     background-color: var(--body-bg);
+  }
+}
+
+.scrolled .header {
+  @include lg {
+    z-index: 10;
+    position: sticky;
+    top: 1rem;
   }
 }
 

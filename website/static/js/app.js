@@ -24,6 +24,23 @@ menuTrigger.addEventListener("click", () => {
   document.body.classList.toggle("menu-open");
 });
 
+// ----- Scroll ----- //
+
+let isScrolled = window.scrollY > 0;
+
+window.addEventListener("scroll", () => {
+  const newIsScrolled = window.scrollY > 0;
+
+  if (newIsScrolled !== isScrolled) {
+    isScrolled = newIsScrolled;
+    if (isScrolled) {
+      document.body.classList.add("scrolled");
+    } else {
+      document.body.classList.remove("scrolled");
+    }
+  }
+});
+
 // ----- Modal ----- //
 
 const modal = document.querySelector(".modal");

@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  background-color: #334455;
+  color: #eee;
+  font-family:
+    ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
+}
+
+#p5_loading {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+canvas {
+  display: block;
+  cursor: ew-resize;
+}
+
+#playpause {
+  font: inherit;
+  position: fixed;
+  left: -2px;
+  bottom: -2px;
+  border: none;
+  background: #ffffff;
+  color: #334455;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background-color: #f7dc6f;
+  letter-spacing: -0.03em;
+  color: #292826;
+  border: 2px solid #191816;
+  padding: 0.5rem;
+}
+
+#playpause:hover {
+  transform: translate(0.5rem, -0.5rem);
+}
+
+#playpause::before {
+  content: "";
+  position: absolute;
+  left: -0.5rem;
+  bottom: -0.5rem;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
