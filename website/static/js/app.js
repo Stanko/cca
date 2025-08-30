@@ -24,6 +24,28 @@ menuTrigger.addEventListener("click", () => {
   document.body.classList.toggle("menu-open");
 });
 
+// ----- Disable hover effect ----- //
+
+const disableHoverInput = document.querySelector(
+  ".footer__disable-hover-input",
+);
+const disabledHoverDefaultValue =
+  localStorage.getItem("disable-hover-effect") === "true";
+disableHoverInput.checked = disabledHoverDefaultValue;
+
+if (!disabledHoverDefaultValue) {
+  document.body.classList.add("enable-hover-effect");
+}
+
+disableHoverInput.addEventListener("change", () => {
+  document.body.classList.toggle("enable-hover-effect");
+
+  localStorage.setItem(
+    "disable-hover-effect",
+    disableHoverInput.checked.toString(),
+  );
+});
+
 // ----- Scroll ----- //
 
 let isScrolled = window.scrollY > 0;

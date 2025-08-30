@@ -97,6 +97,7 @@ button {
 }
 
 a {
+  text-decoration-thickness: 2px;
   color: var(--red);
 }
 
@@ -216,9 +217,9 @@ a {
   z-index: 0;
 }
 
-@media (hover: hover) {
-  .cell:hover,
-  .hover:hover {
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .enable-hover-effect .cell:hover,
+  .enable-hover-effect .hover:hover {
     transform: translate(0.5rem, -0.5rem);
     z-index: 2;
 

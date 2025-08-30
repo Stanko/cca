@@ -59,4 +59,4 @@ Deployments are automated using [GitHub actions](./.github/workflows/gh-pages.ya
 * [ ] Metadata image template
 * [x] Remove unused fonts
 * [x] Group images in the static folder
-* [ ] Add a checkbox to disable the hover effect
+* [x] Add a checkbox to disable the hover effect
