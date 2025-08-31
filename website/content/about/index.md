@@ -5,7 +5,7 @@ title = "About CCA"
 image = "/img/about/a-lab.jpg"
 +++
 
-Creative Coding Amsterdam was founded in 2015 ago by Sabrina and Saskia and has since seen its organizing members change over time. Since February 2024, [David](https://d17e.dev/), [Sinan](https://wiredpieces.com/), and [Stanko](https://muffinman.io/) have taken on the organizer role to breathe some well-deserved new life into the community. Since then, we have held monthly events in varying formats.
+Creative Coding Amsterdam was founded in 2015 by Sabrina and Saskia and has since seen its organizing members change over time. Since February 2024, [David](https://d17e.dev/), [Sinan](https://wiredpieces.com/), and [Stanko](https://muffinman.io/) have taken on the organizer role to breathe some well-deserved new life into the community. Since then, we have held monthly events in varying formats.
 
 ![CCA meetup at Miro](/img/about/miro.jpg)
 
