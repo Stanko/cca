@@ -4,7 +4,6 @@ title = "Daily Practice"
 
 [extra]
 image = "/img/daily-practice/daily-practice.png"
-intro = "The first ever Creative Coding Amsterdam code challenge!"
 
 # [[extra.submissions]]
 # name = "
