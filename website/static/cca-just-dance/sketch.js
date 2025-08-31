@@ -11,7 +11,7 @@ function setup() {
 
   let ctx = getAudioContext();
 
-  button.mousePressed(() => {
+  button.mousePressed((e) => {
     if (isPlaying) {
       button.html("Play");
       sound.pause();
@@ -46,7 +46,14 @@ function draw() {
   // let strokeFraction = -cos(time * 0.5) * 0.5 + 0.5;
   let level = amp.getLevel();
   let strokeFraction = constrain(map(level, 0, 0.5, 0, 1), 0, 1);
-  if (mouseIsPressed) strokeFraction = mouseX / width;
+
+  if (!isPlaying && strokeFraction === 0) {
+    strokeFraction = 0.5;
+  }
+
+  // if (mouseIsPressed) {
+  //   strokeFraction = mouseX / width;
+  // }
 
   drawCCA(ccaRadius, strokeFraction);
 }
@@ -61,8 +68,8 @@ function drawCCA(radius, strokeFraction) {
     map(-cos(constrain(fract(time * 0.1) / 0.1, 0, 1) * TAU), -1, 1, 0, 1),
     1,
   );
-  const offs = q2 * radius * 2;
-  const rot = q * TAU;
+  const offs = isPlaying ? q2 * radius * 2 : 0;
+  const rot = isPlaying ? q * TAU : 0;
 
   noFill();
   const strokeW = strokeFraction * radius;
