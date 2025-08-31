@@ -1,6 +1,18 @@
+.stripes {
+  --bg: transparent;
+  --fg: var(--fg-default);
+  background: repeating-linear-gradient(
+    45deg,
+    var(--bg),
+    var(--bg) 10px,
+    var(--fg) 10px,
+    var(--fg) 20px
+  );
+}
+
 .stripes-inverted {
   --bg: transparent;
-  --fg: rgb(255 255 255 / 0.1);
+  --fg: var(--fg-default);
   background: repeating-linear-gradient(
     -45deg,
     var(--bg),
@@ -12,14 +24,14 @@
 
 .dots {
   --bg: transparent;
-  --fg: rgb(255 255 255 / 0.1);
+  --fg: var(--fg-default);
   background-image: radial-gradient(var(--fg) 4px, var(--bg) 4px);
   background-size: 16px 16px;
 }
 
 .dots-shifted {
   --bg: transparent;
-  --fg: rgb(255 255 255 / 0.1);
+  --fg: var(--fg-default);
 
   background:
     radial-gradient(circle, var(--fg) 4px, transparent 4px),
@@ -29,24 +41,6 @@
     radial-gradient(circle at top right, var(--fg) 4px, transparent 4px);
   background-size: 24px 24px;
   background-color: var(--bg);
-}
-
-.circles {
-  --bg-size: 5rem;
-  --bg: var(--body-bg);
-  --fg: #ddd;
-
-  --gradient:
-    var(--bg) 0% 5%, var(--fg) 6% 15%, var(--bg) 16% 25%, var(--fg) 26% 35%,
-    var(--bg) 36% 45%, var(--fg) 46% 55%, var(--bg) 56% 65%, var(--fg) 66% 75%,
-    var(--bg) 76% 85%, var(--fg) 86% 95%, #0000 96%;
-  background:
-    radial-gradient(50% 50% at 100% 0, var(--gradient)),
-    radial-gradient(50% 50% at 0 100%, var(--gradient)),
-    radial-gradient(50% 50%, var(--gradient)),
-    radial-gradient(50% 50%, var(--gradient)) calc(var(--bg-size) / 2)
-      calc(var(--bg-size) / 2) var(--bg);
-  background-size: var(--bg-size) var(--bg-size);
 }
 
 .content {
@@ -82,11 +76,10 @@
 
   a {
     color: var(--color-primary);
-    text-decoration-color: #bbb;
-    color: var(--red);
+    color: var(--accent);
 
     &:hover {
-      text-decoration-color: var(--red);
+      color: var(--text);
     }
   }
 }
@@ -95,9 +88,6 @@
   padding: 1rem;
 
   @include md {
-    padding: 1.5rem;
-  }
-  @include lg {
     padding: 1.5rem;
   }
 }

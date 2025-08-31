@@ -65,6 +65,80 @@ window.addEventListener("scroll", () => {
   }
 });
 
+// ----- Theme ----- //
+
+const themeButtons = document.querySelectorAll(".footer__theme-button");
+
+const random = (min, max, decimals = 3) => {
+  return parseFloat((Math.random() * (max - min) + min).toFixed(decimals));
+};
+
+themeButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const theme = button.dataset.theme;
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+
+    if (theme === "funky") {
+      const isDark = random(0, 1) > 0.5;
+      let bgL;
+      let bgC;
+      let textL;
+      let textC;
+      let borderL;
+      let fgDefault;
+      let noiseImage;
+
+      if (isDark) {
+        bgL = random(0, 0.35);
+        bgC = random(0, 0.5);
+        textL = random(0.7, 1);
+        textC = random(0, 0.75);
+        borderL = random(0.5, 0.7);
+        fgDefault = `rgb(0, 0, 0, 0.1)`;
+        noiseImage = "url(/img/noise-light.png)";
+      } else {
+        bgL = random(0.65, 1);
+        bgC = random(0, 0.2);
+        textL = random(0, 0.3);
+        textC = random(0.25, 1);
+        borderL = random(0.3, 0.5);
+        fgDefault = `rgb(255, 255, 255, 0.1)`;
+        noiseImage = "url(/img/noise.png)";
+      }
+
+      const bgH = random(0, 360);
+      // Avoid range of 150 around background hue
+      const textH = random(bgH + 75, 210) % 360;
+
+      const accentH = (bgH + 180) % 360;
+
+      const css = [
+        'html[data-theme="funky"] {',
+        `--body-bg: oklch(${bgL} ${bgC} ${bgH});`,
+        `--text: oklch(${textL} ${textC} ${textH});`,
+        `--border-color: oklch(${borderL} ${textC} ${textH});`,
+        `--fg-default: ${fgDefault};`,
+        `--noise-image: ${noiseImage};`,
+        `--accent: oklch(${textL} ${textC} ${accentH});`,
+        `}`,
+      ].join("\n");
+
+      const styleElement = document.querySelector(".funky-style");
+      if (!styleElement) {
+        const styleElement = document.createElement("style");
+        styleElement.textContent = css;
+        styleElement.className = "funky-style";
+        document.head.appendChild(styleElement);
+      } else {
+        styleElement.textContent = css;
+      }
+
+      localStorage.setItem("funky-styles", css);
+    }
+  });
+});
+
 // ----- Modal ----- //
 
 const modal = document.querySelector(".modal");

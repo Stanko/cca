@@ -16,6 +16,18 @@ striptags | truncate(length=150) %} {% endif %} {% endif %}
     <title>{{ title }}</title>
 
     <link rel="stylesheet" href="/styles.css" />
+    <script>
+      const theme = localStorage.getItem('theme') || '';
+      document.documentElement.setAttribute("data-theme", theme);
+
+      const funkyStyles = localStorage.getItem("funky-styles");
+      if (funkyStyles) {
+        const styleElement = document.createElement("style");
+        styleElement.textContent = funkyStyles;
+        styleElement.className = "funky-style";
+        document.head.appendChild(styleElement);
+      }
+    </script>
 
     <link rel="icon" href="/favicon/icon.ico?v=1.0" sizes="32x32" />
     <link rel="icon" href="/favicon/icon.svg?v=1.0" type="image/svg+xml" />
@@ -59,8 +71,7 @@ striptags | truncate(length=150) %} {% endif %} {% endif %}
       {% include "partials/footer.html" %}
     </div>
 
-    {% include "partials/contact-dialog.html" %} {% block scripts %} {% endblock
-    %}
+    {% include "partials/contact-dialog.html" %} {% block scripts %} {% endblock %}
 
     <script src="/js/app.js"></script>
 

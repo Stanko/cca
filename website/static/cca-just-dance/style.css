@@ -50,6 +50,10 @@ canvas {
   padding: 0.5rem;
 }
 
+#playpause:focus-visible {
+  outline: 2px solid #d25a67;
+}
+
 #playpause:hover {
   transform: translate(0.5rem, -0.5rem);
 }

@@ -30,7 +30,7 @@
   color: inherit;
 
   &:hover {
-    color: white;
+    color: var(--text-light);
   }
 }
 
@@ -39,5 +39,5 @@
 }
 
 .event__link--meetup:hover {
-  background-color: var(--red);
+  background-color: var(--accent);
 }

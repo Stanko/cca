@@ -5,16 +5,58 @@ html {
 }
 
 :root {
-  --border-color: #191816;
+  color-scheme: light dark;
+
   --border-width: 2px;
   --border-width-negative: -2px;
-  --text: #292826;
-  --red: #d25a67;
+
+  // Fixed colors
+  --text-dark: #292826;
+  --text-light: white;
+
+  // Accents
+  --accent: #ed4c67;
+  --meetup: #d25a67;
   --blue: #5d64e2;
   --teal: #66b2d2;
   --yellow: #f7dc6f;
+
+  // Theme variables
+  --border-color: #191816;
+  --text: #292826;
   --body-bg: #f3f2f1;
-  --body-bg-rgb: 243 242 241;
+  --fg-default: rgb(255 255 255 / 0.1);
+  --noise-image: url(/img/noise.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border-color: #636261;
+    --text: #f3f2f1;
+    --body-bg: #2e2d2d;
+    --fg-default: rgb(0 0 0 / 0.1);
+    --noise-image: url(/img/noise-light.png);
+  }
+}
+
+// Duplicated styles for themes to allow switching themes manually
+
+html[data-theme="light"] {
+  --accent: #ed4c67;
+  --border-color: #191816;
+  --text: #292826;
+  --body-bg: #f3f2f1;
+  --fg-default: rgb(255 255 255 / 0.1);
+  --noise-image: url(/img/noise.png);
+}
+
+html[data-theme="dark"] {
+  --accent: #ff6680;
+  --border-color: #636261;
+  --text: #f3f2f1;
+  --body-bg: #2e2d2d;
+  --fg-default: rgb(0 0 0 / 0.1);
+  --noise-image: url(/img/noise-light.png);
 }
 
 body {
@@ -25,7 +67,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.4;
-  background-image: url(/img/noise.png);
+  background-image: var(--noise-image);
   background-repeat: repeat;
   background-size: 250px 250px;
   background-color: var(--body-bg);
@@ -46,7 +88,7 @@ body {
 }
 
 *:focus-visible {
-  outline: 2px solid var(--red);
+  outline: 2px solid var(--accent);
   outline-offset: -2px;
 }
 
@@ -95,8 +137,8 @@ button {
 }
 
 a {
-  text-decoration-thickness: 2px;
-  color: var(--red);
+  text-decoration-thickness: var(--border-width);
+  color: var(--accent);
 }
 
 b,
@@ -230,18 +272,6 @@ strong {
       pointer-events: unset;
     }
   }
-}
-
-.stripes {
-  --bg: transparent;
-  --fg: rgb(255 255 255 / 0.1);
-  background: repeating-linear-gradient(
-    45deg,
-    var(--bg),
-    var(--bg) 10px,
-    var(--fg) 10px,
-    var(--fg) 20px
-  );
 }
 
 .cell--1 {

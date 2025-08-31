@@ -3,11 +3,11 @@
   text-decoration: none;
 }
 
-.home__link--discord {
-  background-color: var(--red);
+.home__link--meetup {
+  background-color: var(--meetup);
 }
 
-.home__link--meetup {
+.home__link--discord {
   background-color: var(--blue);
 }
 
@@ -17,9 +17,9 @@
 
 .home__reach-out {
   text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: var(--border-width);
 
   &:hover {
-    color: var(--red);
+    color: var(--accent);
   }
 }
