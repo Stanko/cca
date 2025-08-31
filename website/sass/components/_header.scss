@@ -86,8 +86,8 @@
   align-items: flex-start;
   grid-template-rows: 0fr;
   transition:
-    grid-template-rows 1000ms,
-    display 1000ms;
+    grid-template-rows 500ms,
+    display 500ms;
   transition-behavior: allow-discrete;
   overflow: hidden;
 
