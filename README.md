@@ -48,7 +48,8 @@ Deployments are automated using [GitHub actions](./.github/workflows/gh-pages.ya
 * [x] Page template (basic version is done, we'll add more components as we go)
 * [x] Events page
 * [ ] Events page copy
-* [ ] About page
+* [x] About page
+* [x] About page copy
 * [x] 404 page
 * [x] Code challenge template - reused the page template with custom components
 * [ ] Clean up / organize SCSS a bit better (WIP)

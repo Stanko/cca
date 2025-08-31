@@ -61,6 +61,18 @@
     max-width: 100%;
   }
 
+  > p:has(img:only-child) {
+    max-width: 48rem;
+    border: var(--border-width) solid var(--border-color);
+    transition: transform 250ms;
+
+    @media (hover: hover) and (prefers-reduced-motion: no-preference) {
+      .enable-hover-effect &:hover {
+        transform: translate(0.5rem, -0.5rem);
+      }
+    }
+  }
+
   h2,
   h3 {
     &:not(:first-child) {

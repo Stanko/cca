@@ -29,9 +29,15 @@
 }
 
 .footer__disable-hover-label {
-  display: flex;
-  align-items: center;
-  gap: 0.375rem;
+  display: none;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .footer__disable-hover-label {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+  }
 }
 
 .footer__disable-hover-label:has(input:focus-visible) {

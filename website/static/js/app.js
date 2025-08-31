@@ -34,16 +34,18 @@ const disabledHoverDefaultValue =
 disableHoverInput.checked = disabledHoverDefaultValue;
 
 if (!disabledHoverDefaultValue) {
+  console.log("add class");
   document.body.classList.add("enable-hover-effect");
 }
 
 disableHoverInput.addEventListener("change", () => {
   document.body.classList.toggle("enable-hover-effect");
 
-  localStorage.setItem(
-    "disable-hover-effect",
-    disableHoverInput.checked.toString(),
-  );
+  if (disableHoverInput.checked) {
+    localStorage.setItem("disable-hover-effect", "true");
+  } else {
+    localStorage.removeItem("disable-hover-effect");
+  }
 });
 
 // ----- Scroll ----- //
