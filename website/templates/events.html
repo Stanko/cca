@@ -11,10 +11,18 @@
 
 {% if (page.extra.events) %}
   <div class="grid events">
+    {% set today_num = now() | date(format="%Y%m%d") | int %}
     {% for event in page.extra.events %}
+
+      {% set date_num = event.date | replace(from="-", to="") | int %}
+
       <div class="event cell cell--md-2">
         <h2 class="padding hover">
           <span class="event__date">{{ event.date }}</span>
+            {# Check if the event is in the future at build time #}
+            {% if date_num >= today_num %}
+              <span class="event__next">Next event:</span>
+            {% endif %}
           {{ event.title }}
         </h2>
         {% if event.photo %}

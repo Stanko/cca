@@ -17,6 +17,10 @@
   opacity: 0.5;
 }
 
+.event__next {
+  color: var(--accent);
+}
+
 .event__image {
   --fg: rgb(0 0 0 / 0.1);
   aspect-ratio: 1200 / 675;
