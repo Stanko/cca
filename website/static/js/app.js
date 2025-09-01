@@ -109,6 +109,7 @@ themeButtons.forEach((button) => {
       const textH = random(bgH + 75, 210) % 360;
       const textC = random(0, 0.5);
 
+      const accentC = random(0.5, 0.8);
       const accentH = (bgH + 180) % 360;
 
       const css = [
@@ -118,7 +119,7 @@ themeButtons.forEach((button) => {
         `--border-color: oklch(${borderL} ${textC} ${textH});`,
         `--fg-default: ${fgDefault};`,
         `--noise-image: ${noiseImage};`,
-        `--accent: oklch(${textL} ${textC} ${accentH});`,
+        `--accent: oklch(${textL} ${accentC} ${accentH});`,
         `}`,
       ].join("\n");
 
