@@ -84,7 +84,6 @@ themeButtons.forEach((button) => {
       let bgL;
       let bgC;
       let textL;
-      let textC;
       let borderL;
       let fgDefault;
       let noiseImage;
@@ -93,7 +92,6 @@ themeButtons.forEach((button) => {
         bgL = random(0, 0.35);
         bgC = random(0, 0.5);
         textL = random(0.7, 1);
-        textC = random(0, 0.75);
         borderL = random(0.5, 0.7);
         fgDefault = `rgb(0, 0, 0, 0.1)`;
         noiseImage = "url(/img/noise-light.png)";
@@ -101,7 +99,6 @@ themeButtons.forEach((button) => {
         bgL = random(0.65, 1);
         bgC = random(0, 0.2);
         textL = random(0, 0.3);
-        textC = random(0.25, 1);
         borderL = random(0.3, 0.5);
         fgDefault = `rgb(255, 255, 255, 0.1)`;
         noiseImage = "url(/img/noise.png)";
@@ -110,6 +107,7 @@ themeButtons.forEach((button) => {
       const bgH = random(0, 360);
       // Avoid range of 150 around background hue
       const textH = random(bgH + 75, 210) % 360;
+      const textC = random(0, 0.5);
 
       const accentH = (bgH + 180) % 360;
 
