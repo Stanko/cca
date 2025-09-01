@@ -47,7 +47,7 @@ Deployments are automated using [GitHub actions](./.github/workflows/gh-pages.ya
 * [x] Pause button on the spotlight video
 * [x] Page template (basic version is done, we'll add more components as we go)
 * [x] Events page
-* [ ] Events page copy
+* [x] Events page copy
 * [x] About page
 * [x] About page copy
 * [x] 404 page
@@ -57,7 +57,7 @@ Deployments are automated using [GitHub actions](./.github/workflows/gh-pages.ya
 * [x] Mobile menu
 * [x] Footer copy
 * [x] Dark theme
-* [ ] Metadata image template
+* [x] Metadata image template
 * [x] Remove unused fonts
 * [x] Group images in the static folder
 * [x] Add a checkbox to disable the hover effect
