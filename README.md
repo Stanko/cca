@@ -43,7 +43,7 @@ Deployments are automated using [GitHub actions](./.github/workflows/gh-pages.ya
 * [x] Add title to the homepage
 * [x] Add title to the invaders page
 * [x] Spotlight item data model
-* [ ] Remove spotlight URLs from sitemap.xml
+* [x] Remove spotlight URLs from sitemap.xml
 * [x] Pause button on the spotlight video
 * [x] Page template (basic version is done, we'll add more components as we go)
 * [x] Events page
@@ -55,8 +55,8 @@ Deployments are automated using [GitHub actions](./.github/workflows/gh-pages.ya
 * [ ] Clean up / organize SCSS a bit better (WIP)
 * [ ] Contact modal - switch to discrete transitions instead of animations
 * [x] Mobile menu
-* [ ] Footer copy
-* [ ] Dark theme
+* [x] Footer copy
+* [x] Dark theme
 * [ ] Metadata image template
 * [x] Remove unused fonts
 * [x] Group images in the static folder

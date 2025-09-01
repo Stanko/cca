@@ -1,13 +1,24 @@
-{% if page.title %} {% set page_data = page %} {% elif section.title %} {% set
-page_data = section %} {% else %} {% set title = "Creative Coding Amsterdam" %}
-{% set meta_title = "Creative Coding Amsterdam" %} {% set description =
-"Creative Coding Amsterdam is a community for anyone fascinated by the creative
-side of programming — or even the broader world of art and technology." %} {%
-endif %} {% if page_data %} {% set title = page_data.title ~ " · Creative Coding
-Amsterdam" | striptags | safe %} {% set meta_title = page_data.title | striptags
-| safe %} {% if page_data.extra.intro %} {% set description =
-page_data.extra.intro %} {% else %} {% set description = page_data.content |
-striptags | truncate(length=150) %} {% endif %} {% endif %}
+{% if page.title %}
+  {% set page_data = page %}
+{% elif section.title %}
+  {% set page_data = section %}
+{% else %}
+  {% set title = "Creative Coding Amsterdam" %}
+  {% set meta_title = "Creative Coding Amsterdam" %}
+  {% set description = "Creative Coding Amsterdam is a community for anyone fascinated by the creative
+    side of programming — or even the broader world of art and technology." %}
+{% endif %}
+
+{% if page_data %}
+  {% set title = page_data.title ~ " · Creative Coding Amsterdam" | striptags | safe %}
+  {% set meta_title = page_data.title | striptags | safe %}
+
+  {% if page_data.extra.intro %}
+    {% set description = page_data.extra.intro %}
+  {% else %}
+    {% set description = page_data.content | striptags | truncate(length=150) %}
+  {% endif %}
+{% endif %}
 
 <!doctype html>
 <html lang="en">
@@ -44,23 +55,11 @@ striptags | truncate(length=150) %} {% endif %} {% endif %}
     <meta name="twitter:description" content="{{ description }}" />
 
     {% if page_data.extra.image %}
-    <meta
-      property="twitter:image"
-      content="{{ config.base_url | safe }}{{ page_data.extra.image }}"
-    />
-    <meta
-      property="og:image"
-      content="{{ config.base_url | safe }}{{ page_data.extra.image }}"
-    />
+      <meta property="twitter:image" content="{{ config.base_url | safe }}{{ page_data.extra.image }}" />
+      <meta property="og:image" content="{{ config.base_url | safe }}{{ page_data.extra.image }}" />
     {% else %}
-    <meta
-      property="twitter:image"
-      content="{{ config.base_url | safe }}/img/home/meetup-2.jpg"
-    />
-    <meta
-      property="og:image"
-      content="{{ config.base_url | safe }}/img/home/meetup-2.jpg"
-    />
+      <meta property="twitter:image" content="{{ config.base_url | safe }}/img/home/meetup-2.jpg" />
+      <meta property="og:image" content="{{ config.base_url | safe }}/img/home/meetup-2.jpg" />
     {% endif %} {% block head %}{% endblock %}
   </head>
 
@@ -78,11 +77,11 @@ striptags | truncate(length=150) %} {% endif %} {% endif %}
     <script async src="https://tally.so/widgets/embed.js"></script>
 
     {% if config.mode == "build" %}
-    <script
-      async
-      src="https://umami.d17e.dev/script.js"
-      data-website-id="86c91eb4-4ac8-4955-bcb0-b1c9de3a6715"
-    ></script>
+      <script
+        async
+        src="https://umami.d17e.dev/script.js"
+        data-website-id="86c91eb4-4ac8-4955-bcb0-b1c9de3a6715"
+      ></script>
     {% endif %}
   </body>
 </html>
