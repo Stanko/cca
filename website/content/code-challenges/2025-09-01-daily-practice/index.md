@@ -12,7 +12,7 @@ image = "/img/daily-practice/daily-practice.png"
 # link = "
 +++
 
-As part of this month's theme, Daily Practice, Driggs is inviting everyone to start their own daily practice—a short, constraint-based exercise. Many people find that a daily practice encourages creativity, learning, and growth.
+As part of this month's theme, Daily Practice, Driggs is inviting everyone to start their own daily practice - a short, constraint-based exercise. Many people find that a daily practice encourages creativity, learning, and growth.
 
 As part of this month's theme of **Daily Practice**, Driggs is inviting everyone to start their own daily practice, a short, constraint-based exercise. Many people have found that a daily practice encourages creativity, learning, and growth.
 

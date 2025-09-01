@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/meta-image.css" />
+  </head>
+
+  <body class="">
+    <div class="meta-image">
+      <h1 class="border">{{ page.title }}</h1>
+
+      <div class="border image image--1">
+        <img src="{{ page.extra.images[0] }}" />
+        {% include "partials/logo.html" %}
+      </div>
+      <div class="border image image--2">
+        <img src="{{ page.extra.images[1] }}" />
+      </div>
+      <div class="border image image--3">
+        <img src="{{ page.extra.images[2] }}" />
+      </div>
+
+      <div class="d1 border dots"></div>
+      <div class="d2 border stripes"></div>
+      <div class="d3 border stripes-inverted"></div>
+      <div class="d4 border dots-shifted"></div>
+    </div>
+  </body>
+</html>
