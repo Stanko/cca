@@ -1,5 +1,5 @@
 .spotlight {
-  --fg: rgb(0 0 0 / 0.1);
+  --fg: var(--fg-invert);
   aspect-ratio: 16 / 9;
 
   @include xxl {

@@ -26,6 +26,7 @@ html {
   --text: #292826;
   --body-bg: #f3f2f1;
   --fg-default: rgb(255 255 255 / 0.1);
+  --fg-invert: rgb(0 0 0 / 0.1);
   --noise-image: url(/img/noise.png);
 }
 
@@ -35,6 +36,7 @@ html {
     --text: #f3f2f1;
     --body-bg: #2e2d2d;
     --fg-default: rgb(0 0 0 / 0.1);
+    --fg-invert: rgb(255 255 255 / 0.1);
     --noise-image: url(/img/noise-light.png);
   }
 }
@@ -47,6 +49,7 @@ html[data-theme="light"] {
   --text: #292826;
   --body-bg: #f3f2f1;
   --fg-default: rgb(255 255 255 / 0.1);
+  --fg-invert: rgb(0 0 0 / 0.1);
   --noise-image: url(/img/noise.png);
 }
 
@@ -56,6 +59,7 @@ html[data-theme="dark"] {
   --text: #f3f2f1;
   --body-bg: #2e2d2d;
   --fg-default: rgb(0 0 0 / 0.1);
+  --fg-invert: rgb(255 255 255 / 0.1);
   --noise-image: url(/img/noise-light.png);
 }
 

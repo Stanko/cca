@@ -86,6 +86,7 @@ themeButtons.forEach((button) => {
       let textL;
       let borderL;
       let fgDefault;
+      let fgInvert;
       let noiseImage;
 
       if (isDark) {
@@ -94,6 +95,7 @@ themeButtons.forEach((button) => {
         textL = random(0.7, 1);
         borderL = random(0.5, 0.7);
         fgDefault = `rgb(0, 0, 0, 0.1)`;
+        fgInvert = `rgb(255, 255, 255, 0.1)`;
         noiseImage = "url(/img/noise-light.png)";
       } else {
         bgL = random(0.65, 1);
@@ -101,6 +103,7 @@ themeButtons.forEach((button) => {
         textL = random(0, 0.3);
         borderL = random(0.3, 0.5);
         fgDefault = `rgb(255, 255, 255, 0.1)`;
+        fgInvert = `rgb(0, 0, 0, 0.1)`;
         noiseImage = "url(/img/noise.png)";
       }
 
@@ -118,6 +121,7 @@ themeButtons.forEach((button) => {
         `--text: oklch(${textL} ${textC} ${textH});`,
         `--border-color: oklch(${borderL} ${textC} ${textH});`,
         `--fg-default: ${fgDefault};`,
+        `--fg-invert: ${fgInvert};`,
         `--noise-image: ${noiseImage};`,
         `--accent: oklch(${textL} ${accentC} ${accentH});`,
         `}`,
