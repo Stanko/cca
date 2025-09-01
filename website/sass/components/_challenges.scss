@@ -27,4 +27,12 @@
 .challenge__image {
   --fg: rgb(0 0 0 / 0.1);
   aspect-ratio: 1300 / 675;
+
+  // Tiny image is loaded as a placeholder, keeping it pixelated is nicer than antialiasing
+  background-size: 100% 100%;
+  image-rendering: pixelated;
+
+  img {
+    image-rendering: auto;
+  }
 }

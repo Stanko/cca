@@ -60,7 +60,9 @@ html[data-theme="dark"] {
 }
 
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family:
+    "Roboto Mono", ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
+    Consolas, "DejaVu Sans Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -100,7 +102,9 @@ h5,
 h6 {
   line-height: 1;
   font-weight: 400;
-  font-family: nope8;
+  font-family:
+    nope8, ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
 }
 
 h1 {

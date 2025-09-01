@@ -18,8 +18,18 @@
           {{ event.title }}
         </h2>
         {% if event.photo %}
-          <div class="hover event__image dots">
-            <img src="/img/meetups/{{ event.photo }}" alt="{{ event.title }}">
+          {# Create a tiny image to set as the background before lazy images load #}
+          {% set image_path = "/img/meetups/" ~ event.photo %}
+          {% set tiny_image = resize_image(path = image_path, op = "scale", width = 12, height = 7) %}
+
+          <div class="hover event__image dots" style="background-image: url('{{ tiny_image.url }}');">
+            {# Add lazy loading for images below the fold #}
+            {# Keep the first four images eager #}
+            {% if loop.index < 5 %}
+              <img src="{{ image_path }}" alt="{{ event.title }}">
+            {%else%}
+              <img src="{{ image_path }}" loading="lazy" >
+            {% endif %}
           </div>
         {% endif %}
         <div class="event__links">
