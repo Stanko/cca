@@ -1,0 +1,10 @@
+{% set events = get_page(path="events/index.md") %}
+{% set event = events.extra.events[0] %}
+
+{% set today_num = now() | date(format="%Y%m%d") | int %}
+{% set date_num = event.date | replace(from="-", to="") | int %}
+
+{# Show event only if it is in the future #}
+{% if date_num >= today_num %}
+  {% include "partials/event-card.html" %}
+{% endif %}

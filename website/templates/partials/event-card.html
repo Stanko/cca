@@ -1,0 +1,47 @@
+{% if not loop.index %}
+  {% set event_loop_index = 1 %}
+{% else %}
+  {% set event_loop_index = loop.index %}
+{% endif %}
+
+{% if not event_class_name %}
+  {% set event_class_name = "cell cell--md-2" %}
+{% endif %}
+
+{% set today_num = now() | date(format="%Y%m%d") | int %}
+{% set date_num = event.date | replace(from="-", to="") | int %}
+
+<div class="event {{ event_class_name }}">
+  <h2 class="padding hover">
+    <span class="event__date">{{ event.date }}</span>
+      {# Check if the event is in the future at build time #}
+      {% if date_num >= today_num %}
+        <span class="event__next">Next event:</span>
+      {% endif %}
+    {{ event.title }}
+  </h2>
+  {% if event.photo %}
+    {# Create a tiny image to set as the background before lazy images load #}
+    {% set image_path = "/img/meetups/" ~ event.photo %}
+    {% set tiny_image = resize_image(path = image_path, op = "scale", width = 12, height = 7) %}
+
+    <div class="hover event__image dots" style="background-image: url('{{ tiny_image.url }}');">
+      {# Add lazy loading for images below the fold #}
+      {# Keep the first four images eager #}
+      {% if event_loop_index < 5 %}
+        <img src="{{ image_path }}" alt="{{ event.title }}">
+      {%else%}
+        <img src="{{ image_path }}" loading="lazy" >
+      {% endif %}
+    </div>
+  {% endif %}
+  <div class="event__links">
+    {% if event.meetup_url %}
+      <a class="event__link event__link--meetup padding hover dots" href="{{ event.meetup_url }}">Meetup</a>
+    {% endif %}
+
+    {% if event.luma_url %}
+      <a class="event__link event__link--luma padding hover stripes-inverted" href="{{ event.luma_url }}">Luma</a>
+    {% endif %}
+  </div>
+</div>
