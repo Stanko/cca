@@ -73,7 +73,7 @@
   position: relative;
 }
 
-.footer__disable-hover-input:checked + .footer__disable-hover-checkbox span {
+.footer__disable-hover-input:checked+.footer__disable-hover-checkbox span {
   display: block;
 }
 
@@ -91,6 +91,11 @@
 
 .footer__theme-button:hover {
   text-decoration-line: underline;
+}
+
+.footer__subscribe {
+  max-width: 30rem;
+  justify-self: center;
 }
 
 html[data-theme=""] .footer__theme-button[data-theme=""],
