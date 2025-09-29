@@ -30,7 +30,23 @@
 <script>
 // Inlining this code to execute it as soon as possible
 const spotlightItems = ["{{titles | safe}}"];
-const item = spotlightItems[Math.floor(Math.random() * spotlightItems.length)];
+
+// Get the last shown items from local storage
+const lastShownRaw = localStorage.getItem('spotlight_items_shown');
+const lastShown = lastShownRaw ? JSON.parse(lastShownRaw) : [];
+
+// Take a random item that is different from the last shown three items
+let item;
+do {
+ item = spotlightItems[Math.floor(Math.random() * spotlightItems.length)]
+} while (lastShown.includes(item));
+
+// Add the item to the last shown array and save it to local storage
+lastShown.push(item);
+if (lastShown.length > 3) {
+  lastShown.shift();
+}
+localStorage.setItem('spotlight_items_shown', JSON.stringify(lastShown));
 
 fetch(`/spotlight/${item}/`).then(response => {
   if (!response.ok) {
