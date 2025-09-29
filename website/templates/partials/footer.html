@@ -1,44 +1,62 @@
 <footer class="footer hover padding">
   <div class="footer__title">Creative Coding Amsterdam</div>
 
-  <div class="footer__links">
-    <ul>
-      <li><a href="/events/">Events</a></li>
-      <li><a href="/code-challenges/">Code Challenges</a></li>
-      <li><a href="/about/">About</a></li>
-      <li><button class="contact-trigger">Contact</button></li>
-    </ul>
-    <ul>
-      <li><a href="https://discord.gg/eJJvn3487M">Discord</a></li>
-      <li>
-        <a href="https://www.meetup.com/creative-coding-amsterdam/">Meetup</a>
-      </li>
-      <li><a href="https://luma.com/creativecoding">Luma</a></li>
-      <li><a href="https://github.com/stanko/cca">GitHub</a></li>
-    </ul>
-  </div>
+  <div class="footer__layout">
+    <div class="footer__form">
+      <p>Get event announcements in your inbox:</p>
+      <iframe
+        data-tally-src="https://tally.so/embed/mBvBqQ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        loading="lazy"
+        width="100%"
+        height="132"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Get event notifications by email"
+      ></iframe>
+      <p class="text-sm">
+        No spam, only events notifications. Your email won't be used for any
+        other purposes or shared with anyone else.
+      </p>
+    </div>
 
-  <div>
-    <label class="block footer__disable-hover-label">
-      <input type="checkbox" class="footer__disable-hover-input" />
-      <div class="footer__disable-hover-checkbox"><span>x</span></div>
-      <span class="footer__disable-hover-text">Disable the hover effect</span>
-    </label>
-  </div>
+    <div class="footer__content">
+      <div class="footer__links">
+        <ul>
+          <li><a href="/events/">Events</a></li>
+          <li><a href="/code-challenges/">Code Challenges</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><button class="contact-trigger">Contact</button></li>
+        </ul>
+        <ul>
+          <li><a href="https://discord.gg/eJJvn3487M">Discord</a></li>
+          <li>
+            <a href="https://www.meetup.com/creative-coding-amsterdam/"
+              >Meetup</a
+            >
+          </li>
+          <li><a href="https://luma.com/creativecoding">Luma</a></li>
+          <li><a href="https://github.com/stanko/cca">GitHub</a></li>
+        </ul>
+      </div>
 
-  <div class="footer__theme">
-    Theme:
-    <button class="footer__theme-button" data-theme="">System</button>
-    <button class="footer__theme-button" data-theme="light">Light</button>
-    <button class="footer__theme-button" data-theme="dark">Dark</button>
-    <button class="footer__theme-button" data-theme="funky">Funky</button>
-  </div>
-  <div class="footer__subscribe">
-    Get event announcements in your inbox:
-    <iframe
-      data-tally-src="https://tally.so/embed/mBvBqQ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-      loading="lazy" width="100%" height="132" frameborder="0" marginheight="0" marginwidth="0"
-      title="Get event notifications by email"></iframe>
-    <script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc })) }; if ("undefined" != typeof Tally) v(); else if (d.querySelector('script[src="' + w + '"]') == null) { var s = d.createElement("script"); s.src = w, s.onload = v, s.onerror = v, d.body.appendChild(s); }</script>
+      <div>
+        <label class="block footer__disable-hover-label">
+          <input type="checkbox" class="footer__disable-hover-input" />
+          <div class="footer__disable-hover-checkbox"><span>x</span></div>
+          <span class="footer__disable-hover-text"
+            >Disable the hover effect</span
+          >
+        </label>
+      </div>
+
+      <div class="footer__theme">
+        Theme:
+        <button class="footer__theme-button" data-theme="">System</button>
+        <button class="footer__theme-button" data-theme="light">Light</button>
+        <button class="footer__theme-button" data-theme="dark">Dark</button>
+        <button class="footer__theme-button" data-theme="funky">Funky</button>
+      </div>
+    </div>
   </div>
 </footer>

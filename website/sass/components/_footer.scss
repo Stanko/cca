@@ -1,4 +1,15 @@
-.footer {
+.footer__layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  @include lg {
+    flex-direction: row;
+    gap: 4rem;
+  }
+}
+
+.footer__content {
   display: grid;
   gap: 1em;
 }
@@ -10,6 +21,7 @@
 
   @include md {
     flex-direction: row;
+    gap: 4em;
   }
 }
 
@@ -27,6 +39,7 @@
 .footer__title {
   font-weight: bold;
   font-size: 1.25rem;
+  margin-bottom: 1em;
 }
 
 // Disable hover
@@ -73,7 +86,7 @@
   position: relative;
 }
 
-.footer__disable-hover-input:checked+.footer__disable-hover-checkbox span {
+.footer__disable-hover-input:checked + .footer__disable-hover-checkbox span {
   display: block;
 }
 
@@ -83,6 +96,7 @@
   display: flex;
   gap: 0.5em;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .footer__theme-button {
@@ -93,9 +107,14 @@
   text-decoration-line: underline;
 }
 
-.footer__subscribe {
-  max-width: 30rem;
-  justify-self: center;
+.footer__form {
+  display: grid;
+  gap: 0.5rem;
+
+  @include lg {
+    max-width: 30rem;
+    order: 1;
+  }
 }
 
 html[data-theme=""] .footer__theme-button[data-theme=""],

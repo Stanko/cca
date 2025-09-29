@@ -98,6 +98,10 @@ body {
   outline-offset: -2px;
 }
 
+iframe:focus-visible {
+  outline: none;
+}
+
 h1,
 h2,
 h3,
