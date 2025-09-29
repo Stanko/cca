@@ -28,4 +28,6 @@ Here are a few tips for starting a daily practice:
 
 We will have an open share at the end of the meetup for anyone who wants to show their work or talk about their experience.
 
-## Stay tuned for more details!
+## Links
+
+We didn't get much contributions this time, but sure to checkout [Adam's](https://awdriggs.github.io/sketchaday/) and [Anya's](https://www.anyalitica.dev/blog/2025-02-01-genuary-2025-collection) work on their respective websites.
