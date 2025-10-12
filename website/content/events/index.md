@@ -33,6 +33,10 @@ Either way, we bet it'll be a great time.
 Hope to see you all there!
 
 Or if not, online on our **[Discord](https://discord.gg/eJJvn3487M)**
+
+⚠️📢📢📢🎉🎉🎉⚠️
+
+Special announcement: For this edition we're teaming up with the **[Amsterdam Indie Game Developers](https://www.meetup.com/amsterdam-indie-game-developers/)** who will be joining us at A-Lab!
 """
 
 [[extra.events]]
