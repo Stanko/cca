@@ -7,8 +7,8 @@ template = "events.html"
 
 [[extra.events]]
 title = "Beginner Workshop Creative Coding @A-Lab"
-meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/311358895/"
-luma_url = "https://luma.com/nye62o4q"
+meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/311846175/"
+luma_url = "https://luma.com/ie81v8m1"
 date = "2025-11-23"
 photo = "meetup-2025-11-23.jpg"
 description = """
