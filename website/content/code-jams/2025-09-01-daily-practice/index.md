@@ -1,6 +1,9 @@
 +++
 title = "Daily Practice"
 
+aliases = [
+  '/code-challenges/daily-practice/'
+]
 
 [extra]
 image = "/img/daily-practice/daily-practice.png"

@@ -4,7 +4,8 @@ title = "Space Invaders Code Challenge"
 aliases = [
   "invaders.html",
   "/invaders/",
-  "/invaders"
+  "/invaders",
+    '/code-challenges/invaders/'
 ]
 
 [extra]
@@ -86,5 +87,7 @@ Note regarding the theme - we know that some people struggle to start if the the
 ## Prize
 
 We'll do a vote in Discord and whoever gets the most votes wins a **box of chocolates!** Chocolate will be handed out in person at the next meetup! If you're unable to attend, we'll gladly share chocolates and think of you! :)
+
+Vote is over and [Masa's invaders](https://masarabbit.github.io/invdr/generate/) won him the box of chocolates! Congrats!
 
 Hope you'll have fun!

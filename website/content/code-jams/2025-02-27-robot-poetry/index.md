@@ -1,6 +1,9 @@
 +++
 title = "Robot Poetry"
 
+aliases = [
+  '/code-challenges/robot-poetry/'
+]
 
 [extra]
 image = "/img/robot-poetry/robot-poetry.png"

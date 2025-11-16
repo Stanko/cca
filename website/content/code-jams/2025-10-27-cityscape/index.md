@@ -1,6 +1,9 @@
 +++
 title = "Cityscape"
 
+aliases = [
+  '/code-challenges/cityscape/'
+]
 
 [extra]
 image = "/img/cityscape/cityscape.png"

@@ -1,7 +1,7 @@
-.challenges {
+.jams {
 }
 
-.challenge {
+.jam {
   text-decoration: none;
   color: inherit;
   display: flex;
@@ -18,13 +18,13 @@
   }
 }
 
-.challenge__date {
+.jam__date {
   font-size: 0.75em;
   display: block;
   opacity: 0.5;
 }
 
-.challenge__image {
+.jam__image {
   --fg: rgb(0 0 0 / 0.1);
   aspect-ratio: 1300 / 675;
 
