@@ -16,7 +16,7 @@
     <span class="event__date">{{ event.date }}</span>
       {# Check if the event is in the future at build time #}
       {% if date_num >= today_num %}
-        <span class="event__next">Next event:</span>
+        <span class="event__next">Upcoming event:</span>
       {% endif %}
     {{ event.title }}
   </h2>
