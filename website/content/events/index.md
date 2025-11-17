@@ -16,7 +16,7 @@ Let's get together for another **casual, collaborative work session**!
 
 Hopefully this will help the momentum going after the Beginner Workshop and everyone can work on their projects, get feedback or just chill in a relaxed setting. Dominos is across the street so there will some pizza too!
 
-Many thanks to **Adam** for leading the initiative and organizing this event!
+Many thanks to **driggs** for leading the initiative and organizing this event!
 
 See you there!
 """
