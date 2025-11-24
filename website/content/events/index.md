@@ -19,6 +19,7 @@ Hopefully this will help the momentum going after the Beginner Workshop and ever
 Many thanks to **driggs** for leading the initiative and organizing this event!
 
 See you there!
+
 """
 
 [[extra.events]]
