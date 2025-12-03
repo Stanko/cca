@@ -6,6 +6,27 @@ template = "events.html"
 [extra]
 
 [[extra.events]]
+title = "Social @Troost, de Pijp"
+meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/312281727/"
+luma_url = "https://luma.com/hxg4s1l9"
+date = "2025-12-17"
+photo = "meetup-2025-12-17.jpg"
+description = """
+As the year comes to an end yet again we want to wrap it up with a relaxed social event.
+
+Just like last year we'll be meeting at the Brouwerij Troost, de Pijp. And this on Wednesday 17th of December.
+
+No table & chair setting, no beamers nor laptops. Just a cosy social hangout.
+
+We've already got a bunch of ideas for our events next year that we're excited to talk about, but we're also very interested in what ideas and plans you all have for the coming year. Be it about creative coding, life, or anything, we'd love to hear it!
+
+So we hope to see you there!
+
+Or if not, online on our **[Discord](https://discord.gg/eJJvn3487M)**
+
+"""
+
+[[extra.events]]
 title = "Cozy Code - Casual Worksession"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/312050606/"
 luma_url = "https://luma.com/84x3d8f2"
@@ -31,7 +52,7 @@ photo = "meetup-2025-11-23.jpg"
 description = """
 Hello again curious creatives!
 
-Have you ever wondered if you could make visual **art** through a simple set of **rules**? Well, you're in luck because we're organizing a **free workshop** to show you exactly how! 
+Have you ever wondered if you could make visual **art** through a simple set of **rules**? Well, you're in luck because we're organizing a **free workshop** to show you exactly how!
 
 On Sunday 23rd of **November** we meet at [A-Lab](https://a-lab.nl) for a **beginner workshop** into **creative coding** guided by **[Sinan Asciolagu](https://openprocessing.org/user/1)**. In his super-duper-crash-p5-workshop he'll take you through the few basic programming concepts to recreate your own version of some of the generative artworks from the pioneers like Vera Molnar, Georg Nees, Herbert Franke.
 
