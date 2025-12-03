@@ -6,7 +6,7 @@ template = "events.html"
 [extra]
 
 [[extra.events]]
-title = "Social @Troost, de Pijp"
+title = "End of year drinks @Troost, de Pijp"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/312281727/"
 luma_url = "https://luma.com/hxg4s1l9"
 date = "2025-12-17"
