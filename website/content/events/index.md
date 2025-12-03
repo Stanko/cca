@@ -10,7 +10,7 @@ title = "End of year drinks @Troost, de Pijp"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/312281727/"
 luma_url = "https://luma.com/hxg4s1l9"
 date = "2025-12-17"
-photo = "meetup-2025-12-17.jpg"
+photo = "meetup-2025-12-17.png"
 description = """
 As the year comes to an end yet again we want to wrap it up with a relaxed social event.
 
