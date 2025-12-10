@@ -1,57 +1,17 @@
-.events {
+// ----- EVENT PAGE ----- //
+
+.event__banner {
+  max-width: 60rem;
 }
 
-.event {
-  display: flex;
-  flex-direction: column;
-}
+// ----- SHARED ----- //
 
-.event__page-link {
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-
-  h2 {
-    margin-bottom: auto;
-    flex-grow: 1;
-  }
-
-  &:hover h2 {
-    background-color: var(--blue);
-    color: var(--text-light);
-  }
-
-  &:hover .event__next {
-    color: var(--text-light);
-  }
-}
-
-.event__date {
-  font-size: 0.75em;
-  display: block;
-  opacity: 0.5;
-}
-
-.event__next {
-  color: var(--accent);
-}
-
-.event__image {
-  --fg: rgb(0 0 0 / 0.1);
-  aspect-ratio: 1200 / 675;
-  // Tiny image is loaded as a placeholder, keeping it pixelated is nicer than antialiasing
-  background-size: 100% 100%;
-  image-rendering: pixelated;
-
-  img {
-    image-rendering: auto;
-  }
-}
+// Meetup / Luma links
 
 .event__links {
   display: flex;
+  width: 100%;
+  flex-shrink: 0;
 }
 
 .event__link {
@@ -68,4 +28,55 @@
 
 .event__link--meetup:hover {
   background-color: var(--accent);
+}
+
+// ----- EVENT CARD ----- //
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-card__page-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  h2 {
+    margin-bottom: auto;
+    flex-grow: 1;
+  }
+
+  &:hover h2 {
+    background-color: var(--blue);
+    color: var(--text-light);
+  }
+
+  &:hover .event-card__next {
+    color: var(--text-light);
+  }
+}
+
+.event-card__date {
+  font-size: 0.75em;
+  display: block;
+  opacity: 0.5;
+}
+
+.event-card__next {
+  color: var(--accent);
+}
+
+.event-card__image {
+  --fg: rgb(0 0 0 / 0.1);
+  aspect-ratio: 1200 / 675;
+  // Tiny image is loaded as a placeholder, keeping it pixelated is nicer than antialiasing
+  background-size: 100% 100%;
+  image-rendering: pixelated;
+
+  img {
+    image-rendering: auto;
+  }
 }

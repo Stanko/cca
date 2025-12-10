@@ -9,7 +9,14 @@
   <h1>{{section.title}}</h1>
 </div>
 
-<div class="padding content">{{ section.content | safe }}</div>
+<div class="padding content">
+  {{ section.content | safe }}
+
+  {% set events = get_section(path="events/_index.md") %}
+  <p>
+    Since February 2024 we organized {{ events.pages | length }} events.
+  </p>
+</div>
 
 <div class="grid events">
   {% for event in section.pages %}

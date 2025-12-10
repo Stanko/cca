@@ -11,13 +11,13 @@
 {% set today_num = now() | date(format="%Y%m%d") | int %}
 {% set date_num = event.date | replace(from="-", to="") | int %}
 
-<div class="event {{ event_class_name }}">
-  <a class="event__page-link" href="{{ event.permalink }}">
+<div class="event-card {{ event_class_name }}">
+  <a class="event-card__page-link" href="{{ event.permalink }}">
     <h2 class="padding hover stripes">
-      <span class="event__date">{{ event.date }}</span>
+      <span class="event-card__date">{{ event.date }}</span>
         {# Check if the event is in the future at build time #}
         {% if date_num >= today_num %}
-          <span class="event__next">Upcoming event:</span>
+          <span class="event-card__next">Upcoming event:</span>
         {% endif %}
       {{ event.title }}
     </h2>
@@ -26,7 +26,7 @@
       {% set image_path = "/img/meetups/" ~ event.extra.photo %}
       {% set tiny_image = resize_image(path = image_path, op = "scale", width = 12, height = 7) %}
 
-      <div class="hover event__image dots" style="background-image: url('{{ tiny_image.url }}');">
+      <div class="hover event-card__image dots" style="background-image: url('{{ tiny_image.url }}');">
         {# Add lazy loading for images below the fold #}
         {# Keep the first four images eager #}
         {% if event_loop_index < 5 %}
