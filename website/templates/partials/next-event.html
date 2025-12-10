@@ -1,7 +1,6 @@
-{% set events = get_page(path="events/index.md") %}
-{% set event = events.extra.events[0] %}
+{% set events = get_section(path="events/_index.md") %}
 
-{% for event in events.extra.events | reverse %}
+{% for event in events.pages | reverse %}
   {% set today_num = now() | date(format="%Y%m%d") | int %}
   {% set date_num = event.date | replace(from="-", to="") | int %}
 
