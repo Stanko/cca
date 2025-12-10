@@ -10,6 +10,9 @@ build_search_index = false
 # When set to "true", the generated HTML files are minified.
 minify_html = false
 
+# When set to "true", a feed is automatically generated.
+generate_feeds = true
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola

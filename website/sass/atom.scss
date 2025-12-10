@@ -1,0 +1,52 @@
+@import "base/_reset.scss";
+@import "base/_breakpoints.scss";
+@import "base/_fonts.scss";
+@import "base/_helpers.scss";
+@import "base/_main.scss";
+
+.atom {
+  max-width: 50rem;
+  margin: 0 auto;
+
+  a:hover {
+    color: var(--text);
+  }
+}
+
+.atom__title {
+  a {
+    color: var(--text);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+.atom__logo {
+  width: 8rem;
+  margin-bottom: 0.25rem;
+}
+
+.atom__list-title {
+  margin-bottom: 1.5rem;
+}
+
+.atom__list {
+  padding: 0;
+}
+
+.atom__list-item {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.atom__list-date {
+  font-size: 0.875rem;
+}
+
+.atom__list-link {
+  font-size: 1.25rem;
+}

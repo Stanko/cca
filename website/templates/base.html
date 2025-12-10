@@ -46,9 +46,10 @@
     <meta content="width=device-width,initial-scale=1.0" name="viewport" />
 
     {% if current_url %}
-    <meta property="og:url" content="{{ current_url | safe }}" />
-    {% else %} {# 404 error page #}
-    <meta property="og:url" content="https://cca.codes" />
+      <meta property="og:url" content="{{ current_url | safe }}" />
+    {% else %}
+      {# 404 error page #}
+      <meta property="og:url" content="https://cca.codes" />
     {% endif %}
 
     <meta name="twitter:title" content="{{ meta_title }}" />
@@ -60,7 +61,13 @@
     {% else %}
       <meta property="twitter:image" content="{{ config.base_url | safe }}/img/home/thumb.jpg" />
       <meta property="og:image" content="{{ config.base_url | safe }}/img/home/thumb.jpg" />
-    {% endif %} {% block head %}{% endblock %}
+    {% endif %}
+
+    {% block rss %}
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+    {% endblock %}
+
+    {% block head %}{% endblock %}
   </head>
 
   <body class="">

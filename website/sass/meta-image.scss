@@ -1,15 +1,15 @@
 body {
-  background: #ddd;
+  background: #000;
 }
 
 .meta-image {
-  width: 1198px; // 1200 - border width
-  height: 648px; // 650 - border width
-  max-width: 1200px;
+  width: 1200px;
+  height: 650px;
   background-image: var(--noise-image);
   background-repeat: repeat;
   background-size: 250px 250px;
   background-color: var(--body-bg);
+  position: relative;
 
   display: grid;
 

@@ -115,7 +115,8 @@ h6 {
     "DejaVu Sans Mono", monospace;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: 2.375rem;
 
   @include lg {
@@ -123,7 +124,8 @@ h1 {
   }
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 2rem;
 
   @include lg {
@@ -132,7 +134,9 @@ h2 {
 }
 
 h3,
-h4 {
+.h3,
+h4,
+.h3 {
   font-size: 1.75rem;
 
   @include lg {
