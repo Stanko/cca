@@ -31,23 +31,11 @@
         <published>{{ page.date | date(format="%+") }}</published>
         <updated
     >{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
-        {% for author in page.authors %}
         <author>
           <name>
-            {{ author }}
+            Creative Coding Amsterdam
           </name>
         </author>
-        {% else %}
-        <author>
-          <name>
-            {%- if config.author -%}
-              {{ config.author }}
-            {%- else -%}
-              Unknown
-            {%- endif -%}
-          </name>
-        </author>
-        {% endfor %}
         <link
       rel="alternate"
       type="text/html"
