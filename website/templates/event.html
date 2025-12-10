@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="cell cell--4 padding">
+  {% if page.date %}
+    <time class="opacity-50" datetime="{{page.date}}">{{page.date}}</time>
+  {% endif %}
+  <h1>{{page.title}}</h1>
+</div>
+
+<div class="event__links">
+  {% if page.extra.meetup_url %}
+  <a class="event__link event__link--meetup padding hover dots" href="{{ page.extra.meetup_url }}">Meetup</a>
+  {% endif %}
+
+  {% if page.extra.luma_url %}
+    <a class="event__link event__link--luma padding hover stripes-inverted" href="{{ page.extra.luma_url }}">Luma</a>
+  {% endif %}
+</div>
+
+{% if page.extra.photo %}
+<div class="hover dots">
+  <img src="/img/meetups/{{ page.extra.photo }}" alt="{{ page.title }}">
+</div>
+{% endif %}
+
+<div class="padding content page__content">{{ page.content | safe }}</div>
+
+{% endblock content %}

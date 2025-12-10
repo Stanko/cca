@@ -2,6 +2,7 @@
 render = true
 sort_by = "date"
 template = "events.html"
+page_template = "event.html"
 paginate_by = 0
 
 title = "Events"
