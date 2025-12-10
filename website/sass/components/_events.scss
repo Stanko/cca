@@ -1,7 +1,13 @@
 // ----- EVENT PAGE ----- //
 
 .event__banner {
+  --fg: rgb(0 0 0 / 0.1);
+  width: 100%;
   max-width: 60rem;
+
+  img {
+    aspect-ratio: 1200 / 675;
+  }
 }
 
 // ----- SHARED ----- //

@@ -52,6 +52,10 @@ disableHoverInput.addEventListener("change", () => {
 
 let isScrolled = window.scrollY > 0;
 
+if (isScrolled) {
+  document.body.classList.add("scrolled");
+}
+
 window.addEventListener("scroll", () => {
   const newIsScrolled = window.scrollY > 0;
 
