@@ -1,17 +1,21 @@
-{% extends "base.html" %} {% block content %}
+{% extends "base.html" %}
+
+{% block content %}
 
 <div class="cell cell--4 padding">
-  {% if page.date %}
-  <time datetime="{{page.date}}">{{page.date}}</time>
+  {% if section.date %}
+    <time datetime="{{section.date}}">{{section.date}}</time>
   {% endif %}
-  <h1>{{page.title}}</h1>
+  <h1>{{section.title}}</h1>
 </div>
 
-<div class="padding content">{{ page.content | safe }}</div>
+<div class="padding content">{{ section.content | safe }}</div>
 
-{% if (page.extra.events) %}
 <div class="grid events">
-  {% for event in page.extra.events %} {% include "partials/event-card.html" %}
+  {% for event in section.pages %}
+    {% set event = event %}
+    {% include "partials/event-card.html" %}
   {% endfor %}
 </div>
-{% endif %} {% endblock content %}
+
+{% endblock content %}

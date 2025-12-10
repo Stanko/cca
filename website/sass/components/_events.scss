@@ -4,10 +4,27 @@
 .event {
   display: flex;
   flex-direction: column;
+}
+
+.event__page-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 
   h2 {
     margin-bottom: auto;
     flex-grow: 1;
+  }
+
+  &:hover h2 {
+    background-color: var(--blue);
+    color: var(--text-light);
+  }
+
+  &:hover .event__next {
+    color: var(--text-light);
   }
 }
 

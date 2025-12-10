@@ -1,6 +1,4 @@
 +++
-in_search_index = false
-generate_feeds = false
 render = true
 sort_by = "date"
 template = "code-jams.html"
