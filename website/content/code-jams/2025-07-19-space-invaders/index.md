@@ -5,7 +5,7 @@ aliases = [
   "invaders.html",
   "/invaders/",
   "/invaders",
-    '/code-challenges/invaders/'
+  "/code-challenges/invaders/"
 ]
 
 [extra]

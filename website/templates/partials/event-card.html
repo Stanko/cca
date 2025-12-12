@@ -12,7 +12,7 @@
 {% set date_num = event.date | replace(from="-", to="") | int %}
 
 <div class="event-card {{ event_class_name }}">
-  <a class="event-card__page-link" href="{{ event.permalink }}">
+  <a class="event-card__page-link" href="{{ event.permalink | safe }}">
     <h2 class="padding hover stripes">
       <span class="event-card__date">{{ event.date }}</span>
         {# Check if the event is in the future at build time #}
@@ -21,29 +21,29 @@
         {% endif %}
       {{ event.title }}
     </h2>
-    {% if event.extra.photo %}
+    {% if event.extra.image %}
       {# Create a tiny image to set as the background before lazy images load #}
-      {% set image_path = "/img/meetups/" ~ event.extra.photo %}
+      {% set image_path = event.extra.image %}
       {% set tiny_image = resize_image(path = image_path, op = "scale", width = 12, height = 7) %}
 
-      <div class="hover event-card__image dots" style="background-image: url('{{ tiny_image.url }}');">
+      <div class="hover event-card__image dots" style="background-image: url('{{ tiny_image.url | safe }}');">
         {# Add lazy loading for images below the fold #}
         {# Keep the first four images eager #}
         {% if event_loop_index < 5 %}
-          <img src="{{ image_path }}" alt="{{ event.title }}">
+          <img src="{{ image_path | safe }}" alt="{{ event.title }}">
         {%else%}
-          <img src="{{ image_path }}" loading="lazy" >
+          <img src="{{ image_path | safe }}" loading="lazy" >
         {% endif %}
       </div>
     {% endif %}
   </a>
   <div class="event__links">
     {% if event.extra.meetup_url %}
-      <a class="event__link event__link--meetup padding hover dots" href="{{ event.extra.meetup_url }}">Meetup</a>
+      <a class="event__link event__link--meetup padding hover dots" href="{{ event.extra.meetup_url | safe }}">Meetup</a>
     {% endif %}
 
     {% if event.extra.luma_url %}
-      <a class="event__link event__link--luma padding hover stripes-inverted" href="{{ event.extra.luma_url }}">Luma</a>
+      <a class="event__link event__link--luma padding hover stripes-inverted" href="{{ event.extra.luma_url | safe }}">Luma</a>
     {% endif %}
   </div>
 </div>

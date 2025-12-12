@@ -13,14 +13,14 @@
       <h1 class="">{{ page.title }}</h1>
 
       <div class="image image--1">
-        <img src="{{ page.extra.images[0] }}" />
+        <img src="{{ page.extra.images[0] | safe }}" />
         {% include "partials/logo.html" %}
       </div>
       <div class="image image--2">
-        <img src="{{ page.extra.images[1] }}" />
+        <img src="{{ page.extra.images[1] | safe }}" />
       </div>
       <div class="image image--3">
-        <img src="{{ page.extra.images[2] }}" />
+        <img src="{{ page.extra.images[2] | safe }}" />
       </div>
 
       <div class="d1 dots"></div>

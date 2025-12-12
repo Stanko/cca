@@ -3,7 +3,7 @@ title = "Sunday Session @Filmhuis Cavia"
 date = "2024-03-31"
 
 [extra]
-photo = "meetup-2024-03-31.jpg"
+image = "/img/meetups/meetup-2024-03-31.jpg"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/299732345/"
 +++
 

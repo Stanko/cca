@@ -78,7 +78,7 @@
     {% for image in images %}
       <div class="cell cell--2">
         {% set img = resize_image(path = image, op = "scale", width = 640, height = 480) %}
-        <img src="{{ img.url }}" alt="" />
+        <img src="{{ img.url | safe }}" alt="" />
       </div>
     {% endfor %}
   </div>

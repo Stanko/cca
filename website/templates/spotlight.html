@@ -9,7 +9,7 @@
 <div class="cell cell--lg-3 spotlight dots">
   {% if page.extra.video %}
     <video
-      src="{{ page.extra.video }}#t=0.001"
+      src="{{ page.extra.video | safe }}#t=0.001"
       autoplay
       loop
       muted
@@ -17,9 +17,9 @@
     ></video>
     <button class="hover padding spotlight__pause play-button">Pause</button>
   {% elif page.extra.image %}
-  <img src="{{ page.extra.image }}" alt="{{ page.title }}" />
+  <img src="{{ page.extra.image | safe }}" alt="{{ page.title }}" />
   {% elif page.extra.iframe %}
-  <iframe src="{{ page.extra.iframe }}" frameborder="0" allowfullscreen></iframe>
+  <iframe src="{{ page.extra.iframe | safe }}" frameborder="0" allowfullscreen></iframe>
   {% endif %}
 </div>
 

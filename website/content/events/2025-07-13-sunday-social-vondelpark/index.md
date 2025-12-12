@@ -3,7 +3,7 @@ title = "Sunday Social @ Vondelpark"
 date = "2025-07-13"
 
 [extra]
-photo = "meetup-2025-07-13.jpg"
+image = "/img/meetups/meetup-2025-07-13.jpg"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/308729903/"
 luma_url = "https://luma.com/vwfjl4qt?tk=GR5oOZ"
 +++

@@ -33,7 +33,7 @@ const toml = data.map((item) => {
     `title = "${item.title}"`,
     `meetup_url = "${item.url}"`,
     `date = "${item.date}"`,
-    `photo = "${item.photoPath}"`,
+    `image = "${item.photoPath}"`,
     `description = """\n${item.description}\n"""`,
   ].join("\n");
 });

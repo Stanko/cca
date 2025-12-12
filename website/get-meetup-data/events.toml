@@ -2,7 +2,7 @@
 title = "Algorithms & Mistakes by Wimer Hazenberg (aka Monokai) @A-Lab"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/310355950/"
 date = "2025-08-21"
-photo = "meetup-2025-08-21.jpg"
+image = "meetup-2025-08-21.jpg"
 description = """
 Hello again **creative coders** and **enthusiasts**!
 
@@ -32,7 +32,7 @@ We're looking forward to seeing you there!
 title = "Sunday Social @ Vondelpark"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/308729903/"
 date = "2025-07-13"
-photo = "meetup-2025-07-13.jpg"
+image = "meetup-2025-07-13.jpg"
 description = """
 Hello again **everyone**!
 
@@ -57,7 +57,7 @@ And/or online, on our **[Discord](https://discord.gg/qrrKkaM4w3)**
 title = "Tools Special @Multitude"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/308089677/"
 date = "2025-06-12"
-photo = "meetup-2025-06-12.jpg"
+image = "meetup-2025-06-12.jpg"
 description = """
 Hello again creative coding enthusiasts!
 
@@ -79,7 +79,7 @@ Or online on our **[Discord](https://discord.gg/qrrKkaM4w3)**
 title = "May Madness @Mollie"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/307702713/"
 date = "2025-05-28"
-photo = "meetup-2025-05-28.jpg"
+image = "meetup-2025-05-28.jpg"
 description = """
 As usual, we'd like to **thank** everyone who joined us for the **Plotter Special** last month! Seeing everybody huddled around the plotters was really something...
 
@@ -122,7 +122,7 @@ We hope to see you there! Or if you can't make it, come hang out on **[our Disco
 title = "Plotter Special @Miro"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/307101687/"
 date = "2025-04-23"
-photo = "meetup-2025-04-23.jpg"
+image = "meetup-2025-04-23.jpg"
 description = """
 **Check the comment for the instructions how to find us in the Miro office!**
 
@@ -156,7 +156,7 @@ Or you can use one of the **[tools](https://neon.muffinman.io/)**[ ](https://neo
 title = "Poetry Afternoon @ CREA"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/306239851/"
 date = "2025-03-30"
-photo = "meetup-2025-03-30.jpg"
+image = "meetup-2025-03-30.jpg"
 description = """
 This time we planned something a little bit different: a **Poetry Afternoon**!
 
@@ -184,7 +184,7 @@ We're looking forward to seeing you there, or if you can't make it, come say hi 
 title = "After Work Session @VolksHotel"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/306228202/"
 date = "2025-02-26"
-photo = "meetup-2025-02-26.jpg"
+image = "meetup-2025-02-26.jpg"
 description = """
 **February** has seemingly just begun, yet its end is already in sight. But fear not, we have another gathering planned before that end is nigh!
 
@@ -201,7 +201,7 @@ We're looking forward to seeing you there, or if you can't make it, come say hi 
 title = "Genuary Special @ CREA Cafe"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/305499553/"
 date = "2025-01-29"
-photo = "meetup-2025-01-29.jpg"
+image = "meetup-2025-01-29.jpg"
 description = """
 Hello again **creative coders** and enthusiasts!
 
@@ -222,7 +222,7 @@ We've reserved the long tables next to the bar in **CREA Cafe**, to accomodate o
 title = "Social @ Troost, de Pijp"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/304827894/"
 date = "2024-12-18"
-photo = "meetup-2024-12-18.jpg"
+image = "meetup-2024-12-18.jpg"
 description = """
 As the year comes to an end we want to wrap it up with a relaxed **social** event.
 
@@ -248,7 +248,7 @@ And we’re still looking for a better banner! Hit us up over on [our discord](h
 title = "Sunday Session @ CREA Café"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/304324582/"
 date = "2024-11-17"
-photo = "meetup-2024-11-17.jpg"
+image = "meetup-2024-11-17.jpg"
 description = """
 Hello again creative coders and enthusiasts!
 
@@ -285,7 +285,7 @@ Or online, on our Discord
 title = "Sunday Lidar Session @ DanceHack"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/303584874/"
 date = "2024-10-13"
-photo = "meetup-2024-10-13.jpg"
+image = "meetup-2024-10-13.jpg"
 description = """
 Hello again creative coders and enthusiasts!
 
@@ -309,7 +309,7 @@ CCA
 title = "Sunday Session @ CREA Cafe"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/303211500/"
 date = "2024-09-15"
-photo = "meetup-2024-09-15.jpg"
+image = "meetup-2024-09-15.jpg"
 description = """
 **Hello again creative coders and enthusiasts!**
 
@@ -329,7 +329,7 @@ Or online, on our Discord: [https://discord.gg/qrrKkaM4w3](https://discord.gg/qr
 title = "Sunday Session @ VolksHOTEL"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/302667989/"
 date = "2024-08-18"
-photo = "meetup-2024-08-18.jpg"
+image = "meetup-2024-08-18.jpg"
 description = """
 **Hello again creative coders and enthusiasts!**
 
@@ -348,7 +348,7 @@ Or online, on our Discord: [https://discord.gg/qrrKkaM4w3](https://discord.gg/qr
 title = "Social @ Vondelpark"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/301797464/"
 date = "2024-07-14"
-photo = "meetup-2024-07-14.jpg"
+image = "meetup-2024-07-14.jpg"
 description = """
 Hello again everyone!
 
@@ -371,7 +371,7 @@ And/or online, on **[our Discord](https://discord.gg/eJJvn3487M)**
 title = "Thursday Session @ Miro"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/301058472/"
 date = "2024-06-06"
-photo = "meetup-2024-06-06.jpg"
+image = "meetup-2024-06-06.jpg"
 description = """
 Hello again everyone!
 
@@ -410,7 +410,7 @@ Or online, on [our Discord](https://discord.gg/eJJvn3487M)
 title = "Thursday Session @ Mollie"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/300468135/"
 date = "2024-05-02"
-photo = "meetup-2024-05-02.jpg"
+image = "meetup-2024-05-02.jpg"
 description = """
 Hello everyone!
 
@@ -434,7 +434,7 @@ And thanks to Lyr for this month's artwork!
 title = "Sunday Session @Filmhuis Cavia"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/299732345/"
 date = "2024-03-31"
-photo = "meetup-2024-03-31.jpg"
+image = "meetup-2024-03-31.jpg"
 description = """
 **Hello there all again!**
 
@@ -456,7 +456,7 @@ Or online, on our discord: [https://discord.gg/E8hKkFUnwP](https://discord.gg/E8
 title = "Sunday Session @VolksHOTEL"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/299098392/"
 date = "2024-02-25"
-photo = "meetup-2024-02-25.jpg"
+image = "meetup-2024-02-25.jpg"
 description = """
 **Hello there all!**
 

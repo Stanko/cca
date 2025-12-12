@@ -3,7 +3,7 @@ title = "Plotter Special @Miro"
 date = "2025-04-23"
 
 [extra]
-photo = "meetup-2025-04-23.jpg"
+image = "/img/meetups/meetup-2025-04-23.jpg"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/307101687/"
 +++
 

@@ -5,7 +5,7 @@ date = "2025-12-17"
 [extra]
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/312281727/"
 luma_url = "https://luma.com/hxg4s1l9"
-photo = "meetup-2025-12-17.png"
+image = "/img/meetups/meetup-2025-12-17.png"
 +++
 
 As the year comes to an end yet again we want to wrap it up with a relaxed social event.

@@ -3,7 +3,7 @@ title = "Daily Practice Special @ CONTACT MakerSpace"
 date = "2025-09-24"
 
 [extra]
-photo = "meetup-2025-09-24.jpg"
+image = "/img/meetups/meetup-2025-09-24.jpg"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/310717611/"
 luma_url = "https://luma.com/01opua7t"
 +++

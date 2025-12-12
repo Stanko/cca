@@ -3,7 +3,7 @@ title = "Algorithms & Mistakes by Wimer Hazenberg (aka Monokai) @A-Lab"
 date = "2025-08-21"
 
 [extra]
-photo = "meetup-2025-08-21.jpg"
+image = "/img/meetups/meetup-2025-08-21.jpg"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/310355950/"
 luma_url = "https://luma.com/y68oft2w"
 +++

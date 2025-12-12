@@ -3,7 +3,7 @@ title = "Sunday Lidar Session @ DanceHack"
 date = "2024-10-13"
 
 [extra]
-photo = "meetup-2024-10-13.jpg"
+image = "/img/meetups/meetup-2024-10-13.jpg"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/303584874/"
 +++
 

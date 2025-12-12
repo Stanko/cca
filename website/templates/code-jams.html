@@ -1,6 +1,4 @@
-{% extends "base.html" %}
-
-{% block content %}
+{% extends "base.html" %} {% block content %}
 
 <div class="cell cell--4 padding">
   <h1>{{section.title}}</h1>
@@ -9,27 +7,29 @@
 <div class="padding content">{{ section.content | safe }}</div>
 <div class="grid jams">
   {% for page in section.pages %}
-    <a class="jam cell cell--md-2" href="{{ page.permalink }}">
-      <h2 class="padding hover dots-shifted">
-        <span class="jam__date">{{ page.date }}</span>
-        {{ page.title }}
-      </h2>
-      {% if page.extra.image %}
-        {# Create a tiny image to set as the background before lazy images load #}
-        {% set image_path = page.extra.image %}
-        {% set tiny_image = resize_image(path = image_path, op = "scale", width = 13, height = 7) %}
+  <a class="jam cell cell--md-2" href="{{ page.permalink | safe }}">
+    <h2 class="padding hover dots-shifted">
+      <span class="jam__date">{{ page.date }}</span>
+      {{ page.title }}
+    </h2>
+    {% if page.extra.image %} {# Create a tiny image to set as the background
+    before lazy images load #} {% set image_path = page.extra.image %} {% set
+    tiny_image = resize_image(path = image_path, op = "scale", width = 13,
+    height = 7) %}
 
-        <div class="hover jam__image dots" style="background-image: url('{{ tiny_image.url }}');">
-          {# Add lazy loading for images below the fold #}
-          {# Keep the first four images eager #}
-          {% if loop.index < 5 %}
-            <img src="{{ image_path }}" alt="{{ page.title }}">
-          {%else%}
-            <img src="{{ image_path }}" loading="lazy" >
-          {% endif %}
-        </div>
+    <div
+      class="hover jam__image dots"
+      style="background-image: url('{{ tiny_image.url | safe }}');"
+    >
+      {# Add lazy loading for images below the fold #} {# Keep the first four
+      images eager #} {% if loop.index < 5 %}
+      <img src="{{ image_path | safe }}" alt="{{ page.title }}" />
+      {%else%}
+      <img src="{{ image_path | safe }}" loading="lazy" />
       {% endif %}
-    </a>
+    </div>
+    {% endif %}
+  </a>
   {% endfor %}
 </div>
 

@@ -9,19 +9,19 @@
   <h1>{{page.title}}</h1>
 </div>
 
-{% if page.extra.photo %}
+{% if page.extra.image %}
   <div class="event__banner hover dots">
-    <img src="/img/meetups/{{ page.extra.photo }}" alt="{{ page.title }}">
+    <img src="{{ page.extra.image | safe }}" alt="{{ page.title }}">
   </div>
 {% endif %}
 
 <div class="event__links">
   {% if page.extra.meetup_url %}
-  <a class="event__link event__link--meetup padding hover dots" href="{{ page.extra.meetup_url }}">Meetup</a>
+  <a class="event__link event__link--meetup padding hover dots" href="{{ page.extra.meetup_url | safe }}">Meetup</a>
   {% endif %}
 
   {% if page.extra.luma_url %}
-    <a class="event__link event__link--luma padding hover stripes-inverted" href="{{ page.extra.luma_url }}">Luma</a>
+    <a class="event__link event__link--luma padding hover stripes-inverted" href="{{ page.extra.luma_url | safe }}">Luma</a>
   {% endif %}
 </div>
 
