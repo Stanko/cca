@@ -20,7 +20,7 @@ For 2026, [Piter Pasma](https://piterpasma.nl/) again collected [31 amazing prom
 
 For this joyous occasion, we're organizing a **GENUARY Special** on **Thursday, January 29th** and this in our beloved spot at [A-Lab](https://www.a-lab.nl/).
 
-We're planning a big show & tell evening where everybody is welcomed to showcase their GENUARY (or other) work, talk about their inspiration or share their process. We'll also have space to pull out your laptop and hack away for a bit if you feel like it.
+We're planning a big show & tell evening where everybody is welcomed to showcase their GENUARY (or other) work, talk about their inspiration or share their process. Whether you did all 31 prompts or *just* a few, we'd love to see it! We'll also have space to pull out your laptop and hack away for a bit if you feel like it. Or just sit back, relax, and enjoy the *show*.
 
 Either way, we think this is going to be a great one!
 So we hope to see you there!
