@@ -1,5 +1,5 @@
 +++
-title = "Genuary Special @A-Lab"
+title = "Genuary Special @A-Lab with Piter Pasma"
 date = "2026-01-29"
 
 [extra]
@@ -13,6 +13,8 @@ Hello again curious coders and creatives!
 We hope you were able to wrap up last year in beauty and are as excited about the fresh year as we are!
 
 One of the things that gets us excited around this time of year is that fact that the year starts with our favorite month: [GENUARY](https://genuary.art)🎉
+
+We're very honored and excited to announce that for our the occasion we'll be joined by none other than the Godfather of Genuary himself: **Piter Pasma!**
 
 **GENUARY** is an artificially generated month of time where we build code that makes beautiful things. It’s happening during the month of January 2026, and everybody is invited!
 
