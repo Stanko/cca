@@ -4,7 +4,10 @@
 
 <div class="cell cell--4 padding">
   {% if page.date %}
-    <time class="opacity-50" datetime="{{page.date}}">{{page.date}}</time>
+    <time class="opacity-50" datetime="{{page.date}}">
+      {{page.date}}
+      {% if page.extra.time %} &bull; {{ page.extra.time }}{% endif %}
+    </time>
   {% endif %}
   <h1>{{page.title}}</h1>
 </div>

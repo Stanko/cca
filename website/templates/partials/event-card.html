@@ -11,12 +11,18 @@
 {% set today_num = now() | date(format="%Y%m%d") | int %}
 {% set date_num = event.date | replace(from="-", to="") | int %}
 
+{# Check if the event is in the future at build time #}
+{% set is_in_future = date_num >= today_num %}
+
 <div class="event-card {{ event_class_name }}">
   <a class="event-card__page-link" href="{{ event.permalink | safe }}">
     <h2 class="padding hover stripes">
-      <span class="event-card__date">{{ event.date }}</span>
-        {# Check if the event is in the future at build time #}
-        {% if date_num >= today_num %}
+      <span class="event-card__date">
+        {{ event.date }}
+        {# Show time if it is defined and the event is upcoming #}
+        {% if event.extra.time and is_in_future %} &bull; {{ event.extra.time }}{% endif %}
+      </span>
+        {% if is_in_future %}
           <span class="event-card__next">Upcoming event:</span>
         {% endif %}
       {{ event.title }}
@@ -25,14 +31,15 @@
       {# Create a tiny image to set as the background before lazy images load #}
       {% set image_path = event.extra.image %}
       {% set tiny_image = resize_image(path = image_path, op = "scale", width = 12, height = 7) %}
+      {% set thumb_image = resize_image(path = image_path, op = "fit_width", width = 1200) %}
 
       <div class="hover event-card__image dots" style="background-image: url('{{ tiny_image.url | safe }}');">
         {# Add lazy loading for images below the fold #}
         {# Keep the first four images eager #}
         {% if event_loop_index < 5 %}
-          <img src="{{ image_path | safe }}" alt="{{ event.title }}">
+          <img src="{{ thumb_image.url | safe }}" alt="{{ event.title }}">
         {%else%}
-          <img src="{{ image_path | safe }}" loading="lazy" >
+          <img src="{{ thumb_image.url | safe }}" loading="lazy" >
         {% endif %}
       </div>
     {% endif %}
