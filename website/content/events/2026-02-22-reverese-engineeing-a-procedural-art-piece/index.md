@@ -3,8 +3,8 @@ title = "Reverse Engineering a Procedural Art Piece"
 date = "2026-02-22"
 
 [extra]
-# meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/_______/" # todo id
-# luma_url = "https://luma.com/______" # todo id
+meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/313280202/" 
+luma_url = "https://luma.com/x79ryq29" 
 image = "/img/meetups/meetup-2026-02-22.jpg"
 time = "13:00"
 +++
