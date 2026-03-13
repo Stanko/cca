@@ -18,6 +18,7 @@ This month we're very happy to welcome **[Adam Driggers](https://adamdriggers.co
 Come join us on **Sunday, March 22nd** at **13:00h** at our usual spot at [A Lab](https://www.a-lab.nl/).
 
 🖼️ **Workshop: Image Manipulation with p5.js**
+
 Adam will guide you through the surprisingly fun world of working with images in code. Starting from the basics of loading and displaying images, you'll work your way up to pixel-level manipulation and cutting images apart in unexpected ways. Expect to walk away with new tricks up your sleeve and a fresh perspective on what you can do with a photo and a few lines of p5.
 
 **Bring your laptop** — this is a hands-on session! No deep experience required, just curiosity and willingness to experiment.
