@@ -6,4 +6,4 @@ title = "CCA Just Dance"
 iframe = "/cca-just-dance/index.html"
 +++
 
-[Aidan](https://aidanwyber.com/) made our logo dance. Press play and enjoy, it's guaranteed to bring a smile to your face.
+[Aidan](https://aidanwyber.xyz/) made our logo dance. Press play and enjoy, it's guaranteed to bring a smile to your face.

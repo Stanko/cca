@@ -29,4 +29,4 @@ Run it in [your browser](https://aidanwyber.github.io/Cityscape/) and add your o
 
 Want help or feedback? Share sketches, questions, or ideas in the Discord #coding-challenge channel, or on your PR. We'd love to see what you can build 🙂
 
-This coding challenge was initiated by Aidan: [aidanwyber.com](https://aidanwyber.com/)
+This coding challenge was initiated by Aidan: [aidanwyber.xyz](https://aidanwyber.xyz/)
