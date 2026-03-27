@@ -26,6 +26,22 @@
 
 :root {
   color-scheme: dark;
+  --bg-1: #220a2d;
+  --bg-2: #2d0a35;
+  --bg-3: #441040;
+  --surface: rgba(36, 13, 42, 0.74);
+  --surface-strong: rgba(48, 16, 55, 0.92);
+  --border: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.22);
+  --text: #f4efea;
+  --muted: rgba(244, 239, 234, 0.78);
+  --accent-yellow: #f5dd69;
+  --accent-green: #8ef0a0;
+  --accent-cyan: #6ae8ff;
+  --glow-1: rgba(106, 232, 255, 0.18);
+  --glow-2: rgba(245, 221, 105, 0.14);
+  --grid: rgba(255, 255, 255, 0.052);
+  --shadow: 0 32px 90px rgba(9, 0, 17, 0.44);
 }
 
 *,
@@ -48,7 +64,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #070809;
+  background-color: var(--bg-1);
   color: #f2eee8;
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -82,22 +98,6 @@ a:hover {
 }
 
 .page-shell {
-  --bg-1: #220a2d;
-  --bg-2: #2d0a35;
-  --bg-3: #441040;
-  --surface: rgba(36, 13, 42, 0.74);
-  --surface-strong: rgba(48, 16, 55, 0.92);
-  --border: rgba(255, 255, 255, 0.12);
-  --border-strong: rgba(255, 255, 255, 0.22);
-  --text: #f4efea;
-  --muted: rgba(244, 239, 234, 0.78);
-  --accent-yellow: #f5dd69;
-  --accent-green: #8ef0a0;
-  --accent-cyan: #6ae8ff;
-  --glow-1: rgba(106, 232, 255, 0.18);
-  --glow-2: rgba(245, 221, 105, 0.14);
-  --grid: rgba(255, 255, 255, 0.052);
-  --shadow: 0 32px 90px rgba(9, 0, 17, 0.44);
   position: relative;
   min-height: 100vh;
   overflow: hidden;
@@ -407,10 +407,27 @@ a:hover {
   line-height: 1.2;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .meta-block__label {
   opacity: 0.7;
+}
+
+.meta-block__link:hover strong {
+  text-decoration: underline;
+}
+
+.meta-block__link:hover svg {
+  opacity: 1;
+}
+
+.meta-block__link svg {
+  opacity: 0.5;
+  width: 16px;
+  overflow: visible;
 }
 
 .meta-tags {
@@ -576,8 +593,10 @@ a:hover {
 }
 
 .closing-card__icon {
+  min-width: 18px;
   display: grid;
   place-items: center;
+  height: 100%;
 }
 
 .closing-card__icon img {
