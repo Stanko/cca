@@ -60,7 +60,7 @@ h4,
 h5,
 h6 {
   font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 a {
@@ -422,8 +422,7 @@ a:hover {
 }
 
 .meta-tags img {
-  width: 20px;
-  height: 20px;
+  width: 18px;
 }
 
 .divider {
@@ -450,8 +449,7 @@ a:hover {
 }
 
 .divider img {
-  width: 20px;
-  min-width: 20px;
+  width: 18px;
 }
 
 .overview,
@@ -575,8 +573,7 @@ a:hover {
 }
 
 .closing-card__icon img {
-  width: 20px;
-  height: 20px;
+  width: 18px;
 }
 
 .closing-card p {
