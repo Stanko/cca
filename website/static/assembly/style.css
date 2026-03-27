@@ -36,6 +36,11 @@
   padding: 0;
 }
 
+::selection {
+  background: var(--accent-yellow);
+  color: var(--bg-1);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -358,7 +363,7 @@ a:hover {
   );
   background-size: 150%;
   background-position: 25%;
-  color: rgb(42, 20, 57);
+  color: var(--bg-1);
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.9rem;
   font-weight: 600;
@@ -373,7 +378,7 @@ a:hover {
 }
 
 .hero__cta-button:hover {
-  color: rgb(42, 20, 57);
+  color: var(--bg-1);
   opacity: 0.9;
 }
 
@@ -567,9 +572,6 @@ a:hover {
 .closing-card__icon {
   display: grid;
   place-items: center;
-  width: 44px;
-  height: 44px;
-  min-width: 44px;
 }
 
 .closing-card__icon img {
@@ -593,6 +595,10 @@ a:hover {
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
+}
+
+.closing-card p::selection {
+  -webkit-text-fill-color: var(--bg-1);
 }
 
 .site-footer {
