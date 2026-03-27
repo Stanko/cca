@@ -305,6 +305,12 @@ a:hover {
   }
 }
 
+.hero__tagline br {
+  @media (max-width: 520px) {
+    display: none;
+  }
+}
+
 .hero__summary,
 .overview__body p,
 .program-card p,
