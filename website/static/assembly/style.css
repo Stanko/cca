@@ -239,9 +239,10 @@ a:hover {
   margin-bottom: 12px;
 }
 
-.hero__logo img {
+.hero__logo-svg {
   width: min(100%, 520px);
   image-rendering: pixelated;
+  overflow: visible;
 }
 
 .section-heading h2,
