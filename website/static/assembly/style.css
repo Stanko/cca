@@ -195,11 +195,15 @@ a:hover {
 }
 
 .eyebrow__logo--cca img {
-  width: clamp(90px, 20vw, 140px);
+  width: clamp(80px, 20vw, 140px);
 }
 
 .eyebrow__logo--iadg img {
-  width: clamp(126px, 28vw, 196px);
+  width: clamp(104px, 28vw, 196px);
+}
+
+.eyebrow__logo--alab {
+  width: clamp(30px, 8vw, 60px);
 }
 
 .eyebrow__plus {
