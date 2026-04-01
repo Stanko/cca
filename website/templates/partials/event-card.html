@@ -14,8 +14,14 @@
 {# Check if the event is in the future at build time #}
 {% set is_in_future = date_num >= today_num %}
 
+{% if event.extra.event_page_link %}
+  {% set event_permalink = event.extra.event_page_link %}
+{% else %}
+  {% set event_permalink = event.permalink %}
+{% endif %}
+
 <div class="event-card {{ event_class_name }}">
-  <a class="event-card__page-link" href="{{ event.permalink | safe }}">
+  <a class="event-card__page-link" href="{{ event_permalink | safe }}">
     <h2 class="padding hover stripes">
       <span class="event-card__date">
         {{ event.date }}
