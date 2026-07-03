@@ -34,7 +34,6 @@ const disabledHoverDefaultValue =
 disableHoverInput.checked = disabledHoverDefaultValue;
 
 if (!disabledHoverDefaultValue) {
-  console.log("add class");
   document.body.classList.add("enable-hover-effect");
 }
 
