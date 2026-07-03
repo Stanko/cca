@@ -3,8 +3,8 @@ title = "Summer Social"
 date = "2026-07-19"
 
 [extra]
-meetup_url = ""
-luma_url = ""
+meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/315527593/"
+luma_url = "https://luma.com/3zhfpmcl"
 image = "/img/meetups/meetup-2026-07-19.jpg"
 time = "13:00"
 +++
