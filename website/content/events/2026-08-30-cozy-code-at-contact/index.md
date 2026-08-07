@@ -1,5 +1,5 @@
 +++
-title = "Cozy Code"
+title = "Cozy Code @ Contact Maker Space"
 date = "2026-08-30"
 
 [extra]
