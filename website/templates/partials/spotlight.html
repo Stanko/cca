@@ -1,6 +1,6 @@
 {% set data = get_section(path="spotlight/_index.md") %}
 {% set count = data.pages | length %}
-{% set titles = data.pages | map(attribute='slug') | join(sep = '","') %}
+{% set titles = [page.slug for page in data.pages] | join(sep = '","') %}
 
 <div class="cell cell--lg-1 spotlight-placeholder">
   <h2 class="hover padding">Members' work spotlight</h2>

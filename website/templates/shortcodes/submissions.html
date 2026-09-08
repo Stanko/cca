@@ -1,6 +1,7 @@
-{% if (page.extra.submissions) %}
+{% component submissions(submissions) %}
+{% if submissions %}
   <div class="grid submissions">
-    {% for submission in page.extra.submissions %}
+    {% for submission in submissions %}
       {% if (submission.link) %}
         <a href="{{ submission.link | safe }}" class="cell cell--2 cell--md-third cell--lg-1">
       {% else %}
@@ -37,3 +38,4 @@
     <button class="submissions__pause dots padding hover stripes">Pause videos</button>
   </div>
 {% endif %}
+{% endcomponent submissions %}

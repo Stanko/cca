@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {%- for sitemap_entry in entries %}
-    {%- if sitemap_entry.permalink is not matching("/spotlight/") -%}
+    {%- if sitemap_entry.permalink is not matching(pat="/spotlight/") -%}
       <url>
         <loc>{{ sitemap_entry.permalink | escape_xml | safe }}</loc>
         {%- if sitemap_entry.updated %}

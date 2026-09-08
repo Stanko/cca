@@ -59,7 +59,7 @@ Thanks for everyone who participated. We have some really cool invaders. We hope
 
 Here are all of the submissions.
 
-{{ submissions() }}
+{{<submissions submissions={page.extra.submissions} />}}
 
 ## Guidelines
 

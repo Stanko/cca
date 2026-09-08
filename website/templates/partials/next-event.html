@@ -6,6 +6,7 @@
 
   {# If there is a future event, show it and break the loop #}
   {% if date_num >= today_num %}
+    {% set event_loop_index = loop.index %}
     {% include "partials/event-card.html" %}
     {% break %}
   {% endif %}
