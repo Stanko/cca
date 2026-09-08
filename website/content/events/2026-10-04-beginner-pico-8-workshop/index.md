@@ -3,8 +3,8 @@ title = "PICO-8 Beginner Workshop @ A-Lab"
 date = "2026-10-04"
 
 [extra]
-meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/"
-luma_url = "https://luma.com/"
+meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/316470174"
+luma_url = "https://luma.com/rvea85tp"
 image = "/img/meetups/meetup-2026-10-04.png"
 time = "13:00"
 +++
