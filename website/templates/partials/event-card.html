@@ -1,7 +1,5 @@
-{% if not loop.index %}
+{% if not event_loop_index %}
   {% set event_loop_index = 1 %}
-{% else %}
-  {% set event_loop_index = loop.index %}
 {% endif %}
 
 {% if not event_class_name %}

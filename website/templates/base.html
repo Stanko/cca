@@ -1,6 +1,6 @@
-{% if page.title %}
+{% if page?.title %}
   {% set page_data = page %}
-{% elif section.title %}
+{% elif section?.title %}
   {% set page_data = section %}
 {% else %}
   {% set title = "Creative Coding Amsterdam" %}
@@ -57,7 +57,7 @@
     <meta name="twitter:title" content="{{ meta_title }}" />
     <meta name="twitter:description" content="{{ description }}" />
 
-    {% if page_data.extra.image %}
+    {% if page_data?.extra?.image %}
       <meta property="twitter:image" content="{{ config.base_url | safe }}{{ page_data.extra.image | safe }}" />
       <meta property="og:image" content="{{ config.base_url | safe }}{{ page_data.extra.image | safe }}" />
     {% else %}

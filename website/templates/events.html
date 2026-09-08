@@ -21,6 +21,7 @@
 <div class="grid events">
   {% for event in section.pages %}
     {% set event = event %}
+    {% set event_loop_index = loop.index %}
     {% include "partials/event-card.html" %}
   {% endfor %}
 </div>
