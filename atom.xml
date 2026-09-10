@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/atom.xls" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Creative Coding Amsterdam</title>
+    <link rel="self" type="application/atom+xml" href="https://cca.codes/atom.xml" />
+    <link
+    rel="alternate"
+    type="text/html"
+    href="https://cca.codes"
+  />
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated
+  >2026-10-04T00:00:00+00:00</updated>
+    <id>https://cca.codes/atom.xml</id>
+    <entry xml:lang="en">
+        <title>PICO-8 Beginner Workshop @ A-Lab</title>
+        <published>2026-10-04T00:00:00+00:00</published>
+        <updated
+    >2026-10-04T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/beginner-pico-8-workshop/"
+    />
+        <id>https://cca.codes/events/beginner-pico-8-workshop/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/beginner-pico-8-workshop/"
+    >&lt;p&gt;Hello everyone,&lt;/p&gt;
+&lt;p&gt;Our previous &lt;strong&gt;Cozy Code&lt;/strong&gt; session was cozy indeed - thank you all for coming!&lt;/p&gt;
+&lt;p&gt;Next up, we&#39;re back at our usual spot at &lt;a rel=&quot;external&quot; href=&quot;https://www.a-lab.nl/en&quot;&gt;A-Lab&lt;/a&gt; for a beginner workshop on making video games in &lt;a rel=&quot;external&quot; href=&quot;https://www.lexaloffle.com/pico-8.php&quot;&gt;PICO-8&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You&#39;ll need to bring a laptop, but there&#39;s nothing to install and no accounts to create. We&#39;ll be using the browser-based &lt;a rel=&quot;external&quot; href=&quot;https://www.pico-8-edu.com/&quot;&gt;PICO-8 Education Edition&lt;/a&gt;. You&#39;ll only need to know the very basics of programming - things like what a function, loop, or if/else condition is.&lt;/p&gt;
+&lt;p&gt;We&#39;ll start with a quick introduction to PICO-8, go through some of the basics of game development and then put it all together by making our own tiny (pico?) game.&lt;/p&gt;
+&lt;p&gt;There will even be explosions, so we really hope to see you there!&lt;/p&gt;
+&lt;p&gt;Or if not, catch us on &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;Discord&lt;/a&gt;.&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cozy Code @ Contact Maker Space</title>
+        <published>2026-08-30T00:00:00+00:00</published>
+        <updated
+    >2026-08-30T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/cozy-code-at-contact/"
+    />
+        <id>https://cca.codes/events/cozy-code-at-contact/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/cozy-code-at-contact/"
+    >&lt;p&gt;Hello lovely creatives, coders and enthusiasts!&lt;/p&gt;
+&lt;p&gt;We&#39;re back with another relaxed &lt;strong&gt;Cowork Session&lt;/strong&gt;. The weather&#39;s still nice, but we&#39;re guessing you&#39;re also itching to get back to your projects.&lt;/p&gt;
+&lt;p&gt;Join us &lt;strong&gt;Sunday, August 30th&lt;/strong&gt; from &lt;strong&gt;13:00&lt;/strong&gt;, at &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.contactamsterdam.nl/&quot;&gt;Contact Maker Space&lt;/a&gt;&lt;/strong&gt;. Whether you want to work on a personal project, finally finish that one sketch or simply hang out, this is the perfect afternoon for it. Bring your laptop, bring your ideas and let&#39;s create together in a relaxed environment. Share knowledge, ask questions or just get some quiet coding done&lt;/p&gt;
+&lt;p&gt;There&#39;s no pressure to show anything off, but if you feel like sharing what you&#39;re working on, we&#39;re always happy to take a look and swap ideas. If everything goes right, we&#39;ll get a few &quot;ooh, what&#39;s that?&quot; moments.&lt;/p&gt;
+&lt;p&gt;Hope to see you there!&lt;/p&gt;
+&lt;p&gt;Or if not, catch us on &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;Discord&lt;/a&gt;.&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Summer Social</title>
+        <published>2026-07-19T00:00:00+00:00</published>
+        <updated
+    >2026-07-19T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/summer-social/"
+    />
+        <id>https://cca.codes/events/summer-social/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/summer-social/"
+    >&lt;p&gt;Hello again creative coders and enthusiasts!&lt;/p&gt;
+&lt;p&gt;Summer is here, and that means it&#39;s time to close the laptops, unplug the beamers, and simply &lt;strong&gt;get together&lt;/strong&gt; for a drink and a chat.&lt;/p&gt;
+&lt;p&gt;No presentations, no themes, no agenda. &lt;em&gt;Just&lt;/em&gt; a bunch of fun and interesting &lt;strong&gt;people getting together&lt;/strong&gt; to talk about code, art, projects, plans, or whatever that&#39;s on your mind.&lt;/p&gt;
+&lt;p&gt;We&#39;ll be meeting on &lt;strong&gt;Sunday, 19th of July&lt;/strong&gt; from &lt;strong&gt;13:00&lt;/strong&gt; onwards. As always, everyone is welcome, and it&#39;s free to join.&lt;/p&gt;
+&lt;p&gt;We&#39;ve picked a spot right on the water at &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.hannekesboom.nl/&quot;&gt;Hannekes Boom&lt;/a&gt;&lt;/strong&gt;, a stone&#39;s throw from Centraal and NEMO. Grab a seat on the terrace, enjoy the sun, and come find us.&lt;/p&gt;
+&lt;p&gt;Come share how your year has been going, what you&#39;re working on, and what you&#39;d like to see from these meetups. Or just come &lt;strong&gt;hang out&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;So we&#39;d &lt;strong&gt;love&lt;/strong&gt; to see you there!&lt;/p&gt;
+&lt;p&gt;And/or online, on our &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;&lt;strong&gt;Discord&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Assembly - A day of Games, Art and Code</title>
+        <published>2026-05-09T00:00:00+00:00</published>
+        <updated
+    >2026-05-09T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/assembly-may-2026/"
+    />
+        <id>https://cca.codes/events/assembly-may-2026/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/assembly-may-2026/"
+    >&lt;p&gt;On the &lt;strong&gt;9th of May&lt;/strong&gt;, we&#39;re joining forces with the &lt;a rel=&quot;external&quot; href=&quot;https://www.meetup.com/amsterdam-indie-game-developers/&quot;&gt;Amsterdam Indie Game Developers&lt;/a&gt; for a full afternoon and evening at &lt;a rel=&quot;external&quot; href=&quot;https://www.a-lab.nl/en&quot;&gt;A Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One big room. Two communities.&lt;br /&gt;
+&lt;strong&gt;Games, art, code&lt;/strong&gt;, and the people who make them.&lt;/p&gt;
+&lt;p&gt;We’ll be filling the space with &lt;strong&gt;exhibition&lt;/strong&gt; and &lt;strong&gt;play-test&lt;/strong&gt; booths. Indie games in the making you can play, creative projects to interact with, and the makers right there to talk to. It&#39;s going to be informal and a bit chaotic in the best possible way. Come for the work, stay for the people.&lt;/p&gt;
+&lt;p&gt;Towards the evening we&#39;ll gather for a round of short &lt;strong&gt;talks&lt;/strong&gt; and &lt;strong&gt;showcases&lt;/strong&gt; from both communities before we wind things down.&lt;/p&gt;
+&lt;p&gt;We&#39;ve got a great mix of people signed up already!&lt;br /&gt;
+Want to join them and show your work?&lt;br /&gt;
+There&#39;s still space! → &lt;a rel=&quot;external&quot; href=&quot;https://forms.cca.codes/may&quot;&gt;forms.cca.codes/may&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;All are welcome.&lt;br /&gt;
+Free to attend.&lt;/p&gt;
+&lt;p&gt;Hope to see you there! 💜&lt;/p&gt;
+&lt;p&gt;→ more on &lt;a rel=&quot;external&quot; href=&quot;https://cca.codes/assembly&quot;&gt;cca.codes/assembly&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Introduction to Procedural Music</title>
+        <published>2026-04-26T00:00:00+00:00</published>
+        <updated
+    >2026-04-26T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/introduction-to-procedural-music/"
+    />
+        <id>https://cca.codes/events/introduction-to-procedural-music/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/introduction-to-procedural-music/"
+    >&lt;p&gt;Hello again creative coders and enthusiasts!&lt;/p&gt;
+&lt;p&gt;Last time we had a great workshop on image manipulation with p5.js by Adam Driggers (aka @driggs). Thank you to everyone who joined us!&lt;/p&gt;
+&lt;p&gt;This month we’re happy to welcome &lt;a rel=&quot;external&quot; href=&quot;https://maxdekroon.carrd.co/&quot;&gt;Max de Kroon&lt;/a&gt; to the stage at A Lab for an &lt;strong&gt;introduction to procedural music.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Come join us &lt;strong&gt;Sunday, April 26th&lt;/strong&gt; at &lt;strong&gt;13:00h&lt;/strong&gt;, at our usual spot at &lt;a rel=&quot;external&quot; href=&quot;https://www.a-lab.nl/&quot;&gt;A-Lab&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;From Mozart to modular synthesizers, we’ll explore the development of generative music - examining the tools and technologies that allowed this art form to emerge. The goal is to show how seemingly complex compositions are constructed from simple systems of sounds.&lt;/p&gt;
+&lt;p&gt;Since this is an introductory talk, no prior knowledge of music (or audio) is required. On the contrary, we’ll go over most of the foundational concepts that are true to all genres of music. In the end, we’ll look at one example of a procedural music system made in &lt;a rel=&quot;external&quot; href=&quot;https://p5js.org/&quot;&gt;p5.js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As usual, the second part of the event is dedicated to &lt;strong&gt;show &amp;amp; tell&lt;/strong&gt;. Anyone who wants to show their work on the big screen is more than welcome to do so.&lt;/p&gt;
+&lt;p&gt;It should be a fun, so we hope to see you there (or online on our &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;&lt;strong&gt;Discord&lt;/strong&gt;&lt;/a&gt;).&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Image Manipulation Workshop with Adam Driggers @A Lab</title>
+        <published>2026-03-22T00:00:00+00:00</published>
+        <updated
+    >2026-03-22T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/image-manipulation-workshop-driggs-a-lab/"
+    />
+        <id>https://cca.codes/events/image-manipulation-workshop-driggs-a-lab/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/image-manipulation-workshop-driggs-a-lab/"
+    >&lt;p&gt;Hello again creative coders and enthusiasts!&lt;/p&gt;
+&lt;p&gt;Last time we had a great session reverse-engineering a procedural art piece. Thank you to everyone who joined us!&lt;/p&gt;
+&lt;p&gt;This month we&#39;re very happy to welcome &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://adamdriggers.com/&quot;&gt;Adam Driggers&lt;/a&gt;&lt;/strong&gt; (aka &lt;strong&gt;@driggs&lt;/strong&gt;) to the stage at A Lab for a &lt;strong&gt;beginner-friendly&lt;/strong&gt; hands-on &lt;strong&gt;workshop on image manipulation with p5.js&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Come join us on &lt;strong&gt;Sunday, March 22nd&lt;/strong&gt; at &lt;strong&gt;13:00h&lt;/strong&gt; at our usual spot at &lt;a rel=&quot;external&quot; href=&quot;https://www.a-lab.nl/&quot;&gt;A Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;🖼️ &lt;strong&gt;Workshop: Image Manipulation with p5.js&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Adam will guide you through the surprisingly fun world of working with images in code. Starting from the basics of loading and displaying images, you&#39;ll work your way up to pixel-level manipulation and cutting images apart in unexpected ways. Expect to walk away with new tricks up your sleeve and a fresh perspective on what you can do with a photo and a few lines of p5.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bring your laptop&lt;/strong&gt; — this is a hands-on session! No deep experience required, just curiosity and willingness to experiment.&lt;/p&gt;
+&lt;p&gt;After the workshop, there&#39;s time and space for some &lt;strong&gt;co-working&lt;/strong&gt;. A great moment to keep hacking on what you&#39;ve just learned, continue an existing project, or simply hang out with fellow creative coders.&lt;/p&gt;
+&lt;p&gt;As always, we&#39;ll wrap up with &lt;strong&gt;show &amp;amp; tell&lt;/strong&gt;, where everyone is welcome to put their work on the big screen and share what they&#39;ve been making, learning, or breaking.&lt;/p&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+&lt;p&gt;Or if not, online on our &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;Discord&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Reverse Engineering a Procedural Art Piece</title>
+        <published>2026-02-22T00:00:00+00:00</published>
+        <updated
+    >2026-02-22T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/reverese-engineeing-a-procedural-art-piece/"
+    />
+        <id>https://cca.codes/events/reverese-engineeing-a-procedural-art-piece/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/reverese-engineeing-a-procedural-art-piece/"
+    >&lt;p&gt;Hello again creatives, coders and enthusiasts!&lt;/p&gt;
+&lt;p&gt;Last time we had a blast, thanks to &lt;a rel=&quot;external&quot; href=&quot;https://piterpasma.nl&quot;&gt;Piter Pasma&lt;/a&gt; and everyone else who shared their Genuary experiments!&lt;/p&gt;
+&lt;p&gt;This month we&#39;re following up on the beginner workshop from November. Together with &lt;a rel=&quot;external&quot; href=&quot;https://muffinman.io&quot;&gt;Stanko&lt;/a&gt;, we&#39;ll try to reverse-engineer and rebuild &lt;a rel=&quot;external&quot; href=&quot;https://old.reddit.com/r/generative/comments/ou0bz6/some_stills_from_a_generative_svg_turing/&quot;&gt;a procedural art piece&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Come join us on &lt;strong&gt;Sunday, February 22th&lt;/strong&gt; at &lt;strong&gt;13:00h&lt;/strong&gt;, at our usual spot at &lt;a rel=&quot;external&quot; href=&quot;https://www.a-lab.nl/&quot;&gt;A-Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Instead of diving into code, we&#39;ll explore the ideas behind it - slowly unpacking the patterns, structures and algorithms that make the visuals work. The goal is to show how complex generative art can emerge out of surprisingly simple concepts.&lt;/p&gt;
+&lt;p&gt;Expect a tour through all kinds of nerdy goodness: Voronoi diagrams, Perlin noise, vector fields, randomness, Chaikin curves, Poisson disk sampling, easings... with interactive examples! No deep math or heavy coding required, just curiosity and a love for creative coding and art!&lt;/p&gt;
+&lt;p&gt;As usual, the second part of the event is dedicated to &lt;strong&gt;show &amp;amp; tell&lt;/strong&gt;. Anyone who wants to show their work on the big screen is more than welcome to do so.&lt;/p&gt;
+&lt;p&gt;It should be a fun, so we hope to see you there (or online on our &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;Discord&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Genuary Special @A-Lab with Piter Pasma</title>
+        <published>2026-01-29T00:00:00+00:00</published>
+        <updated
+    >2026-01-29T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/genuary-special-a-lab/"
+    />
+        <id>https://cca.codes/events/genuary-special-a-lab/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/genuary-special-a-lab/"
+    >&lt;p&gt;Hello again curious coders and creatives!&lt;/p&gt;
+&lt;p&gt;We hope you were able to wrap up last year beautifully and are as excited about the fresh start of the year as we are!&lt;/p&gt;
+&lt;p&gt;One of the things that gets us excited around this time of year is that fact that the year starts with our favorite month: &lt;a rel=&quot;external&quot; href=&quot;https://genuary.art&quot;&gt;GENUARY&lt;/a&gt;🎉&lt;/p&gt;
+&lt;p&gt;We&#39;re very honored and excited to announce that for our the occasion we&#39;ll be joined by none other than the Godfather of Genuary himself: &lt;strong&gt;Piter Pasma!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To celebrate, we are organizing a &lt;strong&gt;show and tell&lt;/strong&gt; meetup!&lt;/p&gt;
+&lt;p&gt;What is &lt;strong&gt;GENUARY&lt;/strong&gt;? It is a month-long event where people use code to make art. You can think of it as a &quot;sketchbook&quot; challenge for anyone who wants to try making generative art. Each day has a different prompt (like &quot;Order and disorder&quot; or &quot;Bauhaus Poster&quot;). It is all about experimenting, sharing cool visuals, and seeing what happens if you push that one parameter up to eleven. You can choose to do all of the prompts, or just select a few you like.&lt;/p&gt;
+&lt;p&gt;For 2026, &lt;a rel=&quot;external&quot; href=&quot;https://piterpasma.nl/&quot;&gt;Piter Pasma&lt;/a&gt; again collected &lt;a rel=&quot;external&quot; href=&quot;https://genuary.art/prompts&quot;&gt;31 amazing prompts&lt;/a&gt; from his &lt;a rel=&quot;external&quot; href=&quot;https://genuary.art/thanks&quot;&gt;friends&lt;/a&gt; over at the #genartclub.&lt;/p&gt;
+&lt;p&gt;For this joyous occasion, we&#39;re organizing a &lt;strong&gt;GENUARY Special&lt;/strong&gt; on &lt;strong&gt;Thursday, January 29th&lt;/strong&gt; and this in our beloved spot at &lt;a rel=&quot;external&quot; href=&quot;https://www.a-lab.nl/&quot;&gt;A-Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&#39;re planning a big show &amp;amp; tell evening where everybody is welcomed to showcase their GENUARY (or other) work, talk about their inspiration or share their process. Whether you did all 31 prompts or &lt;em&gt;just&lt;/em&gt; a few, we&#39;d love to see it! We&#39;ll also have space to pull out your laptop and hack away for a bit if you feel like it. Or just sit back, relax, and enjoy the &lt;em&gt;show&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Either way, we think this is going to be a great one!
+So we hope to see you there!&lt;/p&gt;
+&lt;p&gt;Or if not, online on our &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;Discord&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;💜 banner art by &lt;a rel=&quot;external&quot; href=&quot;https://www.instagram.com/konrad_matej/&quot;&gt;k0nard_matej&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>End of year drinks @Troost, de Pijp</title>
+        <published>2025-12-17T00:00:00+00:00</published>
+        <updated
+    >2025-12-17T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/end-of-year-drinks-troost-de-pijp/"
+    />
+        <id>https://cca.codes/events/end-of-year-drinks-troost-de-pijp/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/end-of-year-drinks-troost-de-pijp/"
+    >&lt;p&gt;As the year comes to an end yet again we want to wrap it up with a relaxed social event.&lt;/p&gt;
+&lt;p&gt;Just like last year we&#39;ll be meeting at the Brouwerij Troost, de Pijp. And this on Wednesday 17th of December.&lt;/p&gt;
+&lt;p&gt;No table &amp;amp; chair setting, no beamers nor laptops. Just a cosy social hangout.&lt;/p&gt;
+&lt;p&gt;We&#39;ve already got a bunch of ideas for our events next year that we&#39;re excited to talk about, but we&#39;re also very interested in what ideas and plans you all have for the coming year. Be it about creative coding, life, or anything, we&#39;d love to hear it!&lt;/p&gt;
+&lt;p&gt;So we hope to see you there!&lt;/p&gt;
+&lt;p&gt;Or if not, online on our &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;Discord&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cozy Code - Casual Worksession</title>
+        <published>2025-12-02T00:00:00+00:00</published>
+        <updated
+    >2025-12-02T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/cozy-code-casual-worksession/"
+    />
+        <id>https://cca.codes/events/cozy-code-casual-worksession/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/cozy-code-casual-worksession/"
+    >&lt;p&gt;Let&#39;s get together for another &lt;strong&gt;casual, collaborative work session&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Hopefully this will help the momentum going after the Beginner Workshop and everyone can work on their projects, get feedback or just chill in a relaxed setting. Dominos is across the street so there will some pizza too!&lt;/p&gt;
+&lt;p&gt;Many thanks to &lt;strong&gt;driggs&lt;/strong&gt; for leading the initiative and organizing this event!&lt;/p&gt;
+&lt;p&gt;See you there!&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Beginner Workshop Creative Coding @A-Lab</title>
+        <published>2025-11-23T00:00:00+00:00</published>
+        <updated
+    >2025-11-23T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/beginner-workshop-creative-coding-a-lab/"
+    />
+        <id>https://cca.codes/events/beginner-workshop-creative-coding-a-lab/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/beginner-workshop-creative-coding-a-lab/"
+    >&lt;p&gt;Hello again curious creatives!&lt;/p&gt;
+&lt;p&gt;Have you ever wondered if you could make visual &lt;strong&gt;art&lt;/strong&gt; through a simple set of &lt;strong&gt;rules&lt;/strong&gt;? Well, you&#39;re in luck because we&#39;re organizing a &lt;strong&gt;free workshop&lt;/strong&gt; to show you exactly how!&lt;/p&gt;
+&lt;p&gt;On Sunday 23rd of &lt;strong&gt;November&lt;/strong&gt; we meet at &lt;a rel=&quot;external&quot; href=&quot;https://a-lab.nl&quot;&gt;A-Lab&lt;/a&gt; for a &lt;strong&gt;beginner workshop&lt;/strong&gt; into &lt;strong&gt;creative coding&lt;/strong&gt; guided by &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://openprocessing.org/user/1&quot;&gt;Sinan Asciolagu&lt;/a&gt;&lt;/strong&gt;. In his super-duper-crash-p5-workshop he&#39;ll take you through the few basic programming concepts to recreate your own version of some of the generative artworks from the pioneers like Vera Molnar, Georg Nees, Herbert Franke.&lt;/p&gt;
+&lt;p&gt;The workshop is hands on, so &lt;strong&gt;do&lt;/strong&gt; bring your laptop! Throughout the workshop Sinan will also be joined by community members to help people out 1-on-1 when you get stuck.&lt;/p&gt;
+&lt;p&gt;This will also be an opportunity to join our monthly meetup of our group, Creative Coding Amsterdam. So for the more &lt;strong&gt;experienced&lt;/strong&gt; crowd, we&#39;re keeping it interesting by inviting &lt;strong&gt;everyone&lt;/strong&gt; to &lt;strong&gt;recode&lt;/strong&gt; and/or &lt;strong&gt;reimagine&lt;/strong&gt; any existing artwork! This can be based in any medium. Whatever inspires you!&lt;/p&gt;
+&lt;p&gt;After the workshop we&#39;ll have the space for a &lt;strong&gt;show and tell&lt;/strong&gt;, where everyone is welcomed to share their results and lessons for this coding workout. We&#39;re already excited!&lt;/p&gt;
+&lt;p&gt;And hope to see you all there!&lt;/p&gt;
+&lt;p&gt;Or if not, online on our &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;Discord&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We want to wrap this up with a shout-out to the &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.meetup.com/amsterdam-indie-game-developers/&quot;&gt;Amsterdam Indie Game Developers&lt;/a&gt;&lt;/strong&gt; for the collab last month, and a big thank you to everyone for joining and sharing their work!&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cityscape</title>
+        <published>2025-10-27T00:00:00+00:00</published>
+        <updated
+    >2025-10-27T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/code-jams/cityscape/"
+    />
+        <id>https://cca.codes/code-jams/cityscape/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/code-jams/cityscape/"
+    >&lt;p&gt;We&#39;re launching Cityscape: a community-built, generative artwork made with &lt;code&gt;p5.js&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Run it in &lt;a rel=&quot;external&quot; href=&quot;https://aidanwyber.github.io/Cityscape/&quot;&gt;your browser&lt;/a&gt; and add your own piece of the city via &lt;a rel=&quot;external&quot; href=&quot;https://github.com/aidanwyber/Cityscape&quot;&gt;the GitHub repo&lt;/a&gt;. If you want to join the challenge, check out the details in the GitHub README.md.&lt;/p&gt;
+&lt;h2 id=&quot;rules-quick&quot;&gt;Rules (quick):&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Canvas size: 3840 × 2160 (4K).&lt;/li&gt;
+&lt;li&gt;Title of the piece: “Cityscape”.&lt;/li&gt;
+&lt;li&gt;Add code, don&#39;t remove others&#39; code unless necessary to keep things working.&lt;/li&gt;
+&lt;li&gt;Project caps out at 10,000 lines.&lt;/li&gt;
+&lt;li&gt;Libraries are allowed (try esm.sh for browser imports).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;licensing&quot;&gt;Licensing:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Code: MIT.&lt;/li&gt;
+&lt;li&gt;Visual output: CC BY-SA 4.0, credit authors and share derivatives under the same license.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Want help or feedback? Share sketches, questions, or ideas in the Discord #coding-challenge channel, or on your PR. We&#39;d love to see what you can build 🙂&lt;/p&gt;
+&lt;p&gt;This coding challenge was initiated by Aidan: &lt;a rel=&quot;external&quot; href=&quot;https://aidanwyber.xyz/&quot;&gt;aidanwyber.xyz&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sunday Work Session @A-Lab</title>
+        <published>2025-10-19T00:00:00+00:00</published>
+        <updated
+    >2025-10-19T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/sunday-work-session-a-lab/"
+    />
+        <id>https://cca.codes/events/sunday-work-session-a-lab/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/sunday-work-session-a-lab/"
+    >&lt;p&gt;Hello there lovely creatives, coders and enthusiasts!&lt;/p&gt;
+&lt;p&gt;We absolutely enjoyed last month&#39;s event at Contact and want to &lt;strong&gt;thank everyone&lt;/strong&gt; who was there and helped make it the &lt;strong&gt;inspiring&lt;/strong&gt; evening that it was!&lt;/p&gt;
+&lt;p&gt;As for October&#39;s schedule, we&#39;re slowing down on the talks and making time for another &lt;strong&gt;Sunday Working Session&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;On Sunday, &lt;strong&gt;October 19th,&lt;/strong&gt; we&#39;re welcomed back at &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.a-lab.nl/&quot;&gt;A-Lab&lt;/a&gt;&lt;/strong&gt; from &lt;strong&gt;13:00&lt;/strong&gt; to &lt;strong&gt;17:00&lt;/strong&gt;, where we&#39;ll be taking over the &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.a-lab.nl/spaces#playground&quot;&gt;Playground&lt;/a&gt;&lt;/strong&gt; downstairs. We&#39;ll set it up so there&#39;s space for &lt;strong&gt;working&lt;/strong&gt; as much as there is space for working as much as there is for connecting and sharing ideas.&lt;/p&gt;
+&lt;p&gt;During the &lt;strong&gt;second half,&lt;/strong&gt; we&#39;ll also open up the stage for a &lt;strong&gt;show &amp;amp; tell.&lt;/strong&gt; Anyone who wants to show their work on the &lt;strong&gt;big screen&lt;/strong&gt; is more than welcome to do so.&lt;/p&gt;
+&lt;p&gt;This time around there are no code challenges nor themes, just a &lt;strong&gt;fun weekend get-together&lt;/strong&gt;. And who knows, maybe you&#39;ll get some work done.&lt;/p&gt;
+&lt;p&gt;Or finally make a dent in that problem.&lt;/p&gt;
+&lt;p&gt;Or just come hang out and find out what everyone else is up to.&lt;/p&gt;
+&lt;p&gt;Either way, we bet it&#39;ll be a great time.&lt;/p&gt;
+&lt;p&gt;Hope to see you all there!&lt;/p&gt;
+&lt;p&gt;Or if not, online on our &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;Discord&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;⚠️📢📢📢🎉🎉🎉⚠️&lt;/p&gt;
+&lt;p&gt;Special announcement: For this edition we&#39;re teaming up with the &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.meetup.com/amsterdam-indie-game-developers/&quot;&gt;Amsterdam Indie Game Developers&lt;/a&gt;&lt;/strong&gt; who will be joining us at A-Lab!&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Daily Practice Special @ CONTACT MakerSpace</title>
+        <published>2025-09-24T00:00:00+00:00</published>
+        <updated
+    >2025-09-24T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/daily-practice-special-contact-makerspace/"
+    />
+        <id>https://cca.codes/events/daily-practice-special-contact-makerspace/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/daily-practice-special-contact-makerspace/"
+    >&lt;p&gt;Hello again fellow tinkerers and ponderers!&lt;/p&gt;
+&lt;p&gt;We really enjoyed our last event at &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.a-lab.nl/&quot;&gt;A-Lab&lt;/a&gt;&lt;/strong&gt; and want to &lt;strong&gt;thank&lt;/strong&gt; them for having us, together with everyone that joined us for a wonderful evening!&lt;/p&gt;
+&lt;p&gt;We&#39;re already looking forward to our &lt;strong&gt;next&lt;/strong&gt; event at A-Lab!
+That being said, this time around we&#39;re going somewhere &lt;strong&gt;new&lt;/strong&gt; yet again...&lt;/p&gt;
+&lt;p&gt;For our &lt;strong&gt;September&lt;/strong&gt; meetup we&#39;ve been invited by &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://adamdriggers.com/&quot;&gt;Adam&lt;/a&gt;&lt;/strong&gt; to join him at his place of choice for creative tinkering: &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.contactamsterdam.nl/&quot;&gt;CONTACT MakerSpace&lt;/a&gt;&lt;/strong&gt;.
+Exciting?&lt;/p&gt;
+&lt;p&gt;Well, if not, we&#39;ve got plenty more!
+Adam will tell us all about his &lt;strong&gt;daily coding practice&lt;/strong&gt; and will be joined by &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.anyalitica.dev/&quot;&gt;Anya&lt;/a&gt;&lt;/strong&gt;, who&#39;s bringing us along on her latest &lt;strong&gt;Genuary&lt;/strong&gt; adventure.&lt;/p&gt;
+&lt;p&gt;We&#39;ll wrap up the evening with an &lt;strong&gt;open show and tell&lt;/strong&gt;. Anyone is invited that took part in &lt;a rel=&quot;external&quot; href=&quot;https://cca.codes/code-challenges/daily-practice/&quot;&gt;Driggs&#39; daily practice challenge&lt;/a&gt;, no matter how many days you practiced. Even 0 days. If you want to share something, please do!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This time around, there are no chocolates to be won as the challenge kind of is its own prize.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;🗣️ &lt;strong&gt;Adam Driggers&lt;/strong&gt;
+Adam Driggers &lt;em&gt;(&quot;Driggs&quot;)&lt;/em&gt; will share this his experience of starting a daily coding practice, which just passed the one year mark! He will share some of his sketches, inspiration, successes and struggles. He also present other artists who have developed daily practices and why you might want to start one too!&lt;/p&gt;
+&lt;p&gt;🗣️ &lt;strong&gt;Anya Prosvetova&lt;/strong&gt;
+By day she wrangles data, by night she wrangled all 31 Genuary prompts. Data engineer &lt;a rel=&quot;external&quot; href=&quot;https://www.anyalitica.dev/blog/2025-02-01-genuary-2025-collection&quot;&gt;Anya Prosvetova&lt;/a&gt; will share her story of starting with creative coding and p5.js through &lt;a rel=&quot;external&quot; href=&quot;https://genuary.art/&quot;&gt;Genuary&lt;/a&gt;, a yearly January challenge that invites artists and coders to create generative art based on daily prompts. She’ll share key learnings, sources of inspiration, and practical tips and resources to help you kickstart your own generative art explorations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;💃 &lt;a rel=&quot;external&quot; href=&quot;https://cca.codes/code-challenges/daily-practice/&quot;&gt;Challenge&lt;/a&gt;&lt;/strong&gt;
+As part of this month&#39;s theme of &lt;em&gt;&lt;strong&gt;Daily Practice&lt;/strong&gt;&lt;/em&gt; &lt;em&gt;Driggs&lt;/em&gt; is inviting/challenging you to start your own daily practice, a short constraint-based exercise.&lt;/p&gt;
+&lt;p&gt;Many people have found that a daily practice encourages creativity, learning, and growth.&lt;/p&gt;
+&lt;p&gt;Driggs&#39; tipps for starting a daily practice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Limit yourself to one tool or program&lt;/li&gt;
+&lt;li&gt;Set a time limit. 30 minutes to 1 hour a day&lt;/li&gt;
+&lt;li&gt;Document your work each day&lt;/li&gt;
+&lt;li&gt;Don&#39;t try to make each day perfect&lt;/li&gt;
+&lt;li&gt;Make each day self-contained and not just working on a larger project&lt;/li&gt;
+&lt;li&gt;Have fun!&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Daily Practice</title>
+        <published>2025-09-01T00:00:00+00:00</published>
+        <updated
+    >2025-09-01T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/code-jams/daily-practice/"
+    />
+        <id>https://cca.codes/code-jams/daily-practice/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/code-jams/daily-practice/"
+    >&lt;p&gt;As part of this month&#39;s theme, Daily Practice, Driggs is inviting everyone to start their own daily practice - a short, constraint-based exercise. Many people find that a daily practice encourages creativity, learning, and growth.&lt;/p&gt;
+&lt;p&gt;As part of this month&#39;s theme of &lt;strong&gt;Daily Practice&lt;/strong&gt;, Driggs is inviting everyone to start their own daily practice, a short, constraint-based exercise. Many people have found that a daily practice encourages creativity, learning, and growth.&lt;/p&gt;
+&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+&lt;p&gt;Here are a few tips for starting a daily practice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Limit yourself to one tool or program.&lt;/li&gt;
+&lt;li&gt;Set a time limit - 30 minutes to 1 hour a day.&lt;/li&gt;
+&lt;li&gt;Document your work each day.&lt;/li&gt;
+&lt;li&gt;Don&#39;t try to make each day perfect.&lt;/li&gt;
+&lt;li&gt;Make each day self-contained and not just working on a larger project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We will have an open share at the end of the meetup for anyone who wants to show their work or talk about their experience.&lt;/p&gt;
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;p&gt;We didn&#39;t get much contributions this time, but sure to checkout &lt;a rel=&quot;external&quot; href=&quot;https://awdriggs.github.io/sketchaday/&quot;&gt;Adam&#39;s&lt;/a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https://www.anyalitica.dev/blog/2025-02-01-genuary-2025-collection&quot;&gt;Anya&#39;s&lt;/a&gt; work on their respective websites.&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Algorithms &amp; Mistakes by Wimer Hazenberg (aka Monokai) @A-Lab</title>
+        <published>2025-08-21T00:00:00+00:00</published>
+        <updated
+    >2025-08-21T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/algorithms-mistakes-by-wimer-hazenberg-aka-monokai-a-lab/"
+    />
+        <id>https://cca.codes/events/algorithms-mistakes-by-wimer-hazenberg-aka-monokai-a-lab/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/algorithms-mistakes-by-wimer-hazenberg-aka-monokai-a-lab/"
+    >&lt;p&gt;Hello again &lt;strong&gt;creative coders&lt;/strong&gt; and &lt;strong&gt;enthusiasts&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thank you&lt;/strong&gt; to everyone that showed up for the social in the park last month. We had a great time! As we were just about lucky enough to stay dry then, this month we&#39;re heading back indoors. And not just anywhere!&lt;/p&gt;
+&lt;p&gt;We&#39;re very happy and excited to announce that we&#39;re welcomed at &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.a-lab.nl/&quot;&gt;A-Lab&lt;/a&gt;&lt;/strong&gt; for our &lt;strong&gt;August&lt;/strong&gt; meetup. A-Lab is situated just across the water from Central Station and with their tagline &quot;&lt;strong&gt;Where Curious Works&lt;/strong&gt;&quot; we just had to get in touch. Turns out they&#39;re amazing people doing cool stuff and they&#39;re happy to have us. We are very grateful for this budding partnership and look forward to grow and nurture it as we go.&lt;/p&gt;
+&lt;p&gt;But enough about logistics, as we&#39;ve got more to be excited about! For August we&#39;ve got another great speaker lined up for you all!&lt;/p&gt;
+&lt;p&gt;On &lt;strong&gt;August 21st&lt;/strong&gt; &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://wimer.frl/&quot;&gt;Wimer Hazenberg&lt;/a&gt;&lt;/strong&gt; aka &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://monokai.com/&quot;&gt;Monokai&lt;/a&gt;&lt;/strong&gt; will be joining us at A-Lab for a talk titled &quot;Algorithms &amp;amp; Mistakes&quot;.&lt;/p&gt;
+&lt;p&gt;If you&#39;ve been anywhere near a code editor in last 20 years, you most probably saw the &lt;em&gt;arguably coolest&lt;/em&gt; color scheme &#39;&lt;strong&gt;Monokai&lt;/strong&gt;&#39; pass by, which was created by Wimer back in 2006. Since then he&#39;s built &lt;a rel=&quot;external&quot; href=&quot;https://minimalwim.com/&quot;&gt;awwwardwinning sites&lt;/a&gt;, created stunning &#39;&lt;a rel=&quot;external&quot; href=&quot;https://monokai.com/work/environmental-operations&quot;&gt;fog-photography&lt;/a&gt;&#39; and most recently has been focusing on &lt;a rel=&quot;external&quot; href=&quot;https://monokai.com/work/overview&quot;&gt;Algorithmic Art&lt;/a&gt;. Which is also the focus of his talk.&lt;/p&gt;
+&lt;p&gt;🗣️ &lt;strong&gt;Wimer Hazenberg: Algorithms &amp;amp; Mistakes&lt;/strong&gt;
+At the core of algorithmic art lies the &lt;strong&gt;randomizer&lt;/strong&gt;. Over-regulate it, and the results become predictable. Let it run free, and chaos takes over. This talk explores how embracing unexpected outcomes can lead to surprising and inspiring creative discoveries.&lt;/p&gt;
+&lt;p&gt;After the talk, we&#39;ll be opening up the floor to admire the results of our very first &lt;a rel=&quot;external&quot; href=&quot;https://cca.codes/invaders&quot;&gt;Space Invaders themed coding challenge&lt;/a&gt;. Make sure to enter your entry &lt;strong&gt;before&lt;/strong&gt; &lt;strong&gt;August 18th&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We&#39;re looking forward to seeing you there!&lt;/p&gt;
+&lt;p&gt;⚠️⚠️⚠️&lt;strong&gt;Important Logistical Note&lt;/strong&gt; ⚠️⚠️⚠️
+&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.sail.nl/&quot;&gt;SAIL 2025&lt;/a&gt;&lt;/strong&gt; is on during our next meetup, which means there&#39;s &lt;strong&gt;a lot&lt;/strong&gt; of &lt;strong&gt;people and boats&lt;/strong&gt; around Central Station. According to the &lt;a rel=&quot;external&quot; href=&quot;https://www.gvb.nl/sail&quot;&gt;GVB &lt;/a&gt;all ferry&#39;s to get to A-Lab will be operational, though there might be &lt;strong&gt;extra waiting time&lt;/strong&gt;. Please make sure to account for this as good as possible. Thank you!
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Space Invaders Code Challenge</title>
+        <published>2025-07-19T00:00:00+00:00</published>
+        <updated
+    >2025-07-19T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/code-jams/space-invaders/"
+    />
+        <id>https://cca.codes/code-jams/space-invaders/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/code-jams/space-invaders/"
+    >&lt;p&gt;We present you the first CCA code challenge!&lt;/p&gt;
+&lt;h2 id=&quot;submissions&quot;&gt;Submissions&lt;/h2&gt;
+&lt;p&gt;Thanks for everyone who participated. We have some really cool invaders. We hope you enjoyed the challenge and see you next time!&lt;/p&gt;
+&lt;p&gt;Here are all of the submissions.&lt;/p&gt;
+  &lt;div class=&quot;grid submissions&quot;&gt;
+&lt;pre&gt;&lt;code&gt;    &amp;lt;div class=&amp;quot;cell cell--2 cell--md-third cell--lg-1&amp;quot;&amp;gt;
+  
+
+  &amp;lt;div class=&amp;quot;submissions__name hover padding&amp;quot;&amp;gt;aidan&amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&amp;quot;submissions__media stripes&amp;quot;&amp;gt;
+    
+      &amp;lt;video
+        src=&amp;quot;/img/invaders/aidan.mp4#t=0.001&amp;quot;
+        muted
+        autoplay
+        loop
+        playsinline
+      /&amp;gt;
+    
+
+    
+  &amp;lt;/div&amp;gt;
+
+  
+    &amp;lt;/div&amp;gt;
+  
+
+  
+    &amp;lt;a href=&amp;quot;https://cca-invaders.david-cloudflare-862.workers.dev/&amp;quot; class=&amp;quot;cell cell--2 cell--md-third cell--lg-1&amp;quot;&amp;gt;
+  
+
+  &amp;lt;div class=&amp;quot;submissions__name hover padding&amp;quot;&amp;gt;David&amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&amp;quot;submissions__media stripes&amp;quot;&amp;gt;
+    
+
+    
+      &amp;lt;img src=&amp;quot;/img/invaders/d17e.jpg&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+    
+  &amp;lt;/div&amp;gt;
+
+  
+    &amp;lt;/a&amp;gt;
+  
+
+  
+    &amp;lt;div class=&amp;quot;cell cell--2 cell--md-third cell--lg-1&amp;quot;&amp;gt;
+  
+
+  &amp;lt;div class=&amp;quot;submissions__name hover padding&amp;quot;&amp;gt;Graaf Henk&amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&amp;quot;submissions__media stripes&amp;quot;&amp;gt;
+    
+      &amp;lt;video
+        src=&amp;quot;/img/invaders/graaf-hank.mp4#t=0.001&amp;quot;
+        muted
+        autoplay
+        loop
+        playsinline
+      /&amp;gt;
+    
+
+    
+  &amp;lt;/div&amp;gt;
+
+  
+    &amp;lt;/div&amp;gt;
+  
+
+  
+    &amp;lt;a href=&amp;quot;https://tinyurl.com/creagen-invader&amp;quot; class=&amp;quot;cell cell--2 cell--md-third cell--lg-1&amp;quot;&amp;gt;
+  
+
+  &amp;lt;div class=&amp;quot;submissions__name hover padding&amp;quot;&amp;gt;Ivo&amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&amp;quot;submissions__media stripes&amp;quot;&amp;gt;
+    
+      &amp;lt;video
+        src=&amp;quot;/img/invaders/lyr.mp4#t=0.001&amp;quot;
+        muted
+        autoplay
+        loop
+        playsinline
+      /&amp;gt;
+    
+
+    
+  &amp;lt;/div&amp;gt;
+
+  
+    &amp;lt;/a&amp;gt;
+  
+
+  
+    &amp;lt;a href=&amp;quot;https://www.flevopink.nl/p5-js/div_animaties/spaceinvader/&amp;quot; class=&amp;quot;cell cell--2 cell--md-third cell--lg-1&amp;quot;&amp;gt;
+  
+
+  &amp;lt;div class=&amp;quot;submissions__name hover padding&amp;quot;&amp;gt;Jos&amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&amp;quot;submissions__media stripes&amp;quot;&amp;gt;
+    
+
+    
+      &amp;lt;img src=&amp;quot;/img/invaders/jos.jpg&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+    
+  &amp;lt;/div&amp;gt;
+
+  
+    &amp;lt;/a&amp;gt;
+  
+
+  
+    &amp;lt;a href=&amp;quot;https://masarabbit.github.io/invdr/generate/&amp;quot; class=&amp;quot;cell cell--2 cell--md-third cell--lg-1&amp;quot;&amp;gt;
+  
+
+  &amp;lt;div class=&amp;quot;submissions__name hover padding&amp;quot;&amp;gt;Masa&amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&amp;quot;submissions__media stripes&amp;quot;&amp;gt;
+    
+      &amp;lt;video
+        src=&amp;quot;/img/invaders/masa.mp4#t=0.001&amp;quot;
+        muted
+        autoplay
+        loop
+        playsinline
+      /&amp;gt;
+    
+
+    
+  &amp;lt;/div&amp;gt;
+
+  
+    &amp;lt;/a&amp;gt;
+  
+
+  
+    &amp;lt;a href=&amp;quot;https://github.com/nmoya/space-invaders-generator&amp;quot; class=&amp;quot;cell cell--2 cell--md-third cell--lg-1&amp;quot;&amp;gt;
+  
+
+  &amp;lt;div class=&amp;quot;submissions__name hover padding&amp;quot;&amp;gt;Nikolas&amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&amp;quot;submissions__media stripes&amp;quot;&amp;gt;
+    
+
+    
+      &amp;lt;img src=&amp;quot;/img/invaders/nikolas.gif&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+    
+  &amp;lt;/div&amp;gt;
+
+  
+    &amp;lt;/a&amp;gt;
+  
+
+  
+    &amp;lt;a href=&amp;quot;https://muffinman.io/invaders/&amp;quot; class=&amp;quot;cell cell--2 cell--md-third cell--lg-1&amp;quot;&amp;gt;
+  
+
+  &amp;lt;div class=&amp;quot;submissions__name hover padding&amp;quot;&amp;gt;Stanko&amp;lt;/div&amp;gt;
+
+  &amp;lt;div class=&amp;quot;submissions__media stripes&amp;quot;&amp;gt;
+    
+      &amp;lt;video
+        src=&amp;quot;/img/invaders/muffinman.mp4#t=0.001&amp;quot;
+        muted
+        autoplay
+        loop
+        playsinline
+      /&amp;gt;
+    
+
+    
+  &amp;lt;/div&amp;gt;
+
+  
+    &amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;button class=&quot;submissions__pause dots padding hover stripes&quot;&gt;Pause videos&lt;/button&gt;
+  &lt;/div&gt;
+&lt;h2 id=&quot;guidelines&quot;&gt;Guidelines&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The goal is to create a program related to &lt;strong&gt;Space Invaders&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Interpret the theme as loosely as you like! Generate invaders or spaceships, make a game, produce some bleep-bloops... raster, vector, 3D, shader, audio, video... space is the limit!&lt;/li&gt;
+&lt;li&gt;Use any programming language and library.&lt;/li&gt;
+&lt;li&gt;Ideally, if it runs on the web, it would be nice to see it live - on openprocessing, p5live, codepen, github pages, netlify... If you need help with this, we can assist.&lt;/li&gt;
+&lt;li&gt;If it is visual, please submit a screenshot.&lt;/li&gt;
+&lt;li&gt;Collaborations are encouraged!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note regarding the theme - we know that some people struggle to start if the theme is too loose. So, if you feel stuck, here&#39;s something more specific:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Space Invader generator, 2D or 3D. Use a rectangular grid and generate a random invader in pixels or voxels. Feel free to play with color, size and shape.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;deadline&quot;&gt;Deadline&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The challenge lasts for a month. Please submit your project by Sunday, the 17th of August.&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://forms.cca.codes/space-invaders&quot;&gt;Submit your projects here.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We are going to collect all of the submissions and host a showcase page on our website.&lt;/li&gt;
+&lt;li&gt;If there is enough interest, we can do a whole Space Invaders meetup! In any case, we encourage you to share your work at the next meetup.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;prize&quot;&gt;Prize&lt;/h2&gt;
+&lt;p&gt;We&#39;ll do a vote in Discord and whoever gets the most votes wins a &lt;strong&gt;box of chocolates!&lt;/strong&gt; Chocolate will be handed out in person at the next meetup! If you&#39;re unable to attend, we&#39;ll gladly share chocolates and think of you! :)&lt;/p&gt;
+&lt;p&gt;Vote is over and &lt;a rel=&quot;external&quot; href=&quot;https://masarabbit.github.io/invdr/generate/&quot;&gt;Masa&#39;s invaders&lt;/a&gt; won him the box of chocolates! Congrats!&lt;/p&gt;
+&lt;p&gt;Hope you&#39;ll have fun!&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sunday Social @ Vondelpark</title>
+        <published>2025-07-13T00:00:00+00:00</published>
+        <updated
+    >2025-07-13T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/sunday-social-vondelpark/"
+    />
+        <id>https://cca.codes/events/sunday-social-vondelpark/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/sunday-social-vondelpark/"
+    >&lt;p&gt;Hello again &lt;strong&gt;everyone&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Last month we were welcomed at &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.multitude.nl/&quot;&gt;Multitude&lt;/a&gt;&lt;/strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.multitude.nl/&quot;&gt; &lt;/a&gt;at their cosy office where we had a great time. We want to &lt;strong&gt;thank&lt;/strong&gt; them for being great hosts and supporting the open source community.&lt;/p&gt;
+&lt;p&gt;But as the &lt;strong&gt;summer&lt;/strong&gt; seems to have arrived, it is that time of year again where we can leave our buzzing laptops and beamers for what they are and head into green and sunny\* &lt;strong&gt;outdoors&lt;/strong&gt;. And what better place than the &lt;strong&gt;Vondelpark&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;We&#39;ll be meeting in the park on &lt;strong&gt;Sunday 13th&lt;/strong&gt; of July at &lt;strong&gt;13:30.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This time around we&#39;d like to invite everybody to bring along a &lt;strong&gt;game&lt;/strong&gt; that can be &lt;strong&gt;played&lt;/strong&gt; together in the &lt;strong&gt;park&lt;/strong&gt;. That could be a deck of &lt;strong&gt;cards&lt;/strong&gt;, or a &lt;strong&gt;frisbee&lt;/strong&gt;. Or maybe something completely different. Or you can just come and &lt;strong&gt;hang out&lt;/strong&gt;. That&#39;s also totally cool.&lt;/p&gt;
+&lt;p&gt;We&#39;ll also bring a &lt;strong&gt;cooler&lt;/strong&gt; box, some ice and some drinks, but feel free to bring along what you like.&lt;/p&gt;
+&lt;p&gt;Find us around here:
+&lt;a rel=&quot;external&quot; href=&quot;https://www.google.com/maps/place/52%C2%B021&amp;#x27;27.0%22N+4%C2%B052&amp;#x27;01.2%22E/@52.3575085,4.8644147,17z/&quot;&gt;https://www.google.com/maps/place/52%C2%B021&#39;27.0%22N+4%C2%B052&#39;01.2%22E/@52.3575085,4.8644147,17z/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hope to see you all there!
+And/or online, on our &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/qrrKkaM4w3&quot;&gt;Discord&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tools Special @Multitude</title>
+        <published>2025-06-12T00:00:00+00:00</published>
+        <updated
+    >2025-06-12T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/tools-special-multitude/"
+    />
+        <id>https://cca.codes/events/tools-special-multitude/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/tools-special-multitude/"
+    >&lt;p&gt;Hello again creative coding enthusiasts!&lt;/p&gt;
+&lt;p&gt;While we&#39;re still &lt;strong&gt;buzzing&lt;/strong&gt; from last edition, we&#39;ve already got the next one ready for you, all hot and fresh.&lt;/p&gt;
+&lt;p&gt;This time around we&#39;ll be crossing the water and head into &lt;strong&gt;Noord&lt;/strong&gt; where we&#39;re invited over at the creative agency &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.multitude.nl/&quot;&gt;Multitude&lt;/a&gt;&lt;/strong&gt;. We&#39;re looking forward to exploring yet another new corner of the city, but what we&#39;re really excited about this time around is what we&#39;ll be talking about there.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://aidanwyber.xyz/&quot;&gt;Aidan Wyber&lt;/a&gt;&lt;/strong&gt;, who is officially &lt;em&gt;the&lt;/em&gt; creative coder over at Multitude, will be introducing the brand new &lt;strong&gt;open-source creative tool&lt;/strong&gt; &lt;strong&gt;p5Brandlab&lt;/strong&gt;, built with p5js and on top of all the hard earned brand-building experience Aidan gained working real-world client projects at Multitude.&lt;/p&gt;
+&lt;p&gt;p5Brandlab is an open-source framework for fellow creative coders to create visual &amp;amp; dynamic &lt;strong&gt;brand identities&lt;/strong&gt;. And this all wrapped up in a neat and tidy client-proof UI. We&#39;re very excited to see what you all can make with it!&lt;/p&gt;
+&lt;p&gt;After the presentation, we&#39;ll be opening up the floor for a good old fashion themed &lt;strong&gt;show-and-tell&lt;/strong&gt;. The theme? You&#39;ve guessed it! &lt;strong&gt;Tools&lt;/strong&gt;!! The theme is more of a possible inspriation source rather than a guideline, so please don&#39;t be shy! :)&lt;/p&gt;
+&lt;p&gt;Hope to see you there!
+Or online on our &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/qrrKkaM4w3&quot;&gt;Discord&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>May Madness @Mollie</title>
+        <published>2025-05-28T00:00:00+00:00</published>
+        <updated
+    >2025-05-28T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/may-madness-mollie/"
+    />
+        <id>https://cca.codes/events/may-madness-mollie/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/may-madness-mollie/"
+    >&lt;p&gt;As usual, we&#39;d like to &lt;strong&gt;thank&lt;/strong&gt; everyone who joined us for the &lt;strong&gt;Plotter Special&lt;/strong&gt; last month! Seeing everybody huddled around the plotters was really something...&lt;/p&gt;
+&lt;p&gt;This month &lt;strong&gt;May&lt;/strong&gt;, as we&#39;re invited back at our friends at &lt;strong&gt;Mollie&lt;/strong&gt;&#39;s we tried to make it even &lt;strong&gt;Madder&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Which is why, we&#39;ve got not 1, not 2, but &lt;strong&gt;3 amazing speakers&lt;/strong&gt; for you this time around!&lt;/p&gt;
+&lt;p&gt;In alphabetical order, we start off with &lt;strong&gt;Giedrius Tamulaitis&lt;/strong&gt;, who&#39;s bringing along a peculiarly &lt;strong&gt;doomed&lt;/strong&gt; rotary &lt;strong&gt;phone&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Continuing in alphabetical order, we&#39;ve got &lt;strong&gt;Masa&lt;/strong&gt;, who will take us on a tour through the &lt;strong&gt;interactive pixel-art&lt;/strong&gt; wonder worlds he creates.&lt;/p&gt;
+&lt;p&gt;And finally, last but not least, still in alphabetical order, we are welcoming &lt;strong&gt;Piter Pasma&lt;/strong&gt; to the stage. He&#39;s going to tell us a bit about his work on his &quot;&lt;strong&gt;Rayhatcher&lt;/strong&gt;&quot; algorithm and the use, &lt;strong&gt;beauty&lt;/strong&gt; and &lt;strong&gt;magic&lt;/strong&gt; of &lt;strong&gt;SDFs&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Are you excited? Because we sure are!
+We hope to see you there! Or if you can&#39;t make it, come hang out on &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/qrrKkaM4w3&quot;&gt;our Discord&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;⚠️ As we&#39;ve got a packed and exciting program we kindly ask you to try to be &lt;strong&gt;punctual&lt;/strong&gt; so we can get an early start.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;📅 Program Details:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;☎️ Doom Phone&lt;/strong&gt; - Coder and artist &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://tamulaitis.lt/&quot;&gt;Giedrius Tamulaitis&lt;/a&gt;&lt;/strong&gt; will tell us a story about turning an old rotary phone into a wireless controller that can be used to play Doom. For no good reason. And you will be able to try it out!&lt;/p&gt;
+&lt;p&gt;🐰 &lt;strong&gt;Interactive Pixel Art&lt;/strong&gt; - Creative Coder &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://ma5a.com/&quot;&gt;Masa&lt;/a&gt;&lt;/strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://ma5a.com/&quot;&gt; &lt;/a&gt;used to draw things like bunnies pretending to be an ice cream, and these days he codes things like dancing meerkats. He will be telling the story of how he started creative coding and share some of his work and the processes behind them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;☀️ Rayhatcher / SDFs - &lt;a rel=&quot;external&quot; href=&quot;https://piterpasma.nl/&quot;&gt;Piter Pasma&lt;/a&gt;&lt;/strong&gt; is a generative artist from Groningen, the Netherlands, who creates three-dimensional artworks using compact mathematical code. Known for his &quot;&lt;a rel=&quot;external&quot; href=&quot;https://fxwho.xyz/fxhash/urh/&quot;&gt;Rayhatcher&lt;/a&gt;&quot; algorithm—line-art-inspired raymarching optimized for plotters. Pasma also fosters creative coding communities through initiatives like &lt;a rel=&quot;external&quot; href=&quot;https://genuary.art/&quot;&gt;Genuary &lt;/a&gt;and the collaborative Universal Rayhatcher project. In his presentation he will talk about his &quot;Rayhatcher&quot; algorithm and the use, beauty and magic of SDFs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🔗 Links:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Doom phone: https://tamulaitis.lt/project/dialrhea/&lt;/li&gt;
+&lt;li&gt;Giedrius&#39;s tech &amp;amp; art projects: https://tamulaitis.lt/&lt;/li&gt;
+&lt;li&gt;Masa&#39;s website: https://ma5a.com/&lt;/li&gt;
+&lt;li&gt;Masa&#39;s projects on Codepen: https://codepen.io/Ma5&lt;/li&gt;
+&lt;li&gt;Piter&#39;s website: https://piterpasma.nl/&lt;/li&gt;
+&lt;li&gt;Genuary: https://genuary.art/&lt;/li&gt;
+&lt;li&gt;Skulptuur Gallery: https://skulpturen.nl/&lt;/li&gt;
+&lt;li&gt;Universal Rayhatcher: https://fxwho.xyz/fxhash/urh/&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Plotter Special @Miro</title>
+        <published>2025-04-23T00:00:00+00:00</published>
+        <updated
+    >2025-04-23T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/plotter-special-miro/"
+    />
+        <id>https://cca.codes/events/plotter-special-miro/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/plotter-special-miro/"
+    >&lt;p&gt;&lt;strong&gt;Check the comment for the instructions how to find us in the Miro office!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hello again creative coders and enthusiasts!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thank you&lt;/strong&gt; to those who joined us for our fun and inspiring poetry themed afternoon at CREA last month. While we were just getting comfortable in our cosy corner there, this time around we&#39;re going somewhere else.&lt;/p&gt;
+&lt;p&gt;For our April edition we are invited back to our friends over at &lt;strong&gt;Miro&lt;/strong&gt;&#39;s. Well, same friends but a different location as they moved offices last month. We&#39;re excited to see where they landed.&lt;/p&gt;
+&lt;p&gt;What we&#39;re even more excited about though, is this month&#39;s topic: &lt;strong&gt;Pen Plotters&lt;/strong&gt;! A topic near and dear to us. For those unfamiliar with the term, a &#39;pen plotter&#39; is a device that holds a pen and can do X, Y, pen up &amp;amp; pen down movement. They come in different shapes and sizes and can also hold more than just a pen. People get very creative with them and even build their own contraptions...&lt;/p&gt;
+&lt;p&gt;In our upcoming special we&#39;ll give a brief overview of the &lt;strong&gt;history&lt;/strong&gt; of plotters and a selection of &lt;strong&gt;artists we love&lt;/strong&gt;, and share some of our own plotter work. However this is also an invitation to you to &lt;strong&gt;share&lt;/strong&gt; what you&#39;ve seen or made in the space that got you all excited. Anything goes!&lt;/p&gt;
+&lt;p&gt;To top it all off, there&#39;s even more! David and Stanko will be bringing along their &lt;strong&gt;AxiDraw&#39;s&lt;/strong&gt; (A3) and we&#39;ll be doing some &lt;strong&gt;plotting on the spot&lt;/strong&gt;! If you&#39;ve always wanted to try and plot something but never got around to it, this could be your chance!&lt;/p&gt;
+&lt;p&gt;We&#39;ve made an &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://forms.cca.codes/svg&quot;&gt;upload form&lt;/a&gt;&lt;/strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://forms.cca.codes/svg&quot;&gt; &lt;/a&gt;where you can drop your &lt;strong&gt;SVG&lt;/strong&gt;s. As plotting takes time and our time is limited, we might have to make a selection of what exactly we can plot, but don&#39;t let that stop you! We&#39;re happy to provide &lt;strong&gt;advice&lt;/strong&gt; or &lt;strong&gt;feedback&lt;/strong&gt;, just drop a note with the upload and we&#39;ll get back to you.&lt;/p&gt;
+&lt;p&gt;Or come and ask your question on &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/qrrKkaM4w3&quot;&gt;our Discord&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For now we&#39;ll end with these few resources, The first is an informative &lt;strong&gt;article&lt;/strong&gt; about pen plotting and its history:
+&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://penplotter.art/p/pen-plotter-art-history&quot;&gt;How Pen Plotting Evolved into a Form of Art - Jared MapleThorpe&lt;/a&gt;&lt;/strong&gt;
+The second is for if you want to get started but don&#39;t know how, this page has a bunch of &lt;strong&gt;SVG generators&lt;/strong&gt; to jump right in:
+&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://drawingbots.net/knowledge/tools&quot;&gt;SVG Tools by DrawingBots (Maks Surguy)&lt;/a&gt;&lt;/strong&gt;
+Or if you want to &lt;strong&gt;dive deeper&lt;/strong&gt; and generate the SVGs yourself, there&#39;s a bunch &lt;strong&gt;more resources&lt;/strong&gt; here:
+&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://penplotterartwork.com/blog/2021/07/05/how-to-pen-plot-guides-tutorials-and-more/&quot;&gt;How to Pen Plot - Admin :)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Or you can use one of the &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://neon.muffinman.io/&quot;&gt;tools&lt;/a&gt;&lt;/strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://neon.muffinman.io/&quot;&gt; &lt;/a&gt;made by &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://rstr.d17e.dev&quot;&gt;David&lt;/a&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://muffinman.io/vertigo/&quot;&gt;Stanko&lt;/a&gt;&lt;/strong&gt; for this very purpose :)&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Poetry Afternoon @ CREA</title>
+        <published>2025-03-30T00:00:00+00:00</published>
+        <updated
+    >2025-03-30T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/poetry-afternoon-crea/"
+    />
+        <id>https://cca.codes/events/poetry-afternoon-crea/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/poetry-afternoon-crea/"
+    >&lt;p&gt;This time we planned something a little bit different: a &lt;strong&gt;Poetry Afternoon&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;It is going to be a &lt;strong&gt;working session&lt;/strong&gt; where we gather to &lt;strong&gt;create&lt;/strong&gt; some &lt;strong&gt;digital/machine/robot&lt;/strong&gt; &lt;strong&gt;poetry&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is this digital poetry?&lt;/strong&gt; You can create an actual poem, or invent a new language, generate an image that resembles a poem, or even a karaoke machine. Feel free to interpret it as you like! It doesn&#39;t have to be done by code at all. If you know any poetry nerds, please bring them along!&lt;/p&gt;
+&lt;p&gt;One little thing, we would prefer if you avoid using LLMs. It is not about asking AI for an amazing poem, but rather about having fun creating and exploring. However, feel free to use AI if you need help with coding.&lt;/p&gt;
+&lt;p&gt;Some &lt;strong&gt;text&lt;/strong&gt; &lt;strong&gt;sources&lt;/strong&gt; you can use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.gutenberg.org/&quot;&gt;Project Gutenberg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://standardebooks.org/&quot;&gt;Standard EBooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/Alexir/CMUdict/blob/master/cmudict-0.7b&quot;&gt;The CMU Pronouncing Dictionary&lt;/a&gt; - A dictionary of English words and their pronunciations, which can be used to generate rhymes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For &lt;strong&gt;inspiration&lt;/strong&gt;, you can check out the following videos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.youtube.com/watch?v=RESKH-XAv0s&quot;&gt;Making machine poetry with train wagons and OC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.youtube.com/watch?v=M2o4f_2L0No&quot;&gt;Comedy Writing With Small Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&#39;re looking forward to seeing you there, or if you can&#39;t make it, come say hi on our &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/qrrKkaM4w3&quot;&gt;Discord&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Robot Poetry</title>
+        <published>2025-02-27T00:00:00+00:00</published>
+        <updated
+    >2025-02-27T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/code-jams/robot-poetry/"
+    />
+        <id>https://cca.codes/code-jams/robot-poetry/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/code-jams/robot-poetry/"
+    >&lt;p&gt;This one was more of a themed working session than a coding challenge, where we gathered to create some digital/machine/robot poetry.&lt;/p&gt;
+&lt;p&gt;What is digital poetry? It could be an actual poem, a new language, an image that resembles a poem, or even a karaoke machine. As always, we let people interpret it as they liked! It didn&#39;t have to be done with code at all.&lt;/p&gt;
+&lt;p&gt;One little thing - we preferred that people avoid using LLMs. It wasn&#39;t about asking AI for an amazing poem, but rather about having fun creating and exploring. However, they were free to use AI if they needed help with coding.&lt;/p&gt;
+&lt;h2 id=&quot;inspiration&quot;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;A few videos for inspiration:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.youtube.com/watch?v=RESKH-XAv0s&quot;&gt;Making machine poetry with train wagons and OC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.youtube.com/watch?v=M2o4f_2L0No&quot;&gt;Comedy Writing With Small Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.youtube.com/watch?v=6avJHaC3C2U&quot;&gt;The Art of Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;entries&quot;&gt;Entries&lt;/h2&gt;
+&lt;p&gt;We didn&#39;t have a form for people to submit their creations, but five were presented at the meetup at Crea. Here they are in alphabetical order:&lt;/p&gt;
+&lt;h3 id=&quot;david&quot;&gt;David&lt;/h3&gt;
+&lt;p&gt;As usual, David took a somewhat different approach and generated a video using his own tool, &lt;a rel=&quot;external&quot; href=&quot;https://rstr.d17e.dev/&quot;&gt;RSTR&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;video src=&quot;/img/robot-poetry/d17e.mp4#t=0.001&quot; controls playsinline muted&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;h3 id=&quot;masa&quot;&gt;Masa&lt;/h3&gt;
+&lt;p&gt;A philosophical take by Masa, who created &lt;em&gt;The Hourglass Poem&lt;/em&gt;. Check it out on &lt;a rel=&quot;external&quot; href=&quot;https://codepen.io/Ma5a/pen/emYPavz&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https://codepen.io/Ma5a/pen/emYPavz&quot;&gt;&lt;img src=&quot;/img/robot-poetry/masa.png&quot; alt=&quot;Screenshot of The Hourglass Poem&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;nikolas&quot;&gt;Nikolas&lt;/h3&gt;
+&lt;p&gt;To cite Nikolas: &quot;This is a binary search function rewritten with funny variable names.&quot;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/robot-poetry/nikolas.jpg&quot; alt=&quot;A poem hidden in the source code&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;sinan&quot;&gt;Sinan&lt;/h3&gt;
+&lt;p&gt;Sinan coded his poem live on the spot with the help of AI. Check it out on &lt;a rel=&quot;external&quot; href=&quot;https://openprocessing.org/sketch/2596448&quot;&gt;OpenProcessing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https://openprocessing.org/sketch/2596448&quot;&gt;&lt;img src=&quot;/img/robot-poetry/mswired.png&quot; alt=&quot;A generated colorful poem&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;stanko&quot;&gt;Stanko&lt;/h3&gt;
+&lt;p&gt;Poetry may be light, but data isn&#39;t. Check out &lt;a rel=&quot;external&quot; href=&quot;https://muffinman.io/bard/&quot;&gt;Glitchy Bard&lt;/a&gt; on MuffinMan&#39;s website.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https://muffinman.io/bard/&quot;&gt;&lt;img src=&quot;/img/robot-poetry/bard.png&quot; alt=&quot;Screenshot of Glitchy Bard&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>After Work Session @VolksHotel</title>
+        <published>2025-02-26T00:00:00+00:00</published>
+        <updated
+    >2025-02-26T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/after-work-session-volkshotel/"
+    />
+        <id>https://cca.codes/events/after-work-session-volkshotel/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/after-work-session-volkshotel/"
+    >&lt;p&gt;&lt;strong&gt;February&lt;/strong&gt; has seemingly just begun, yet its end is already in sight. But fear not, we have another gathering planned before that end is nigh!&lt;/p&gt;
+&lt;p&gt;We had an amazing time at the Genuary edition, so we&#39;ll be following a similar format: a combination of &lt;strong&gt;sharing projects&lt;/strong&gt; and a &lt;strong&gt;social event&lt;/strong&gt;. Though this time we&#39;ll be visiting our friends over at &lt;strong&gt;VolksHotel&lt;/strong&gt; again for that great mix of work and leisure.&lt;/p&gt;
+&lt;p&gt;You can bring your &lt;strong&gt;laptop&lt;/strong&gt; or &lt;strong&gt;tablet&lt;/strong&gt; to share your work, or just come hang out and have a &lt;strong&gt;chat&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;No theme this time around, as we&#39;ve been planning some more elaborate and exciting sessions for the months to come, but more on that very soon...&lt;/p&gt;
+&lt;p&gt;We&#39;re looking forward to seeing you there, or if you can&#39;t make it, come say hi on our &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/qrrKkaM4w3&quot;&gt;Discord&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Genuary Special @ CREA Cafe</title>
+        <published>2025-01-29T00:00:00+00:00</published>
+        <updated
+    >2025-01-29T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/genuary-special-crea-cafe/"
+    />
+        <id>https://cca.codes/events/genuary-special-crea-cafe/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/genuary-special-crea-cafe/"
+    >&lt;p&gt;Hello again &lt;strong&gt;creative coders&lt;/strong&gt; and enthusiasts!&lt;/p&gt;
+&lt;p&gt;We hope you all had warm and joyful &lt;strong&gt;holidays&lt;/strong&gt; while the weather has been anything but. Luckily, it is also a time with plenty of reasons to stay indoors.&lt;/p&gt;
+&lt;p&gt;One of those reasons that has been keeping us warm and busy in &lt;strong&gt;2025&lt;/strong&gt; so far, is &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://genuary.art&quot;&gt;Genuary&lt;/a&gt;&lt;/strong&gt;. For those unfamiliar, genuary is &#39;an artificially generated month of time where we build code that makes beautiful things&#39;. Or 31 prompts, one for each day of &lt;strong&gt;January&lt;/strong&gt;, meant to inspire and tickle your creative coding itch.&lt;/p&gt;
+&lt;p&gt;So that is why, for our next meetup we&#39;ll have &lt;strong&gt;&#39;Genuary&#39;&lt;/strong&gt; as the &lt;strong&gt;theme&lt;/strong&gt;, while as format we&#39;re mixing things up a little bit again.&lt;/p&gt;
+&lt;p&gt;This time we&#39;re having a &lt;strong&gt;mix&lt;/strong&gt; of a &lt;strong&gt;social event&lt;/strong&gt; and a &lt;strong&gt;group-work session&lt;/strong&gt;. There will be space for laptops, so you can get some work done (right in time before Genuary ends :) or show off your creations or something you&#39;ve seen online... Bringing a laptop is totally optional though. So if you just want to hang out for a chat and see what everyone&#39;s up to that&#39;s perfectly cool as well.&lt;/p&gt;
+&lt;p&gt;We&#39;ve reserved the long tables next to the bar in &lt;strong&gt;CREA Cafe&lt;/strong&gt;, to accomodate our format and we&#39;ll also make sure there&#39;s &lt;strong&gt;wifi&lt;/strong&gt; available this time around.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hope to see you all there!&lt;/strong&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Social @ Troost, de Pijp</title>
+        <published>2024-12-18T00:00:00+00:00</published>
+        <updated
+    >2024-12-18T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/social-troost-de-pijp/"
+    />
+        <id>https://cca.codes/events/social-troost-de-pijp/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/social-troost-de-pijp/"
+    >&lt;p&gt;As the year comes to an end we want to wrap it up with a relaxed &lt;strong&gt;social&lt;/strong&gt; event.&lt;/p&gt;
+&lt;p&gt;No presentations, laptops or beamers, &lt;em&gt;just&lt;/em&gt; a bunch of fun and interesting &lt;strong&gt;people getting together&lt;/strong&gt; for a chat an a drink.&lt;/p&gt;
+&lt;p&gt;We&#39;ll be meeting on &lt;strong&gt;Wednesday 18th&lt;/strong&gt; of &lt;strong&gt;December&lt;/strong&gt; at the &lt;strong&gt;Brouwerij Troost&lt;/strong&gt;, &lt;strong&gt;de Pijp&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Even though this time around there&#39;s no agenda&#39;s nor themes, we&#39;d love to see you there and &lt;strong&gt;hear&lt;/strong&gt; all about how the last year was for you and what you&#39;d like to see for &lt;strong&gt;2025&lt;/strong&gt;. Be it about personal plans, the world, or from these meetups...&lt;/p&gt;
+&lt;p&gt;It&#39;s now almost been a year that we&#39;ve been organizing these and we want to take this time to collect some &lt;strong&gt;feedback&lt;/strong&gt; from you and discuss some of the ideas we have for he future.&lt;/p&gt;
+&lt;p&gt;So we’d &lt;strong&gt;love&lt;/strong&gt; to see you there!&lt;/p&gt;
+&lt;p&gt;If you can’t make it this time, we still want to hear your thoughts and ideas!
+That’s why we prepared &lt;a rel=&quot;external&quot; href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSegmjMWkxoHs5BZNkybD43oFaKFioJfcRhUIzWobUXaiKojXA/viewform&quot;&gt;this little form&lt;/a&gt;.
+It would be really great if you filled it out and help us shape how next year looks like for CCA.
+I mean… If you’ve read this far, I’d say you care at least a little bit how that’ll look like, right? Well, here’s your chance… we promise we will listen!&lt;/p&gt;
+&lt;p&gt;And we’re still looking for a better banner! Hit us up over on &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/qrrKkaM4w3&quot;&gt;our discord&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sunday Session @ CREA Café</title>
+        <published>2024-11-17T00:00:00+00:00</published>
+        <updated
+    >2024-11-17T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/sunday-session-crea-caf/"
+    />
+        <id>https://cca.codes/events/sunday-session-crea-caf/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/sunday-session-crea-caf/"
+    >&lt;p&gt;Hello again creative coders and enthusiasts!&lt;/p&gt;
+&lt;p&gt;Last month we had an epic event in collaboration with &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.dancehack.nl/&quot;&gt;Dance Hack&lt;/a&gt;&lt;/strong&gt; over at &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://splendoramsterdam.com/&quot;&gt;Splendor&lt;/a&gt;&lt;/strong&gt;. We want to thank the dance hack crew for co-hosting and especially everyone that showed up and joined us for the workshop. It was a bit chaotic, but fun and engaging for everyone there. &lt;strong&gt;Thank you all!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now for this time around, we&#39;re going back to an improved &lt;strong&gt;CREA Cafe&lt;/strong&gt; setting where we&#39;ve got something planned we&#39;ve done before, yet a little bit different. We&#39;ll be doing a &lt;strong&gt;flash-talk on Hydra&lt;/strong&gt;, the visual live coding environment, followed-up with a &lt;strong&gt;themed show and tell&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;🕰️ &lt;strong&gt;Schedule&lt;/strong&gt;
+&lt;strong&gt;13:00&lt;/strong&gt; - Start &amp;amp; welcome
+&lt;strong&gt;13:30&lt;/strong&gt; - Hydra Crash Course by David Vandenbogaerde
+&lt;strong&gt;14:00&lt;/strong&gt; - Themed show &amp;amp; tell, theme: Synthesizers&lt;/p&gt;
+&lt;p&gt;🗣️ &lt;strong&gt;Crash Course Hydra&lt;/strong&gt; by &lt;strong&gt;David Vandenbogaerde&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hydra&lt;/strong&gt; is a browser-based platform for live coding visuals developed by &lt;strong&gt;Olivia Jack&lt;/strong&gt;. The API is inspired by analog modular &lt;strong&gt;synthesis&lt;/strong&gt;, in which multiple visual sources (oscillators, cameras, application windows, other connected windows) can be transformed, modulated, and composited via combining sequences of functions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;David&lt;/strong&gt; has been developing software for about twenty years now and as the co-organizer of the CCA meetups, it should come to no surprise to you that he likes his coding creative. So when he finally sat down to play around with &lt;strong&gt;Hydra&lt;/strong&gt; in a workshop at &lt;strong&gt;C3&lt;/strong&gt; earlier this year, it really got under his skin. In this flash talk he&#39;ll take you through all the things Hydra he&#39;s learned in the mean time, and who knows, maybe pass on the Hydra bug.&lt;/p&gt;
+&lt;p&gt;🙉 &lt;strong&gt;Themed Show &amp;amp; Tell&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The theme for this meetup is: &lt;strong&gt;Synthesizers&lt;/strong&gt;.
+As Hydra was inspired by analog synthesizers, we thought that was the perfect opportunity to have that as the theme. And please &lt;strong&gt;interpret as broadly as you like&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Anyone&lt;/strong&gt; can share a project or thoughts on the topic. This can either be something you did, or something you found interesting. Whatever the topic brings up in you, we&#39;d love to hear and see it!&lt;/p&gt;
+&lt;p&gt;As for the location, we&#39;re heading back to our corner spot at &lt;strong&gt;CREA Cafe&lt;/strong&gt;, only this time we&#39;ll be bringing an actual screen on top of the projector. And some curtains probably to make the &#39;&lt;strong&gt;living room&lt;/strong&gt;&#39; a bit cosier.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hope to see you there!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Or online, on our Discord&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sunday Lidar Session @ DanceHack</title>
+        <published>2024-10-13T00:00:00+00:00</published>
+        <updated
+    >2024-10-13T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/sunday-lidar-session-dancehack/"
+    />
+        <id>https://cca.codes/events/sunday-lidar-session-dancehack/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/sunday-lidar-session-dancehack/"
+    >&lt;p&gt;Hello again creative coders and enthusiasts!&lt;/p&gt;
+&lt;p&gt;Last month at &lt;strong&gt;CREA&lt;/strong&gt; Cafe was really fun and interesting and we&#39;d like to thank everybody showing up for being there! Not much work was done, but projects and ideas were shared on the makeshift presentation area. Good vibes all around. &lt;strong&gt;Thank you!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This time around, we&#39;re mixing things up again. We&#39;re partnering with the worldwide &lt;strong&gt;DanceHack&lt;/strong&gt; initiative for their &lt;strong&gt;Amsterdam edition&lt;/strong&gt;. Dancehack brings together people from the contemporary dance and music scene with creative technologists to produce a joint spontaneous performance within a limited timespan. Which is happing on &lt;strong&gt;October 13th&lt;/strong&gt; here in Amsterdam!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If that sounds interesting to you and you&#39;d like to co-create a dancehack performance, you still can! You can apply here: &lt;a rel=&quot;external&quot; title=&quot;https://www.dancehack.nl/apply&quot; href=&quot;https://www.dancehack.nl/apply&quot;&gt;https://www.dancehack.nl/apply&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For our &lt;strong&gt;CCA meetup&lt;/strong&gt;, we want to make the best use of the &lt;strong&gt;2 kinects&lt;/strong&gt; and &lt;strong&gt;2 realsense&lt;/strong&gt; devices we&#39;ve got at our disposal for the day. The cool thing here is that this means &lt;strong&gt;you&lt;/strong&gt; have got these devices at your disposal!&lt;/p&gt;
+&lt;p&gt;Yes, indeed, anything you ever wanted to record as point-cloud you can come do at our next event. If you don&#39;t have a project ready, no worries. We&#39;ll prepare some &lt;strong&gt;starter projects&lt;/strong&gt; to get you going. To keep things streamlined we&#39;re focusing on using &lt;strong&gt;processing&lt;/strong&gt; to interact with the devices. Make sure to check out &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;our &lt;/a&gt;&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;Discord&lt;/a&gt;&lt;/strong&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Last, but not least! This edition will take place in the renowned musical venue &lt;strong&gt;Splendor&lt;/strong&gt;, right in the heart of the city. While dancehack takes place in the rooms on the ground floor, we&#39;re heading upstairs to the beautiful &lt;strong&gt;loft&lt;/strong&gt;, where we&#39;ll be playing around with depth-cameras from &lt;strong&gt;14:00 till 16:30&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hope to see you there!
+CCA&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sunday Session @ CREA Cafe</title>
+        <published>2024-09-15T00:00:00+00:00</published>
+        <updated
+    >2024-09-15T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/sunday-session-crea-cafe/"
+    />
+        <id>https://cca.codes/events/sunday-session-crea-cafe/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/sunday-session-crea-cafe/"
+    >&lt;p&gt;&lt;strong&gt;Hello again creative coders and enthusiasts!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Last month we had an inspiring and insightful gathering in the lobby of the VolksHotel. &lt;strong&gt;Thank you&lt;/strong&gt; to everybody that joined us there!&lt;/p&gt;
+&lt;p&gt;It was our first time exploring the &lt;strong&gt;work-session&lt;/strong&gt; format, but we liked it so much that we&#39;ve got more of this coming for september. The same (slightly revised) formula, in a new location.&lt;/p&gt;
+&lt;p&gt;For our next event we&#39;re going to &lt;strong&gt;CREA Cafe&lt;/strong&gt; on &lt;strong&gt;Sunday the 15th of September&lt;/strong&gt; from &lt;strong&gt;13:00 to 16:00&lt;/strong&gt;. We will be gathering in the room to the left of the bar named &#39;de woonkamer&#39;, a little bit separated from the main area.&lt;/p&gt;
+&lt;p&gt;We will start the afternoon with a quick round of introductions, after which there is some time and space for &lt;strong&gt;working/socialising&lt;/strong&gt; and towards the end we plan to do a mini &lt;strong&gt;show &amp;amp; tell&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Looking forward to see you there!
+Or online, on our Discord: &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/qrrKkaM4w3&quot;&gt;https://discord.gg/qrrKkaM4w3&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sunday Session @ VolksHOTEL</title>
+        <published>2024-08-18T00:00:00+00:00</published>
+        <updated
+    >2024-08-18T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/sunday-worksession-volkshotel/"
+    />
+        <id>https://cca.codes/events/sunday-worksession-volkshotel/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/sunday-worksession-volkshotel/"
+    >&lt;p&gt;&lt;strong&gt;Hello again creative coders and enthusiasts!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Last month we had a nice and cosy gathering in the sun at the Vondelpark and want to &lt;strong&gt;thank everybody&lt;/strong&gt; who showed up. We had a great time!&lt;/p&gt;
+&lt;p&gt;For our August gathering, we&#39;re making full circle location-wise and head back to the &lt;strong&gt;VolksHotel&lt;/strong&gt;. We&#39;ve been promised that the &lt;strong&gt;lobby&lt;/strong&gt; will be free of pottery conventions this time around, so we&#39;ll be meeting there in the public work area.&lt;/p&gt;
+&lt;p&gt;For the formula, we&#39;re trying something just a little bit different this time, based on some of the feedback we received. This time around we&#39;re organizing a &lt;strong&gt;work afternoon&lt;/strong&gt; with room for a &lt;strong&gt;show-and-tell&lt;/strong&gt;, probably towards the end of the event, but everything&#39;s flexible.
+Concretely, we&#39;ll be meeting &lt;strong&gt;Sunday&lt;/strong&gt; afternoon, &lt;strong&gt;18th of August,&lt;/strong&gt; from around &lt;strong&gt;13:00 until 16:00&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Looking forward to see you there!
+Or online, on our Discord: &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/qrrKkaM4w3&quot;&gt;https://discord.gg/qrrKkaM4w3&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Social @ Vondelpark</title>
+        <published>2024-07-14T00:00:00+00:00</published>
+        <updated
+    >2024-07-14T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/social-vondelpark/"
+    />
+        <id>https://cca.codes/events/social-vondelpark/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/social-vondelpark/"
+    >&lt;p&gt;Hello again everyone!&lt;/p&gt;
+&lt;p&gt;Last month, our largest crowd to date was warmly welcomed at &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://miro.com/&quot;&gt;Miro&#39;s&lt;/a&gt;&lt;/strong&gt; who we want to send a &lt;strong&gt;big thank you&lt;/strong&gt; for being wonderful hosts! Our evening program was packed as usual with inspiring talks and projects, but the evening came really to life after the talks, with everybody chatting away over a beer in the lobby...&lt;/p&gt;
+&lt;p&gt;That&#39;s why this time around, we want to get out of our bright server rooms or dark cinema parlors and move out into the bright and sunny outside for a &lt;strong&gt;social event&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We&#39;ll bring a cooler box, you bring some drinks of your choice for a good old fashioned &lt;strong&gt;BYOB&lt;/strong&gt;. As the setting for our July gathering we&#39;ll make sure to reserve a great spot in the beautiful &lt;strong&gt;Vondelpark&lt;/strong&gt;. We&#39;re expecting &lt;strong&gt;amazing weather&lt;/strong&gt; for the day, but in the odd chance of rain we can seek refuge at the &lt;em&gt;&#39;Proeflokaal &#39;t Blauwe Theehuis&#39;&lt;/em&gt; also in the park.&lt;/p&gt;
+&lt;p&gt;So to sum it all up for the next meetup:
+&lt;strong&gt;Sunday 14th of July - 13:00&lt;/strong&gt; (1pm), &lt;strong&gt;Social event&lt;/strong&gt; (BYOB) &lt;strong&gt;@Vondelpark&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The exact location will be shared here and on the Discord the day of the event.&lt;/p&gt;
+&lt;p&gt;Hope to see you all there!
+And/or online, on &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;our Discord&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Thursday Session @ Miro</title>
+        <published>2024-06-06T00:00:00+00:00</published>
+        <updated
+    >2024-06-06T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/thursday-session-miro/"
+    />
+        <id>https://cca.codes/events/thursday-session-miro/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/thursday-session-miro/"
+    >&lt;p&gt;Hello again everyone!&lt;/p&gt;
+&lt;p&gt;Last month, we had a wonderful time with a packed show &amp;amp; tell over at &lt;a rel=&quot;external&quot; href=&quot;https://www.mollie.com/nl/&quot;&gt;Mollie&#39;s HQ&lt;/a&gt;. We&#39;d like to say a &lt;strong&gt;big thank you&lt;/strong&gt; to them for hosting us and everyone that was there for joining and participating.&lt;/p&gt;
+&lt;p&gt;This time around we&#39;re invited over to &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://miro.com/&quot;&gt;Miro&#39;s&lt;/a&gt; offices&lt;/strong&gt; for another evening session. For this edition we&#39;re starting off with a talk by Multi Media Artist &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://maartenvanderglas.com/&quot;&gt;Maarten van der Glas&lt;/a&gt;&lt;/strong&gt; about his open source project &lt;strong&gt;ARTWORLD&lt;/strong&gt;, after which we&#39;d like to try something different for the show &amp;amp; tell by having a &lt;strong&gt;theme for the night&lt;/strong&gt;. You can still help decide what that topic will be by &lt;strong&gt;voting&lt;/strong&gt; over &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/D3SwjcCcmv&quot;&gt;on our &lt;/a&gt;&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/D3SwjcCcmv&quot;&gt;Discord&lt;/a&gt;&lt;/strong&gt;. By 24/05 we&#39;ll tally up the votes and update it here. All Details below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🕰️ Schedule&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;18:45&lt;/strong&gt; - ARTWORLD by Maarten van der Glas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;19:15&lt;/strong&gt; - themed show &amp;amp; tell&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20:00&lt;/strong&gt; - social &amp;amp; drinks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🗣️ &lt;strong&gt;Maarten van der Glas: ARTWORLD&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Maarten van der Glas - Multi Media Artist will be talking about an open source project he was commissioned to do for the Vrolijkheid (&#39;Happiness&#39;) foundation.
+He was asked to make a game for children from Refugee centers in the Netherlands to make and exhibit art in.
+There were some rules and guidelines to the project and together with a small team Maarten designed and made the multi player online game.
+The talk will be about the artistic and technical consecrations of making such a game, and the process of taking such a project open source and building a community around it.
+Technology stack: Svelte, NodeJS, Phaser game engine, NAKAMA game server&lt;/p&gt;
+&lt;p&gt;🙉 &lt;strong&gt;Themed Show &amp;amp; Tell&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Voting is over, the theme for this meetup is:
+&lt;strong&gt;🛠️ Tools&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Anyone can share a project or thoughts on the topic. This can either be something you did, or something you found interesting. Whatever the topic brings up in you, we&#39;d love to hear and see it!&lt;/p&gt;
+&lt;p&gt;We would really appreciate it if you RSVP&#39;d so we can provide our friends at Miro with a guest list.&lt;/p&gt;
+&lt;p&gt;Hope to see you there!
+Or online, on &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;our Discord&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Thursday Session @ Mollie</title>
+        <published>2024-05-02T00:00:00+00:00</published>
+        <updated
+    >2024-05-02T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/thursday-session-mollie/"
+    />
+        <id>https://cca.codes/events/thursday-session-mollie/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/thursday-session-mollie/"
+    >&lt;p&gt;Hello everyone!&lt;/p&gt;
+&lt;p&gt;Last month, we had a great time at Filmhuis Cavia. Thanks to everyone who joined and shared their projects, and a special thanks to Jaco for hosting us! We love how things are shaping up and definitely want to keep &lt;strong&gt;show &amp;amp; tell&lt;/strong&gt; as a regular thing.&lt;/p&gt;
+&lt;p&gt;Big thanks to our friends at &lt;strong&gt;Mollie&lt;/strong&gt;, as the next meetup will happen at their offices on &lt;strong&gt;the 2nd of May&lt;/strong&gt; at 6:30PM. Their offices are located at Keizersgracht 126.&lt;/p&gt;
+&lt;p&gt;We&#39;ll begin with a round of quick introductions. Then, David and Stanko will kick us off with some &lt;strong&gt;image processing techniques&lt;/strong&gt;. Following that, we&#39;ll open the floor for &lt;strong&gt;show and tell&lt;/strong&gt;, so please feel free to bring and present the stuff you are working on in (5-10 minutes each). A large screen will be available.&lt;/p&gt;
+&lt;p&gt;In the end, we&#39;ll try to save some time to discuss projects, hang out, and have a drink.&lt;/p&gt;
+&lt;p&gt;We would really appreciate it if you RSVP&#39;d so we can provide our friends at Mollie with a guest list.&lt;/p&gt;
+&lt;p&gt;See you there!
+Or online, on our Discord: &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/eJJvn3487M&quot;&gt;https://discord.gg/eJJvn3487M&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And thanks to Lyr for this month&#39;s artwork!&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sunday Session @Filmhuis Cavia</title>
+        <published>2024-03-31T00:00:00+00:00</published>
+        <updated
+    >2024-03-31T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/sunday-session-filmhuis-cavia/"
+    />
+        <id>https://cca.codes/events/sunday-session-filmhuis-cavia/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/sunday-session-filmhuis-cavia/"
+    >&lt;p&gt;&lt;strong&gt;Hello there all again!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We had a great time last month at VolksHotel and would like to thank everyone who joined us there. It was really amazing meeting all of you.&lt;/p&gt;
+&lt;p&gt;During that session, we asked around why people were joining and what everybody was looking for in these creative coding meetups. Two of the topics that kept popping up were &#39;&lt;strong&gt;show &amp;amp; tell&lt;/strong&gt;&#39; and &#39;&lt;strong&gt;collaborations&lt;/strong&gt;&#39;, so that&#39;s what we&#39;ll be trying to accommodate for our next gathering.&lt;/p&gt;
+&lt;p&gt;We&#39;ll start off with a round of quick &lt;strong&gt;introductions&lt;/strong&gt; for everyone, with the option to hook up your laptop to a &lt;strong&gt;big screen&lt;/strong&gt; and share what you&#39;re working on. We want to keep these very short (5-10mins), to make sure everyone gets a chance to present something.&lt;/p&gt;
+&lt;p&gt;After this first part, there is the space and time to &lt;strong&gt;discuss&lt;/strong&gt; some details on a laptop screen, &lt;strong&gt;hang out&lt;/strong&gt; and have a &lt;strong&gt;drink&lt;/strong&gt;. We have a couple of different corners and tables available at the location so there should be room for everybody.&lt;/p&gt;
+&lt;p&gt;There&#39;s also a big cinema screen, so if you ever wanted to see your creations on a really large screen, this is your chance! :)&lt;/p&gt;
+&lt;p&gt;See you there!
+Or online, on our discord: &lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/E8hKkFUnwP&quot;&gt;https://discord.gg/E8hKkFUnwP&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sunday Session @VolksHOTEL</title>
+        <published>2024-02-25T00:00:00+00:00</published>
+        <updated
+    >2024-02-25T00:00:00+00:00</updated>
+        <author>
+          <name>
+            Creative Coding Amsterdam
+          </name>
+        </author>
+        <link
+      rel="alternate"
+      type="text/html"
+      href="https://cca.codes/events/sunday-session-volkshotel/"
+    />
+        <id>https://cca.codes/events/sunday-session-volkshotel/</id>
+        
+        <content
+      type="html"
+      xml:base="https://cca.codes/events/sunday-session-volkshotel/"
+    >&lt;p&gt;&lt;strong&gt;Hello there all!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At the end of the month we&#39;re organizing our next event.
+The first one this year, but also the first one for us: David, Sinan and Stanko.
+We&#39;re taking over the torch from Eurvin who we want to thank for keeping the flame alive.&lt;/p&gt;
+&lt;p&gt;We&#39;ll kick off this year with a nice get-together on &lt;strong&gt;Sunday February 25th&lt;/strong&gt; &lt;strong&gt;13:00-15:00&lt;/strong&gt; at &lt;strong&gt;Volkshotel&lt;/strong&gt;, where there is space for both a &lt;em&gt;show &amp;amp; tell&lt;/em&gt; for anyone wanting to share their project and a laptop-free bar to &lt;em&gt;talk&lt;/em&gt; about ideas and interests over &lt;em&gt;drinks&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;We&#39;re excited to find how high we can fan this fire here for creative coding and all things art and technology...&lt;/p&gt;
+&lt;p&gt;Let&#39;s find out &lt;em&gt;together&lt;/em&gt; in person,
+or online on our &lt;strong&gt;discord&lt;/strong&gt;: &lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/A6YpHjJz&quot;&gt;https://discord.gg/A6YpHjJz&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We&#39;d love to hear from you!&lt;/p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,263 @@
+
+  
+
+
+
+  
+  
+
+  
+    
+  
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Algorithms &amp; Mistakes by Wimer Hazenberg (aka Monokai) @A-Lab · Creative Coding Amsterdam</title>
+
+    <link rel="stylesheet" href="/styles.css" />
+    <script>
+      const theme = localStorage.getItem('theme') || '';
+      document.documentElement.setAttribute("data-theme", theme);
+
+      const funkyStyles = localStorage.getItem("funky-styles");
+      if (funkyStyles) {
+        const styleElement = document.createElement("style");
+        styleElement.textContent = funkyStyles;
+        styleElement.className = "funky-style";
+        document.head.appendChild(styleElement);
+      }
+    </script>
+
+    <link rel="icon" href="/favicon/icon.ico?v=1.0" sizes="32x32" />
+    <link rel="icon" href="/favicon/icon.svg?v=1.0" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png?v=1.0" />
+    <meta content="width=device-width,initial-scale=1.0" name="viewport" />
+
+    
+      <meta property="og:url" content="https://cca.codes/events/algorithms-mistakes-by-wimer-hazenberg-aka-monokai-a-lab/" />
+    
+
+    <meta name="description" content="Hello again creative coders and enthusiasts!
+Thank you to everyone that showed up for the social in the park last month. We had a great time! As we we…">
+
+    <meta name="twitter:title" content="Algorithms & Mistakes by Wimer Hazenberg (aka Monokai) @A-Lab" />
+    <meta name="twitter:description" content="Hello again creative coders and enthusiasts!
+Thank you to everyone that showed up for the social in the park last month. We had a great time! As we we…" />
+
+    
+      <meta property="twitter:image" content="https://cca.codes/img/meetups/meetup-2025-08-21.jpg" />
+      <meta property="og:image" content="https://cca.codes/img/meetups/meetup-2025-08-21.jpg" />
+    
+
+    
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://cca.codes/atom.xml">
+    
+
+    
+  </head>
+
+  <body class="">
+    <div class="app">
+      <header class="header border">
+  <a href="/" aria-title="Back to homepage" class="header__home-link hover">
+    <svg
+  aria-label="CCA logo"
+  viewBox="0 0 75 28"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="header__logo"
+>
+  <path
+    d="M15.3599 5.75693C13.7757 5.44181 12.1337 5.60354 10.6414 6.22166C9.14916 6.83977 7.8737 7.88652 6.97633 9.22952C6.07897 10.5725 5.6 12.1515 5.6 13.7667C5.6 15.3819 6.07897 16.9608 6.97633 18.3038C7.8737 19.6468 9.14915 20.6936 10.6414 21.3117C12.1337 21.9298 13.7757 22.0915 15.3599 21.7764C16.9441 21.4613 18.3992 20.6835 19.5414 19.5414C20.6348 18.4479 22.4077 18.4479 23.5012 19.5414C24.5946 20.6349 24.5946 22.4077 23.5012 23.5012C21.5759 25.4265 19.1229 26.7376 16.4524 27.2688C13.7819 27.8 11.0139 27.5274 8.49839 26.4854C5.98286 25.4434 3.8328 23.6789 2.3201 21.415C0.8074 19.1511 0 16.4895 0 13.7667C0 11.0439 0.807401 8.38224 2.3201 6.11832C3.8328 3.85441 5.98286 2.0899 8.49839 1.04793C11.0139 0.00596509 13.7819 -0.266661 16.4524 0.264529C19.1229 0.795718 21.5759 2.10687 23.5012 4.03217C24.5946 5.12564 24.5946 6.8985 23.5012 7.99197C22.4077 9.08544 20.6348 9.08544 19.5414 7.99197C18.3992 6.84984 16.9441 6.07204 15.3599 5.75693Z"
+    fill="black"
+  />
+  <path
+    d="M38.6932 5.75693C37.1091 5.44181 35.467 5.60354 33.9748 6.22166C32.4825 6.83977 31.207 7.88652 30.3097 9.22952C29.4123 10.5725 28.9333 12.1515 28.9333 13.7667C28.9333 15.3819 29.4123 16.9608 30.3097 18.3038C31.207 19.6468 32.4825 20.6936 33.9748 21.3117C35.467 21.9298 37.1091 22.0915 38.6932 21.7764C40.2774 21.4613 41.7326 20.6835 42.8747 19.5414C43.9682 18.4479 45.741 18.4479 46.8345 19.5414C47.928 20.6349 47.928 22.4077 46.8345 23.5012C44.9092 25.4265 42.4562 26.7376 39.7857 27.2688C37.1153 27.8 34.3473 27.5274 31.8317 26.4854C29.3162 25.4434 27.1661 23.6789 25.6534 21.415C24.1407 19.1511 23.3333 16.4895 23.3333 13.7667C23.3333 11.0439 24.1407 8.38224 25.6534 6.11832C27.1661 3.85441 29.3162 2.0899 31.8317 1.04793C34.3473 0.00596509 37.1153 -0.266661 39.7857 0.264529C42.4562 0.795718 44.9092 2.10687 46.8345 4.03217C47.928 5.12564 47.928 6.8985 46.8345 7.99197C45.741 9.08544 43.9682 9.08544 42.8747 7.99197C41.7326 6.84984 40.2774 6.07204 38.6932 5.75693Z"
+    fill="black"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M68.5993 13.7667C68.5993 18.277 64.943 21.9333 60.4327 21.9333C55.9224 21.9333 52.266 18.277 52.266 13.7667C52.266 9.25634 55.9224 5.6 60.4327 5.6C64.943 5.6 68.5993 9.25634 68.5993 13.7667ZM68.5993 24.8505C66.3147 26.5367 63.4901 27.5333 60.4327 27.5333C52.8296 27.5333 46.666 21.3698 46.666 13.7667C46.666 6.16355 52.8296 0 60.4327 0C68.0358 0 74.1993 6.16355 74.1993 13.7667C74.1993 13.8204 74.199 13.874 74.1984 13.9275C74.199 13.9516 74.1993 13.9758 74.1993 14V25.2C74.1993 26.7464 72.9457 28 71.3993 28C69.853 28 68.5993 26.7464 68.5993 25.2V24.8505Z"
+    fill="#B52D2C"
+  />
+</svg>
+
+  </a>
+
+  <button class="header__menu-trigger hide--md hover">
+    <span>Menu</span>
+    <span aria-label="Close menu">X</span>
+  </button>
+
+  <nav class="header__nav border hide flex--md">
+    <a href="/events/" class="header__nav-item hover block stripes">Events</a>
+    <a href="/code-jams/" class="header__nav-item hover block dots">
+      Code Jams
+    </a>
+    <a href="/about/" class="header__nav-item hover block stripes-inverted">
+      About
+    </a>
+    <button class="header__nav-item contact-trigger hover block dots-shifted">
+      Contact
+    </button>
+  </nav>
+</header>
+
+<div class="header__menu bor der">
+  <nav class="header__menu-inner">
+    <a href="/events/" class="header__nav-item hover block stripes">Events</a>
+    <a href="/code-jams/" class="header__nav-item hover block dots">
+      Code Jams
+    </a>
+    <a href="/about/" class="header__nav-item hover block stripes-inverted">
+      About
+    </a>
+    <button class="header__nav-item contact-trigger hover block dots-shifted">
+      Contact
+    </button>
+  </nav>
+</div>
+
+      <main class="main grid">
+
+<div class="cell cell--4 padding">
+  
+    <time class="opacity-50" datetime="2025-08-21">
+      2025-08-21
+      
+    </time>
+  
+  <h1>Algorithms &amp; Mistakes by Wimer Hazenberg (aka Monokai) @A-Lab</h1>
+</div>
+
+
+  <div class="event__banner hover dots">
+    <img src="/img/meetups/meetup-2025-08-21.jpg" alt="Algorithms &amp; Mistakes by Wimer Hazenberg (aka Monokai) @A-Lab">
+  </div>
+
+
+<div class="event__links">
+  
+  <a class="event__link event__link--meetup padding hover dots" href="https://www.meetup.com/creative-coding-amsterdam/events/310355950/">Meetup</a>
+  
+
+  
+    <a class="event__link event__link--luma padding hover stripes-inverted" href="https://luma.com/y68oft2w">Luma</a>
+  
+</div>
+
+<div class="padding content page__content"><p>Hello again <strong>creative coders</strong> and <strong>enthusiasts</strong>!</p>
+<p><strong>Thank you</strong> to everyone that showed up for the social in the park last month. We had a great time! As we were just about lucky enough to stay dry then, this month we're heading back indoors. And not just anywhere!</p>
+<p>We're very happy and excited to announce that we're welcomed at <strong><a rel="external" href="https://www.a-lab.nl/">A-Lab</a></strong> for our <strong>August</strong> meetup. A-Lab is situated just across the water from Central Station and with their tagline "<strong>Where Curious Works</strong>" we just had to get in touch. Turns out they're amazing people doing cool stuff and they're happy to have us. We are very grateful for this budding partnership and look forward to grow and nurture it as we go.</p>
+<p>But enough about logistics, as we've got more to be excited about! For August we've got another great speaker lined up for you all!</p>
+<p>On <strong>August 21st</strong> <strong><a rel="external" href="https://wimer.frl/">Wimer Hazenberg</a></strong> aka <strong><a rel="external" href="https://monokai.com/">Monokai</a></strong> will be joining us at A-Lab for a talk titled "Algorithms &amp; Mistakes".</p>
+<p>If you've been anywhere near a code editor in last 20 years, you most probably saw the <em>arguably coolest</em> color scheme '<strong>Monokai</strong>' pass by, which was created by Wimer back in 2006. Since then he's built <a rel="external" href="https://minimalwim.com/">awwwardwinning sites</a>, created stunning '<a rel="external" href="https://monokai.com/work/environmental-operations">fog-photography</a>' and most recently has been focusing on <a rel="external" href="https://monokai.com/work/overview">Algorithmic Art</a>. Which is also the focus of his talk.</p>
+<p>🗣️ <strong>Wimer Hazenberg: Algorithms &amp; Mistakes</strong>
+At the core of algorithmic art lies the <strong>randomizer</strong>. Over-regulate it, and the results become predictable. Let it run free, and chaos takes over. This talk explores how embracing unexpected outcomes can lead to surprising and inspiring creative discoveries.</p>
+<p>After the talk, we'll be opening up the floor to admire the results of our very first <a rel="external" href="https://cca.codes/invaders">Space Invaders themed coding challenge</a>. Make sure to enter your entry <strong>before</strong> <strong>August 18th</strong>.</p>
+<p>We're looking forward to seeing you there!</p>
+<p>⚠️⚠️⚠️<strong>Important Logistical Note</strong> ⚠️⚠️⚠️
+<strong><a rel="external" href="https://www.sail.nl/">SAIL 2025</a></strong> is on during our next meetup, which means there's <strong>a lot</strong> of <strong>people and boats</strong> around Central Station. According to the <a rel="external" href="https://www.gvb.nl/sail">GVB </a>all ferry's to get to A-Lab will be operational, though there might be <strong>extra waiting time</strong>. Please make sure to account for this as good as possible. Thank you!
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</p>
+</div>
+
+</main>
+      <footer class="footer hover padding">
+  <div class="footer__title">Creative Coding Amsterdam</div>
+
+  <div class="footer__layout">
+    <div class="footer__form">
+      <p>Get event announcements in your inbox:</p>
+      <iframe
+        data-tally-src="https://tally.so/embed/mBvBqQ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        loading="lazy"
+        width="100%"
+        height="132"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Get event notifications by email"
+      ></iframe>
+      <p class="text-sm">
+        No spam, only events notifications. Your email won't be used for any
+        other purposes or shared with anyone else.
+      </p>
+    </div>
+
+    <div class="footer__content">
+      <div class="footer__links">
+        <ul>
+          <li><a href="/events/">Events</a></li>
+          <li><a href="/code-jams/">Code Jams</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><button class="contact-trigger">Contact</button></li>
+          <li><a href="/atom.xml">RSS Feed</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://discord.gg/eJJvn3487M">Discord</a></li>
+          <li>
+            <a href="https://www.meetup.com/creative-coding-amsterdam/"
+              >Meetup</a
+            >
+          </li>
+          <li><a href="https://luma.com/creativecoding">Luma</a></li>
+          <li><a href="https://github.com/stanko/cca">GitHub</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <label class="block footer__disable-hover-label">
+          <input type="checkbox" class="footer__disable-hover-input" />
+          <div class="footer__disable-hover-checkbox"><span>x</span></div>
+          <span class="footer__disable-hover-text"
+            >Disable the hover effect</span
+          >
+        </label>
+      </div>
+
+      <div class="footer__theme">
+        Theme:
+        <button class="footer__theme-button" data-theme="">System</button>
+        <button class="footer__theme-button" data-theme="light">Light</button>
+        <button class="footer__theme-button" data-theme="dark">Dark</button>
+        <button class="footer__theme-button" data-theme="funky">Funky</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+
+    <dialog class="modal">
+  <button class="modal-backdrop-close" type="button" tabindex="-1"></button>
+  <div class="modal-content">
+    <button class="modal-close hover stripes" type="button" aria-label="Close modal">
+      Close
+    </button>
+    <h2 class="modal-title">Contact us</h2>
+    <iframe
+      class="contact-iframe"
+      data-tally-src="https://tally.so/r/warGjX?transparentBackground=1"
+      title="Contact form"
+    >
+    </iframe>
+  </div>
+</dialog>
+  
+
+    <script src="/js/app.js"></script>
+
+    <script async src="https://tally.so/widgets/embed.js"></script>
+
+    
+      <script
+        async
+        src="https://umami.d17e.dev/script.js"
+        data-website-id="86c91eb4-4ac8-4955-bcb0-b1c9de3a6715"
+      ></script>
+    
+  </body>
+</html>
