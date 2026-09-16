@@ -1,5 +1,5 @@
 +++
-title = "Image Manipulation Workshop with Adam Driggers @A Lab"
+title = "Image Manipulation Workshop with Adam Driggers @ A Lab"
 date = "2026-03-22"
 
 [extra]

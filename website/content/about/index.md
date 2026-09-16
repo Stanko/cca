@@ -11,6 +11,6 @@ Creative Coding Amsterdam was founded in 2015 by Sabrina and Saskia and has sinc
 
 Our events are open to everyone and we try to keep things casual. If you have an idea, an awesome project you'd like to showcase, or something you feel is missing in the creative coding community? Don't hesitate to <button class="home__reach-out contact-trigger"><strong>reach out</strong></button> and help make it happen!
 
-![CCA meetup at A-Lab](/img/about/a-lab.jpg)
+![CCA meetup at A Lab](/img/about/a-lab.jpg)
 
 Hope to see you online or on one of our meetups!
