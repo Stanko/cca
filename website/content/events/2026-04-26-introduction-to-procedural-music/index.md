@@ -15,9 +15,9 @@ Last time we had a great workshop on image manipulation with p5.js by Adam Drigg
 
 This month we’re happy to welcome [Max de Kroon](https://maxdekroon.carrd.co/) to the stage at A Lab for an **introduction to procedural music.**
 
-Come join us **Sunday, April 26th** at **13:00h**, at our usual spot at [A-Lab](https://www.a-lab.nl/) .
+Come join us **Sunday, April 26th** at **13:00h**, at our usual spot at [A Lab](https://www.a-lab.nl/) .
 
-From Mozart to modular synthesizers, we’ll explore the development of generative music - examining the tools and technologies that allowed this art form to emerge. The goal is to show how seemingly complex compositions are constructed from simple systems of sounds. 
+From Mozart to modular synthesizers, we’ll explore the development of generative music - examining the tools and technologies that allowed this art form to emerge. The goal is to show how seemingly complex compositions are constructed from simple systems of sounds.
 
 Since this is an introductory talk, no prior knowledge of music (or audio) is required. On the contrary, we’ll go over most of the foundational concepts that are true to all genres of music. In the end, we’ll look at one example of a procedural music system made in [p5.js](https://p5js.org/)
 
