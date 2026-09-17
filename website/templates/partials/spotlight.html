@@ -70,7 +70,7 @@ fetch(`/spotlight/${item}/`).then(response => {
       playButton.textContent = "Play";
     });
 
-    video.addEventListener("click", () => {
+    const handlePlayPause = () => {
       const isPaused = video.paused;
 
       if (isPaused) {
@@ -80,7 +80,10 @@ fetch(`/spotlight/${item}/`).then(response => {
         video.pause();
         playButton.textContent = "Play";
       }
-    });
+    }
+
+    video.addEventListener("click", handlePlayPause);
+    playButton.addEventListener("click", handlePlayPause);
   }
 
   const placeholders = [...document.querySelectorAll('.spotlight-placeholder')];
