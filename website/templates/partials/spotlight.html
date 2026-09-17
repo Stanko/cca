@@ -56,6 +56,7 @@ fetch(`/spotlight/${item}/`).then(response => {
 }).then(data => {
   // Process the data here
   const tmpDiv = document.createElement('div');
+  // Remove autoreload dev scripts
   tmpDiv.innerHTML = data.replace(/<script[^>]*>[\s\S]*?<\/script>/g, '');
 
   const playButton = tmpDiv.querySelector(".play-button");
@@ -69,7 +70,7 @@ fetch(`/spotlight/${item}/`).then(response => {
       playButton.textContent = "Play";
     });
 
-    playButton.addEventListener("click", () => {
+    video.addEventListener("click", () => {
       const isPaused = video.paused;
 
       if (isPaused) {

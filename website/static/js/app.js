@@ -166,37 +166,6 @@ modalBackdropClose.addEventListener("click", () => {
   modal.close();
 });
 
-// ----- Play/pause buttons for videos ----- //
-
-const playButtons = [...document.querySelectorAll(".play-button")];
-
-playButtons.forEach((playButton) => {
-  const video = playButton.parentElement.querySelector("video");
-
-  // If video has autoplay attribute
-  if (video.autoplay) {
-    video.play().catch(() => {
-      // And autoplay is disabled in the browser settings
-      // Change the button label to "Play"
-      playButton.textContent = "Play";
-    });
-  } else {
-    playButton.textContent = "Pause";
-  }
-
-  playButton.addEventListener("click", () => {
-    const isPaused = video.paused;
-
-    if (isPaused) {
-      video.play();
-      playButton.textContent = "Pause";
-    } else {
-      video.pause();
-      playButton.textContent = "Play";
-    }
-  });
-});
-
 // ----- Invaders ----- //
 
 const submissionsPause = document.querySelector(".submissions__pause");
