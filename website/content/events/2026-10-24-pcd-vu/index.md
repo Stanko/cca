@@ -3,9 +3,10 @@ title = "Processing Community Day @ VU Amsterdam"
 date = "2026-10-24"
 
 [extra]
+meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/316794245/"
 luma_url = "https://luma.com/rp9k1dd7"
-image = "/img/meetups/meetup-2026-10-24.jpg"
-time = "13:00"
+image = "/img/meetups/meetup-2026-10-24.png"
+time = "13:30"
 +++
 
 On **Saturday, October 24th**, Creative Coding Amsterdam and [VU Amsterdam](https://vu.nl/en) are bringing Processing Community Day to Amsterdam.
