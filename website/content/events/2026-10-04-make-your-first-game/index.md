@@ -22,3 +22,9 @@ We'll start with a quick introduction to PICO-8, go through some of the basics o
 There will even be explosions, so we really hope to see you there!
 
 Or if not, catch us on [Discord](https://discord.gg/eJJvn3487M).
+
+## Workshop materials
+
+- [Init PICO-8 cartridge](/pico-8-workshop/init.p8)
+- [Complete game cartridge](/pico-8-workshop/complete.p8)
+- [Code](/pico-8-workshop/code.lua)
