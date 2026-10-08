@@ -3,6 +3,7 @@ title = "Processing Community Day @ VU Amsterdam"
 date = "2026-10-24"
 
 [extra]
+event_page_link = "https://cca.codes/pcd-2026/"
 meetup_url = "https://www.meetup.com/creative-coding-amsterdam/events/316794245/"
 luma_url = "https://luma.com/rp9k1dd7"
 image = "/img/meetups/meetup-2026-10-24.png"
@@ -39,11 +40,11 @@ Never presented before? Please apply anyway. First-time speakers are very welcom
 
 **Practical info**
 
-* **When:** Saturday, October 24th, 13:00-18:00
+* **When:** Saturday, October 24th, 13:30-18:00
 * **Where:** NU building, VU Amsterdam, De Boelelaan 1111, 1081 HV Amsterdam. Room NU-2C33. The beginner workshop is in room NU-6A25.
 * **Entry:** free, but registration is required. [Register on Luma](https://luma.com/rp9k1dd7) or [meetup](https://www.meetup.com/creative-coding-amsterdam/events/316794245/).
 * **Language:** English
-* **Event site:** [PCD Amsterdam 2026](https://analogue-intelligence.github.io/pcd-amsterdam/)
+* **Event site:** [cca.codes/pcd-2026](https://cca.codes/pcd-2026/)
 
 Hope to see you there!
 
