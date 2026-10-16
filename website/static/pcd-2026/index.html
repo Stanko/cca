@@ -62,7 +62,6 @@
 
         <nav class="topbar__nav" aria-label="Sections">
           <a href="#program">Program</a>
-          <a href="#open-call">Open call</a>
           <a href="#info">Info</a>
           <a href="#organizers">Organizers</a>
         </nav>
@@ -90,9 +89,8 @@
               <span>13:30–18:00 · VU Amsterdam</span>
             </p>
             <p class="hero__hook">
-              A half-day of code that draws.<br />
-              Of systems that surprise.<br />
-              Of a community that builds in the open.
+              A half-day of code that draws<br />
+              & systems that surprise.<br />
             </p>
             <p class="hero__tags">
               Workshop · Talks · Live coding<br />
@@ -106,15 +104,13 @@
               >
                 Register on Luma
               </a>
+              <span class="hero__or">or</span>
               <a
                 class="button"
                 href="https://www.meetup.com/creative-coding-amsterdam/events/316794245/"
                 rel="noreferrer"
               >
                 RSVP on Meetup
-              </a>
-              <a class="button button--ghost" href="#open-call" data-open-call-only>
-                Apply to present →
               </a>
             </div>
           </div>
@@ -136,12 +132,11 @@
               </p>
               <p>
                 Amsterdam’s edition is a free afternoon at VU Amsterdam with a
-                beginner workshop, community talks and a live coding session to
-                close the day. It’s for anyone who makes things with code, or
-                wants to start.
+                beginner-friendly workshop, talks and a live coding session to
+                close the day.
               </p>
               <p>
-                Whether you’ve written one sketch or a thousand, you belong
+                Whether you’ve written zero sketches or a thousand, if you're curious you belong
                 here. The whole afternoon is in English and all skill levels are
                 welcome.
               </p>
@@ -180,11 +175,15 @@
               <h3 class="act__title">First Pixel</h3>
               <p class="act__kind">Beginner workshop · 80 min</p>
               <p class="act__text">
-                A hands-on introduction to Processing. No experience needed,
-                just bring a laptop. You’ll leave with a generative sketch you
-                made yourself.
+                A beginner-friendly, hands-on workshop where we build a random
+                walker: a point that wanders the canvas one random step at a
+                time. No experience needed, just bring a laptop or tablet.
               </p>
-              <p class="act__room">NU Building · NU-6A25</p>
+              <p class="act__text">
+                Already comfortable with code? We’ll also bring more advanced
+                ideas built on the same concept, so there’s plenty to chew on.
+              </p>
+              <p class="act__room">NU Building · NU-2C33</p>
             </li>
 
             <li class="act">
@@ -195,12 +194,25 @@
               ></canvas>
               <p class="act__time">15:30–16:45</p>
               <h3 class="act__title">Open Systems</h3>
-              <p class="act__kind">Community talks · via open call</p>
+              <p class="act__kind">Community talks</p>
               <p class="act__text">
-                Speakers from the open call present generative systems,
-                interactive works and creative tools. 10 minutes each, plus
-                questions.
+                Makers from the community on generative art, their practice and
+                the systems behind their work.
               </p>
+              <ul class="act__lineup">
+                <li>
+                  <a href="https://www.harrisblondman.nl/" rel="noreferrer">Harris Blondman Studio</a>
+                  <span>On their creative work and art practice</span>
+                </li>
+                <li>
+                  <a href="https://muffinman.io/" rel="noreferrer">Stanko</a>
+                  <span>How to draw a Space Invader</span>
+                </li>
+                <li>
+                  <a href="https://gamaladel.com/" rel="noreferrer">Gamal</a>
+                  <span>What is Generative Art Again</span>
+                </li>
+              </ul>
               <p class="act__room">NU Building · NU-2C33</p>
             </li>
 
@@ -218,79 +230,23 @@
                 Code written live and projected big. A visual algorave to close
                 the day, with the craft always visible on screen.
               </p>
+              <ul class="act__lineup">
+                <li>
+                  <a href="https://www.youtube.com/@J0py-music" rel="noreferrer">NumberLoup</a>
+                  <span>Sound · TidalCycles on SuperCollider</span>
+                </li>
+                <li>
+                  <a href="https://d17e.dev/" rel="noreferrer">D17E</a>
+                  <span>
+                    Visuals ·
+                    <a href="https://hydractrl.d17e.dev/" rel="noreferrer">Hydra</a>
+                  </span>
+                </li>
+                <li class="act__lineup-tba">More to be announced</li>
+              </ul>
               <p class="act__room">NU Building · NU-2C33</p>
             </li>
           </ol>
-        </section>
-
-        <canvas class="strip" data-field="strip" aria-hidden="true"></canvas>
-
-        <section class="section open-call" id="open-call" data-open-call>
-          <p class="mono-label">Open call for presentations</p>
-          <div class="open-call__head">
-            <h2>Show your work. Share your system.</h2>
-            <p class="open-call__deadline" data-open-call-status>
-              Apply by Saturday 10 October
-            </p>
-          </div>
-
-          <div class="open-call__grid">
-            <div class="prose">
-              <p>
-                We’re curating presentations for the
-                <strong>Open Systems</strong> block. Each slot is 15 minutes:
-                10 minutes to present and 5 for questions from the audience.
-              </p>
-              <p>
-                Never presented before? Please apply anyway. First-time speakers
-                are very welcome and your work doesn’t need to be finished. You
-                need something worth thinking about together, not a polished
-                final product.
-              </p>
-              <div class="open-call__apply" data-open-call-only>
-                <a
-                  class="button button--primary"
-                  href="https://analogue-intelligence.github.io/pcd-amsterdam/apply.html"
-                  rel="noreferrer"
-                >
-                  Apply to present
-                </a>
-                <p>Takes about 10 minutes.</p>
-              </div>
-              <p class="open-call__contact">
-                Questions? Write to
-                <a href="mailto:m.verano.merino@vu.nl">m.verano.merino@vu.nl</a>
-              </p>
-            </div>
-
-            <div class="open-call__lists">
-              <div>
-                <h3 class="mono-label">We’re looking for</h3>
-                <ul class="glyph-list">
-                  <li>Generative visual systems: parametric, algorithmic or data-driven</li>
-                  <li>Interactive installations, physical or digital, finished or in progress</li>
-                  <li>Process talks: how a project was made, the logic, the failures and the discoveries</li>
-                  <li>Live coded performance: work demonstrated in real time</li>
-                </ul>
-              </div>
-              <div>
-                <h3 class="mono-label">Not a fit</h3>
-                <ul class="glyph-list glyph-list--minus">
-                  <li>Commercial product pitches</li>
-                  <li>Work unrelated to computational or generative practice</li>
-                </ul>
-              </div>
-              <div>
-                <h3 class="mono-label">What to submit</h3>
-                <ul class="glyph-list">
-                  <li>Your name and a short bio (100 words max)</li>
-                  <li>Title and description of your work (200 words max)</li>
-                  <li>One link: project URL, video or image</li>
-                  <li>Your intended presentation format</li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </section>
 
         <canvas class="strip" data-field="strip" aria-hidden="true"></canvas>
@@ -318,7 +274,7 @@
                 </a>
                 <span class="info__sub">
                   De Boelelaan 1111, 1081 HV Amsterdam.<br />
-                  Main room NU-2C33, workshop in NU-6A25.
+                  Everything happens in room NU-2C33.
                 </span>
               </dd>
             </div>
@@ -361,6 +317,10 @@
                 Vrije Universiteit Amsterdam hosts the day at its NU building.
               </p>
               <ul class="people">
+                  <li class="person">
+                    <canvas class="person__avatar" data-avatar="Ahmed" aria-hidden="true"></canvas>
+                    Ahmed
+                  </li>
                 <li class="person">
                   <canvas class="person__avatar" data-avatar="Mauricio" aria-hidden="true"></canvas>
                   <a href="https://maveme.github.io" rel="noreferrer">Mauricio</a>
@@ -382,26 +342,28 @@
                 since 2015.
               </p>
               <ul class="people">
+                  <li class="person">
+                    <canvas class="person__avatar" data-avatar="Adam" aria-hidden="true"></canvas>
+                    <a href="https://adamdriggers.com/" rel="noreferrer">Adam</a>
+                  </li>
                 <li class="person">
                   <canvas class="person__avatar" data-avatar="David" aria-hidden="true"></canvas>
                   <a href="https://d17e.dev/" rel="noreferrer">David</a>
                 </li>
                 <li class="person">
-                  <canvas class="person__avatar" data-avatar="Stanko" aria-hidden="true"></canvas>
-                  <a href="https://muffinman.io/" rel="noreferrer">Stanko</a>
+                  <canvas class="person__avatar" data-avatar="Gamal" aria-hidden="true"></canvas>
+                  <a href="https://gamaladel.com/" rel="noreferrer">Gamal</a>
                 </li>
+
                 <li class="person">
                   <canvas class="person__avatar" data-avatar="Sinan" aria-hidden="true"></canvas>
                   <a href="https://wiredpieces.com/" rel="noreferrer">Sinan</a>
                 </li>
                 <li class="person">
-                  <canvas class="person__avatar" data-avatar="Adam" aria-hidden="true"></canvas>
-                  <a href="https://adamdriggers.com/" rel="noreferrer">Adam</a>
+                  <canvas class="person__avatar" data-avatar="Stanko" aria-hidden="true"></canvas>
+                  <a href="https://muffinman.io/" rel="noreferrer">Stanko</a>
                 </li>
-                <li class="person">
-                  <canvas class="person__avatar" data-avatar="Gamal" aria-hidden="true"></canvas>
-                  <a href="https://gamaladel.com/" rel="noreferrer">Gamal</a>
-                </li>
+
               </ul>
             </article>
           </div>

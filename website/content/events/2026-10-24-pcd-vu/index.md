@@ -22,26 +22,26 @@ It's for anyone who makes things with code, or wants to start. Whether you've wr
 Welcome and context from the organizers.
 
 **13:50-15:10 · First Pixel**\
-A hands-on introduction to Processing for beginners. No experience needed, just bring a laptop. You'll go home with a generative sketch you made yourself. The workshop is in room NU-6A25.
+A beginner-friendly, hands-on workshop where we build a random walker: a point that wanders the canvas one random step at a time. No experience needed, just bring a laptop or tablet. Already comfortable with code? We'll also bring more advanced ideas built on the same concept, so there's plenty to chew on.
 
 **15:30-16:45 · Open Systems**\
-Community talks on generative work. Speakers from the open call present generative systems, interactive works and creative tools, 10-15 minutes each.
+Community talks on generative art, creative practice and the systems behind the work.
+
+* [Harris Blondman Studio](https://www.harrisblondman.nl/) on their creative work and art practice
+* [Stanko](https://muffinman.io/): *How to draw a Space Invader*
+* [Gamal](https://gamaladel.com/): *What is Generative Art Again*
 
 **17:00-18:00 · Render Loop**\
 The day ends with an audiovisual algorave. Code written live and projected big.
 
-**Open call**
-
-Want to present during Open Systems? Apply by **Saturday, October 10th**. Each slot is 15 minutes long, with 10 minutes to present and 5 for questions.
-
-Never presented before? Please apply anyway. First-time speakers are very welcome, and your work doesn't need to be finished. Think generative visual systems, interactive installations, creative coding tools and libraries, live coded performances, or the story of how a project came together. Commercial product pitches aren't a fit.
-
-[Apply to present](https://analogue-intelligence.github.io/pcd-amsterdam/apply.html)
+* [NumberLoup](https://www.youtube.com/@J0py-music): sound with TidalCycles on SuperCollider
+* [D17E](https://d17e.dev/): visuals with [Hydra](https://hydractrl.d17e.dev/)
+* More to be announced
 
 **Practical info**
 
 * **When:** Saturday, October 24th, 13:30-18:00
-* **Where:** NU building, VU Amsterdam, De Boelelaan 1111, 1081 HV Amsterdam. Room NU-2C33. The beginner workshop is in room NU-6A25.
+* **Where:** NU building, VU Amsterdam, De Boelelaan 1111, 1081 HV Amsterdam. The whole event is in room NU-2C33.
 * **Entry:** free, but registration is required. [Register on Luma](https://luma.com/rp9k1dd7) or [meetup](https://www.meetup.com/creative-coding-amsterdam/events/316794245/).
 * **Language:** English
 * **Event site:** [cca.codes/pcd-2026](https://cca.codes/pcd-2026/)

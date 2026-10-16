@@ -139,8 +139,7 @@ h2 {
 .prose a:not(.button),
 .organizers__support a,
 .footer__note a,
-.info__sub a,
-.open-call__contact a {
+.info__sub a {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
@@ -149,8 +148,7 @@ h2 {
 .prose a:not(.button):hover,
 .organizers__support a:hover,
 .footer__note a:hover,
-.info__sub a:hover,
-.open-call__contact a:hover {
+.info__sub a:hover {
   color: var(--yellow);
 }
 
@@ -340,7 +338,16 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  align-items: center;
   margin-top: clamp(28px, 4vw, 40px);
+}
+
+.hero__or {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--grey);
 }
 
 /* Buttons */
@@ -478,136 +485,80 @@ h2 {
   color: var(--grey);
 }
 
+.act__lineup {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: 0.9375rem;
+  line-height: 1.45;
+}
+
+.act__lineup li {
+  position: relative;
+  padding-left: 22px;
+}
+
+.act__lineup li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+.act__lineup li:nth-child(3n + 2)::before {
+  content: "×";
+  color: var(--orange);
+}
+
+.act__lineup li:nth-child(3n + 3)::before {
+  content: "○";
+  color: var(--purple);
+}
+
+.act__lineup a {
+  font-weight: 600;
+  color: var(--cream);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.act__lineup a:hover {
+  color: var(--yellow);
+}
+
+.act__lineup span {
+  display: block;
+  font-size: 0.8125rem;
+  color: var(--grey);
+}
+
+.act__lineup span a {
+  font-weight: inherit;
+  color: inherit;
+}
+
+.act__lineup .act__lineup-tba {
+  color: var(--dim);
+}
+
+.act__lineup li.act__lineup-tba::before {
+  content: "+";
+  color: var(--dim);
+}
+
 .act__room {
   margin-top: auto;
   padding-top: 16px;
   font-family: var(--font-mono);
   font-size: 0.8125rem;
   color: var(--dim);
-}
-
-/* Open call */
-
-.open-call__head {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 0 32px;
-  margin-bottom: clamp(28px, 4vw, 48px);
-}
-
-.open-call__head h2 {
-  margin-bottom: 20px;
-}
-
-.open-call__deadline {
-  padding: 10px 14px;
-  border: 1px solid var(--yellow);
-  font-family: var(--font-mono);
-  font-size: 0.875rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--yellow);
-}
-
-.open-call.is-closed .open-call__deadline {
-  border-color: var(--dim);
-  color: var(--grey);
-}
-
-[hidden] {
-  display: none !important;
-}
-
-.open-call__grid {
-  display: grid;
-  gap: 48px 64px;
-
-  @media (min-width: 861px) {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  }
-}
-
-.open-call__grid .prose {
-  max-width: 60ch;
-}
-
-.open-call__apply {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 12px 20px;
-  margin-top: 32px;
-}
-
-.open-call__apply p {
-  margin: 0;
-  font-family: var(--font-mono);
-  font-size: 0.875rem;
-  color: var(--grey);
-}
-
-.prose .open-call__contact {
-  margin-top: 28px;
-  font-family: var(--font-mono);
-  font-size: 0.875rem;
-  color: var(--grey);
-  overflow-wrap: anywhere;
-}
-
-.open-call__lists {
-  display: grid;
-  gap: 32px;
-}
-
-.open-call__lists h3 {
-  margin-bottom: 12px;
-}
-
-.glyph-list {
-  list-style: none;
-  display: grid;
-  gap: 8px;
-  font-family: var(--font-mono);
-  font-size: 0.9375rem;
-  line-height: 1.55;
-}
-
-.glyph-list li {
-  position: relative;
-  padding-left: 28px;
-}
-
-.glyph-list li::before {
-  content: "+";
-  position: absolute;
-  left: 2px;
-  top: 0;
-  font-weight: 600;
-  color: var(--green);
-}
-
-.glyph-list li:nth-child(4n + 2)::before {
-  content: "○";
-  color: var(--purple);
-}
-
-.glyph-list li:nth-child(4n + 3)::before {
-  content: "×";
-  color: var(--orange);
-}
-
-.glyph-list li:nth-child(4n + 4)::before {
-  content: "●";
-  color: var(--cyan);
-}
-
-.glyph-list--minus li::before,
-.glyph-list--minus li:nth-child(n)::before {
-  content: "−";
-  color: var(--red);
 }
 
 /* Practical info */

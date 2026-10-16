@@ -31,9 +31,6 @@ const ALL_COLORS = [...FIELD_COLORS, COLORS.cyan];
 const RUN_GLYPHS = ["ring", "dot", "plus", "cross", "hline"];
 const STRAY_GLYPHS = ["hline", "ring", "plus", "dot", "vline", "cross", "star"];
 
-// Open call closes at the end of Saturday 10 October (Amsterdam time)
-const OPEN_CALL_CLOSES = new Date("2026-10-11T00:00:00+02:00");
-
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 // ---------------------------------------------------------------------------
@@ -673,15 +670,3 @@ window.addEventListener("pointerdown", (event) => paint(event, 7, 1.1), {
 
 renderAll(performance.now());
 applyMotionPreference();
-
-// ---------------------------------------------------------------------------
-// Open call: hide the apply links once the deadline has passed
-
-if (Date.now() >= OPEN_CALL_CLOSES.getTime()) {
-  document.querySelector("[data-open-call]")?.classList.add("is-closed");
-  for (const el of document.querySelectorAll("[data-open-call-only]")) {
-    el.hidden = true;
-  }
-  const status = document.querySelector("[data-open-call-status]");
-  if (status) status.textContent = "The open call has closed";
-}
