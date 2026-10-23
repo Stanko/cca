@@ -24,6 +24,8 @@ Welcome and context from the organizers.
 **13:50-15:10 · First Pixel**\
 A beginner-friendly, hands-on workshop where we build a random walker: a point that wanders the canvas one random step at a time. No experience needed, just bring a laptop or tablet. Already comfortable with code? We'll also bring more advanced ideas built on the same concept, so there's plenty to chew on.
 
+Workshop materials: [OpenProcessing class](https://openprocessing.org/class/108004#/) · [p5.js editor collection](https://editor.p5js.org/d17e/collections/LM2coLLp9)
+
 **15:30-16:45 · Open Systems**\
 Community talks on generative art, creative practice and the systems behind the work.
 
@@ -32,11 +34,10 @@ Community talks on generative art, creative practice and the systems behind the 
 * [Gamal](https://gamaladel.com/): *What is Generative Art Again*
 
 **17:00-18:00 · Render Loop**\
-The day ends with an audiovisual algorave. Code written live and projected big.
+Code written live and projected big, with a mini-talk and an audiovisual algorave to close the day.
 
-* [NumberLoup](https://www.youtube.com/@J0py-music): sound with TidalCycles on SuperCollider
-* [D17E](https://d17e.dev/): visuals with [Hydra](https://hydractrl.d17e.dev/)
-* More to be announced
+* 17:00 · [Timo Hoogland](https://www.timohoogland.com/): mini-talk & showcase of [Mercury](https://mercury-playground.cc/)
+* 17:30 · AV performance by [NumberLoup](https://www.youtube.com/@J0py-music) (sound with TidalCycles on SuperCollider) and [D17E](https://d17e.dev/) (visuals with [Hydra](https://hydractrl.d17e.dev/))
 
 **Practical info**
 
